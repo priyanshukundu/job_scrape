@@ -134,3 +134,27 @@ jobs:
             sleep $((RANDOM % 10 + 1))
           done
           exit 1
+
+  chain:
+    # GitHub's cron skips runs for hours on some repos, so every run starts the next one at the next :37.
+    needs: [scout]
+    if: ${{ always() && !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    permissions:
+      actions: write
+      contents: read
+    steps:
+      - name: Wait for the next :37, then start the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          min=$(date +%-M); sec=$(date +%-S)
+          wait=$(( ((37 - min + 60) % 60) * 60 - sec ))
+          if [ "$wait" -le 30 ]; then wait=$((wait + 3600)); fi
+          echo "sleeping ${wait}s"
+          sleep "$wait"
+          # the backup cron may already have queued one: never stack a second
+          queued=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow job-scout --status queued --json databaseId --jq 'length')
+          if [ "$queued" -gt 0 ]; then echo "a run is already queued"; exit 0; fi
+          gh workflow run scout.yml --repo "$GITHUB_REPOSITORY" --ref main
