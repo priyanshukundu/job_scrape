@@ -38,12 +38,16 @@ Override the data dir with JOB_SCOUT_HOME.
 import argparse
 import html
 import hashlib
+from http.client import CannotSendRequest, HTTPException, HTTPSConnection, RemoteDisconnected
+import io
 import json
 import os
 import random
 import re
 import secrets
+import socket
 import sys
+import threading
 import time
 import unicodedata
 import urllib.error
@@ -266,6 +270,56 @@ def _load_title_terms(cfg):
 
 
 
+_CONN_LOCAL = threading.local()  # per-thread keep-alive connections: a new TLS handshake per request cost ~100 ms each
+_PROXIED = bool(urllib.request.getproxies().get("https"))
+
+
+def _http_once(req, url, body, headers, timeout):
+    """One request, reusing this thread's keep-alive connection to the host. Falls back to plain urlopen for
+    non-https URLs, proxies and redirects. Raises urllib's own error types so callers see no difference."""
+    parts = urllib.parse.urlsplit(url)
+    if parts.scheme != "https" or _PROXIED:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    conns = _CONN_LOCAL.__dict__.setdefault("conns", {})
+    path = (parts.path or "/") + (("?" + parts.query) if parts.query else "")
+    method = "POST" if body is not None else "GET"
+    for attempt in (0, 1):
+        conn = conns.get(parts.netloc)
+        reused = conn is not None
+        if conn is None:
+            conn = conns[parts.netloc] = HTTPSConnection(parts.netloc, timeout=timeout)
+        elif conn.sock is not None:
+            conn.sock.settimeout(timeout)
+        try:
+            conn.request(method, path, body=body, headers=headers)
+            resp = conn.getresponse()
+            data = resp.read()
+        except (RemoteDisconnected, CannotSendRequest, BrokenPipeError, ConnectionResetError):
+            conn.close()
+            conns.pop(parts.netloc, None)
+            if reused and attempt == 0:
+                continue  # the server closed an idle connection: retry once on a fresh one
+            raise
+        except (ConnectionError, TimeoutError, HTTPException):
+            conn.close()
+            conns.pop(parts.netloc, None)
+            raise
+        except OSError as e:  # DNS or TLS failure: urlopen reports these as URLError, which callers catch
+            conn.close()
+            conns.pop(parts.netloc, None)
+            raise urllib.error.URLError(e) from e
+        if resp.will_close:
+            conn.close()
+            conns.pop(parts.netloc, None)
+        if 300 <= resp.status < 400:  # let urllib follow redirects
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        if resp.status >= 400:
+            raise urllib.error.HTTPError(url, resp.status, resp.reason, resp.msg, io.BytesIO(data))
+        return data
+
+
 def http(url, data=None, headers=None, timeout=20, raw=False):
     h = dict(UA)
     body = None
@@ -279,8 +333,7 @@ def http(url, data=None, headers=None, timeout=20, raw=False):
     req = urllib.request.Request(url, data=body, headers=h)
     for attempt in range(RETRY_429_MAX + 1):
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                payload = r.read()
+            payload = _http_once(req, url, body, h, timeout)
             break
         except urllib.error.HTTPError as e:
             if e.code not in (429, 502, 503, 504) or attempt == RETRY_429_MAX:
@@ -598,6 +651,8 @@ def _facet_parts(post, part_max=1900, max_depth=3):
     return split({}, root, 0), best(gs)[1]
 
 
+_FETCH_DEADLINE = [None]  # set by fetch_all: epoch seconds after which the shard job's budget is spent
+_LOST_PAGE_RETRY_MAX = 60  # more lost pages than this means heavy throttling: a retry pass would only add load
 _SEQ_RETRY_BUDGET = [4]  # sequential re-reads allowed per process, so retries cannot stretch a run
 
 
@@ -707,7 +762,15 @@ def workday(c):
     with ThreadPoolExecutor(max_workers=workers) as pool:
         firsts = list(pool.map(first_page, combos))
         tasks = [st + (off,) for st, f in zip(combos, firsts) for off in f[1]]
-        later = iter(pool.map(later_page, tasks))
+        later = list(pool.map(later_page, tasks))
+        lost_idx = [i for i, d in enumerate(later) if d is None]
+        dl = _FETCH_DEADLINE[0]
+        if 0 < len(lost_idx) <= _LOST_PAGE_RETRY_MAX and (dl is None or time.time() + 3 * len(lost_idx) < dl):
+            for i in lost_idx:  # re-request only the throttled pages, gently, instead of re-reading the whole board
+                time.sleep(2)
+                later[i] = later_page(tasks[i])
+    n_requests = len(combos) + len(tasks)
+    later = iter(later)
     results = []
     for st, (rows_all, offsets, done, limit, total) in zip(combos, firsts):
         lost = exhausted = False
@@ -745,7 +808,9 @@ def workday(c):
     for site, want in expected.items():  # facet slices must add up to the board: a short count means postings the
         if per_site.get(site, 0) < float(c.get("facet_coverage_min", 0.998)) * want:  # facet does not cover (or a mid-read change), never a complete read
             complete = False
-    if not complete and read_whole and not c.get("_seq_retry") and _SEQ_RETRY_BUDGET[0] > 0:
+    dl = _FETCH_DEADLINE[0]
+    seq_fits = dl is None or time.time() + 0.7 * n_requests < dl - 15  # a sequential re-read that cannot finish only burns the budget
+    if not complete and read_whole and not c.get("_seq_retry") and _SEQ_RETRY_BUDGET[0] > 0 and seq_fits:
         # Parallel paging on a live board repeats and skips rows (Truist/Wells Fargo read 1-3% short while a
         # one-page-at-a-time read gets all of it), so re-read a short whole-board once, sequentially, and merge.
         _SEQ_RETRY_BUDGET[0] -= 1
@@ -2366,7 +2431,7 @@ FETCH = dict(greenhouse=greenhouse, lever=lever, ashby=ashby, smartrecruiters=sm
              balyasny=balyasny, tal=tal,
              dayforce=dayforce, rippling=rippling, careerpuck=careerpuck, sitecore_search=sitecore_search, bamboohr=bamboohr)
 STALE_ALERT_HOURS = 10  # page shows a red banner when the last scout run is older than this
-FETCH_WORKERS = 12  # fetches are I/O-bound (network wait); parallelizing across companies cuts wall-clock a lot
+FETCH_WORKERS = 16  # fetches are I/O-bound (network wait); parallelizing across companies cuts wall-clock a lot
 
 
 def fetch_company(c):
@@ -2395,6 +2460,7 @@ SHARD_BUDGET_SECONDS = 720  # a shard job is killed at 15 min, which cancelled t
 
 def fetch_all(companies, budget=SHARD_BUDGET_SECONDS):
     fetched, secs = {}, {}
+    _FETCH_DEADLINE[0] = time.time() + budget
     pool = ThreadPoolExecutor(max_workers=FETCH_WORKERS)
     futures = {pool.submit(_timed_fetch, c): c for c in companies}
     done, pending = wait(futures, timeout=budget)
@@ -2422,15 +2488,18 @@ FETCH_TIMES_PATH = HOME / "fetch_times.json"  # committed, so every shard job of
 
 
 def shard_companies(companies, index, total, times=None):
-    """Deterministic longest-first split onto the least-loaded shard, using measured seconds per
-    company (falls back to the call-count estimate for a company with no measurement yet)."""
+    """Deterministic longest-first split. A shard's wall time is about max(longest single company, summed
+    seconds / FETCH_WORKERS), not the plain sum, so each company goes where that estimate grows least.
+    Uses measured seconds per company (call-count estimate for one with no measurement yet)."""
     times = times or {}
     ordered = sorted(companies, key=lambda c: (-times.get(c["name"], _fetch_cost(c)), c["name"]))
-    loads = [0.0] * total
+    sums, longest = [0.0] * total, [0.0] * total
     mine = []
     for c in ordered:
-        k = loads.index(min(loads))
-        loads[k] += times.get(c["name"], _fetch_cost(c))
+        t = times.get(c["name"], _fetch_cost(c))
+        k = min(range(total), key=lambda i: (max((sums[i] + t) / FETCH_WORKERS, longest[i], t), sums[i], i))
+        sums[k] += t
+        longest[k] = max(longest[k], t)
         if k == index:
             mine.append(c)
     return mine
@@ -2549,6 +2618,7 @@ def _ukg_detail(c, job):
 
 
 MULTISITE_CACHE = HOME / "multisite_cache.json"  # job id -> full site list, so a rejected multi-site posting is fetched once
+_MULTISITE_LOCK = threading.Lock()
 MULTISITE_MAX_FETCH = 150  # new detail fetches per run (Workday 429s on bursts)
 
 
@@ -2565,7 +2635,7 @@ def _rescue_multi_site(c, jobs, hits, filters):
     if not cand:
         return []
     cache = load_json(MULTISITE_CACHE, {})
-    fetched, rescued = 0, []
+    fetched, rescued, new_keys = 0, [], {}
     for j in cand:
         key = f"{c['name']}:{j['id']}"
         full = cache.get(key)
@@ -2580,11 +2650,14 @@ def _rescue_multi_site(c, jobs, hits, filters):
                 continue
             finally:
                 time.sleep(0.3)
-            full = cache[key] = probe["location"]
+            full = cache[key] = new_keys[key] = probe["location"]
         if full != j["location"] and any(matches(dict(j, location=site), filters) for site in full.split("; ")):
             rescued.append(dict(j, location=full))
-    if fetched:
-        atomic_json.write(str(MULTISITE_CACHE), cache)
+    if new_keys:
+        with _MULTISITE_LOCK:  # companies are rescued in parallel: merge into the latest file, never overwrite it
+            latest = load_json(MULTISITE_CACHE, {})
+            latest.update(new_keys)
+            atomic_json.write(str(MULTISITE_CACHE), latest)
     return rescued
 
 
@@ -4773,6 +4846,26 @@ def run(args):
     tombstones = _load_tombstones() if getattr(args, "recall", False) else set()
     unverified = {c["name"] for c in cfg["companies"]}  # companies not cleanly and completely fetched this run: never prune their entries
     try:
+        def prepare(c):
+            """Filter, rescue multi-site postings and start the description fetches, so company N+1's slow
+            rescue and company N's descriptions overlap instead of queueing behind each other."""
+            name = c["name"]
+            jobs, complete, err = fetched[name]
+            if err is not None:
+                return None
+            jobs = list({j["id"]: j for j in jobs}.values())  # a fetcher that repeats an id must not double-queue it
+            hits = [j for j in jobs if matches(j, filters)]
+            if args.check:
+                return jobs, hits, None, False, []
+            hits += _rescue_multi_site(c, jobs, hits, filters)
+            seen = set(state.get(name, []))
+            first_run = name not in state
+            fresh = [j for j in (hits if first_run else [j for j in hits if j["id"] not in seen])
+                     if f"{name}:{j['id']}" not in queued_ids]
+            return jobs, hits, {describe_pool.submit(describe, c, j): j for j in fresh}, first_run, fresh
+
+        prep_pool = ThreadPoolExecutor(max_workers=4)  # separate from describe_pool: prepare() waits on nothing in it
+        preps = {c["name"]: prep_pool.submit(prepare, c) for c in cfg["companies"]}
         for c in cfg["companies"]:
             name = c["name"]
             jobs, complete, err = fetched[name]
@@ -4783,23 +4876,18 @@ def run(args):
                 print(f"! {name} ({c['ats']}): {err}", file=sys.stderr)
                 continue
             counts["companies"] += 1
-            jobs = list({j["id"]: j for j in jobs}.values())  # a fetcher that repeats an id must not double-queue it
-            hits = [j for j in jobs if matches(j, filters)]
-            if not args.check:
-                hits += _rescue_multi_site(c, jobs, hits, filters)
+            prepared = preps[name].result()
+            jobs, hits = prepared[0], prepared[1]
             if args.check:
                 warn = "  <- 0 jobs, check slug" if not jobs else ""
                 trunc = "  [truncated - raise max_per_term or narrow search terms]" if not complete else ""
                 print(f"ok {name}: {len(jobs)} jobs, {len(hits)} match{warn}{trunc}")
                 continue
 
+            _jobs, _hits, futures, first_run, fresh = prepared
             seen = set(state.get(name, []))
-            first_run = name not in state
-            fresh = [j for j in (hits if first_run else [j for j in hits if j["id"] not in seen])
-                     if f"{name}:{j['id']}" not in queued_ids]
             descriptions = {}
             if fresh:
-                futures = {describe_pool.submit(describe, c, j): j for j in fresh}
                 for fut in as_completed(futures):
                     j = futures[fut]
                     try:
@@ -4824,6 +4912,7 @@ def run(args):
             if not args.dry_run:
                 _update_liveness(name, jobs, complete, queue, counts, c)
     finally:
+        prep_pool.shutdown(cancel_futures=True)
         describe_pool.shutdown()
 
     if args.check:
