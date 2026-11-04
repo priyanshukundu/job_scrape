@@ -1,0 +1,169 @@
+Research Engineer, Benchmarks & Evaluation
+Ramp
+Location: New York, NY (HQ)
+Link: https://jobs.ashbyhq.com/ramp/d8925f84-562f-470c-a5bd-4f6c20009361
+
+ABOUT RAMP
+
+Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.
+
+The problems are high-stakes, data-dense, and unforgiving.
+
+We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.
+
+The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.
+
+If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.
+
+
+
+
+ABOUT RAMP LABS
+
+Ramp Labs is Ramp's AI research group. We post-train models on finance work, build the environments and evals they learn from, and ship them into the products 70,000+ companies use to move money. We think the defensible part of an AI product is the loop: proprietary environments, evals that track what customers care about, and models trained against both.
+
+
+
+
+ABOUT THE ROLE
+
+Every model decision at Ramp Labs runs through a benchmark. Which model to route to. Whether a post-training run worked. Whether an agent is ready to post a corrective journal entry to a customer's ledger without a human in the loop.
+
+You'll own Ramp's benchmarking effort. You'll turn real finance work (expense policy review, invoice coding, month-end close, spreadsheet Q&A) into benchmarks and RL environments, build the graders, and tell the team what is actually improving.
+
+
+
+
+WHAT YOU’LL DO
+
+ - Build benchmarks from real workflows: turn agent traces, customer edge cases and expert labels into versioned benchmark suites for long-horizon agents that run for hours across tools and systems, plus tool use, multi-step reasoning and financial judgment
+
+ - Own the benchmarking effort: decide what we measure, run benchmark suites across models and agent versions, and report results the team makes decisions on
+
+ - Design graders: rubrics, programmatic checks and llm-as-judge, calibrated against human agreement, with a clear view of where each one breaks
+
+ - Close the loop with post-training: turn evals into reward functions and RL environments, and catch reward hacking and contamination before they ship
+
+ - Publish external benchmarks and write-ups on how models perform at real finance work
+
+
+
+
+WHAT YOU NEED
+
+ - Hands-on experience building LLM benchmarks or evals that people used to make real decisions
+
+ - Strong Python and software engineering; your eval code is reproducible and fast
+
+ - Statistical judgment: variance, confidence intervals, sample size, inter-rater agreement, and knowing when a delta is noise
+
+ - Working knowledge of post-training (SFT, RL with verifiable rewards) and how evals feed into it
+
+ - Comfort with SQL and large datasets; you'll work directly from production traces
+
+ - Taste for what is worth measuring
+
+
+
+
+NICE-TO-HAVE
+
+ - Industry experience on an eval, benchmarking or post-training team
+
+ - Built RL environments or verifiers for agentic tasks
+
+ - Published benchmark or evaluation research (NeurIPS Datasets & Benchmarks, ICML, ACL)
+
+ - Built or contributed to eval frameworks (verifiers, lm-evaluation-harness, HELM or similar)
+
+ - Familiarity with accounting, finance or other expert-domain work
+
+ - Public work we can look at: a benchmark, an eval suite, a failure-analysis write-up
+
+
+
+
+BENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL)
+
+ - Flexible PTO
+
+ - Centralized home-office equipment ordering
+
+ - Health and wellness stipend
+
+ - Budget for intra-office travel
+
+ - Weekly coffee stipend
+
+
+
+
+UNITED STATES
+
+ - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents
+
+ - One Medical annual membership
+
+ - 401(k), including employer match on contributions made while employed by Ramp
+
+ - Fertility HRA (up to $10,000 per year)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay
+
+ - Pet insurance
+
+ - In-office perks: lunch, snacks, drinks, and more
+
+ - Relocation expense coverage to NYC or SF (if needed)
+   
+   
+
+
+CANADA
+
+ - Group medical, dental, and vision coverage through Sun Life
+
+ - Life, AD&D, and disability coverage
+
+ - Fertility drug coverage (up to $4,000 lifetime)
+
+ - Group Retirement Plan with employer match (RRSP + DPSP)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay
+
+ - Employee Assistance Program and virtual care through Lumino Health
+
+
+
+
+UNITED KINGDOM
+
+ - Private medical insurance through Freedom Elite
+
+ - Virtual GP and at-home care via eMed x Livi
+
+ - Workplace pension through Penfold, with salary sacrifice option
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay
+
+
+
+
+REFERRAL INSTRUCTIONS
+
+If you are being referred for the role, please contact that person to apply on your behalf.
+
+ 
+
+
+OTHER NOTICES
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+ 
+
+Beware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.
+
+ 
+
+Ramp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice Compensation: USD 204,400 - 352,000 per year.
