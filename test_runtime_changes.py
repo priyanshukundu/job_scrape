@@ -115,20 +115,56 @@ def test_stale_keepalive_connection_is_retried_once_on_a_fresh_one(monkeypatch):
     assert FakeConn.n == 2
 
 
-def test_sequential_reread_is_skipped_when_the_shard_budget_cannot_cover_it(monkeypatch):
-    monkeypatch.setattr(js, "_FETCH_DEADLINE", [time.time() + 5])
+def _wd_http(lost_offsets, calls):
+    """Fake Workday: 100 rows in pages of 20; the first request for each offset in lost_offsets answers 429."""
+    seen = set()
+
+    def fake(url, data=None, *a, **k):
+        off = data.get("offset", 0)
+        calls.append(off)
+        if off in lost_offsets and off not in seen:
+            seen.add(off)
+            raise urllib.error.HTTPError(url, 429, "x", {}, None)
+        n = max(0, min(data.get("limit", 20), 100 - off))
+        return {"total": 100, "jobPostings": [dict(title=f"T{off + i}", externalPath=f"/job/{off + i}",
+                                                   locationsText="NY", postedOn="Posted Today") for i in range(n)]}
+    return fake
+
+
+def test_lost_page_is_retried_alone_and_read_completes(monkeypatch):
+    monkeypatch.setattr(js, "_FETCH_DEADLINE", [None])
+    monkeypatch.setattr(js.time, "sleep", lambda s: None)
+    calls = []
+    with mock.patch.object(js, "http", _wd_http({40}, calls)):
+        jobs, complete = js.workday(dict(_workday_cfg(), page_workers=1))
+    assert complete and len(jobs) == 100
+    assert calls.count(40) == 2 and calls.count(20) == 1  # only the lost page was requested again
+
+
+def test_lost_page_retry_stops_at_the_shard_deadline(monkeypatch):
+    monkeypatch.setattr(js, "_FETCH_DEADLINE", [time.time() + 10])  # inside the 30s safety margin: no retry pass
+    monkeypatch.setattr(js.time, "sleep", lambda s: None)
     monkeypatch.setattr(js, "_SEQ_RETRY_BUDGET", [4])
-    seq_calls = []
-    real = js.workday
+    calls = []
+    with mock.patch.object(js, "http", _wd_http({40}, calls)):
+        jobs, complete = js.workday(dict(_workday_cfg(), page_workers=1))
+    assert not complete  # the lost page stays lost, so nothing may be closed on this read
+    assert calls.count(40) == 1
 
-    def fake_post(*a, **k):
-        raise urllib.error.HTTPError("u", 429, "x", {}, None)
 
-    c = _workday_cfg()
-    with mock.patch.object(js, "http", side_effect=fake_post):
-        try:
-            real(c)
-        except Exception:
-            pass
-    assert js._SEQ_RETRY_BUDGET[0] == 4  # nothing consumed a sequential retry
-    assert not seq_calls
+def test_retry_failure_leaves_page_lost_instead_of_raising(monkeypatch):
+    monkeypatch.setattr(js, "_FETCH_DEADLINE", [None])
+    monkeypatch.setattr(js.time, "sleep", lambda s: None)
+    seen = []
+
+    def fake(url, data=None, *a, **k):
+        off = data.get("offset", 0)
+        if off == 40:
+            seen.append(off)
+            raise urllib.error.HTTPError(url, 429 if len(seen) == 1 else 503, "x", {}, None)
+        n = max(0, min(data.get("limit", 20), 100 - off))
+        return {"total": 100, "jobPostings": [dict(title=f"T{off + i}", externalPath=f"/job/{off + i}",
+                                                   locationsText="NY", postedOn="Posted Today") for i in range(n)]}
+    with mock.patch.object(js, "http", fake):
+        jobs, complete = js.workday(dict(_workday_cfg(), page_workers=1))
+    assert not complete and len(jobs) == 80

@@ -46,6 +46,7 @@ import random
 import re
 import secrets
 import socket
+import ssl
 import sys
 import threading
 import time
@@ -295,7 +296,8 @@ def _http_once(req, url, body, headers, timeout):
             conn.request(method, path, body=body, headers=headers)
             resp = conn.getresponse()
             data = resp.read()
-        except (RemoteDisconnected, CannotSendRequest, BrokenPipeError, ConnectionResetError):
+        except (RemoteDisconnected, CannotSendRequest, BrokenPipeError, ConnectionResetError, ConnectionAbortedError,
+                ssl.SSLEOFError):
             conn.close()
             conns.pop(parts.netloc, None)
             if reused and attempt == 0:
@@ -652,6 +654,7 @@ def _facet_parts(post, part_max=1900, max_depth=3):
 
 
 _FETCH_DEADLINE = [None]  # set by fetch_all: epoch seconds after which the shard job's budget is spent
+_LOST_PAGE_RETRY_SECONDS = 120  # wall-clock cap on the whole lost-page retry pass
 _LOST_PAGE_RETRY_MAX = 60  # more lost pages than this means heavy throttling: a retry pass would only add load
 _SEQ_RETRY_BUDGET = [4]  # sequential re-reads allowed per process, so retries cannot stretch a run
 
@@ -765,10 +768,17 @@ def workday(c):
         later = list(pool.map(later_page, tasks))
         lost_idx = [i for i, d in enumerate(later) if d is None]
         dl = _FETCH_DEADLINE[0]
-        if 0 < len(lost_idx) <= _LOST_PAGE_RETRY_MAX and (dl is None or time.time() + 3 * len(lost_idx) < dl):
+        if 0 < len(lost_idx) <= _LOST_PAGE_RETRY_MAX:
+            # Each retry can itself back off ~30s inside http(), so bound the whole pass by wall time, not page count.
+            stop = min(time.time() + _LOST_PAGE_RETRY_SECONDS, (dl - 30) if dl is not None else float("inf"))
             for i in lost_idx:  # re-request only the throttled pages, gently, instead of re-reading the whole board
+                if time.time() >= stop:
+                    break
                 time.sleep(2)
-                later[i] = later_page(tasks[i])
+                try:
+                    later[i] = later_page(tasks[i])
+                except Exception:  # noqa: BLE001  still failing: leave the page lost (read stays incomplete), as before
+                    pass
     n_requests = len(combos) + len(tasks)
     later = iter(later)
     results = []
@@ -2634,7 +2644,8 @@ def _rescue_multi_site(c, jobs, hits, filters):
             and matches(dict(j, location="United States"), title_only)]
     if not cand:
         return []
-    cache = load_json(MULTISITE_CACHE, {})
+    with _MULTISITE_LOCK:  # on Windows a read racing atomic_json's os.replace raises PermissionError
+        cache = load_json(MULTISITE_CACHE, {})
     fetched, rescued, new_keys = 0, [], {}
     for j in cand:
         key = f"{c['name']}:{j['id']}"
