@@ -1,0 +1,74 @@
+Quant Risk Analyst - Derivatives & Clearing
+Polymarket
+Location: New York
+Link: https://jobs.ashbyhq.com/polymarket/0f752c3b-418d-43e8-91d3-658d08b5b2c6
+
+About Polymarket
+
+Polymarket is the world's largest prediction market platform, where people trade on the outcomes of real-world events. As our markets, volumes, and derivative product suite grow, so does the sophistication of the risk infrastructure behind them. Our clearing and risk systems must operate with the rigor of a traditional clearinghouse while moving at the speed of a crypto-native trading platform.
+
+
+
+The Role
+
+We're hiring a mid-level quantitative risk analyst to design and implement enterprise-scale risk models at the heart of our clearing operation. You'll own models for market risk, volatility and correlation of derivatives, stress testing, and automated liquidation — the systems that keep the platform solvent and users protected in fast-moving markets.
+
+This is a hands-on role: you'll be building models in production code, not just specifying them. We expect you to work fluently with AI tools for development and research — and to be the skeptic in the room, pressure-testing AI-generated models and code against well-established risk frameworks before anything ships.
+
+
+
+What You'll Do
+
+ - Design, implement, and maintain enterprise-scale risk models covering market risk, margin, and counterparty exposure for a clearing organization.
+
+ - Build volatility and correlation models for derivatives, including calibration, backtesting, and ongoing model validation.
+
+ - Develop and run stress-testing frameworks: historical scenarios, hypothetical shocks, and reverse stress tests.
+
+ - Design and tune auto-liquidation logic — trigger thresholds, liquidation waterfalls, and safeguards against cascading liquidations.
+
+ - Use AI tools extensively to accelerate model development, coding, and research — and rigorously validate AI outputs against established risk models (VaR/ES, SPAN-style margining, GARCH-family volatility models, standard correlation frameworks) before deployment.
+
+ - Monitor model performance in production, investigate breaks, and iterate quickly.
+
+ - Partner with engineering, trading, and product teams to embed risk controls into platform architecture.
+
+ - Document model assumptions, limitations, and validation results to an audit-ready standard.
+   
+   
+
+What We're Looking For
+
+ - 5–7 years of quantitative risk experience at a clearinghouse, exchange, prime broker, trading firm, or similar.
+
+ - Proven expertise designing and implementing risk models at enterprise scale — production systems, not just research prototypes.
+
+ - Deep experience modeling volatility, correlation, option skews, option pricing and implementing at scale for trad-fi derivatives, perpetuals, and fully collateralized event contracts.
+
+ - Hands-on experience with market risk modeling, stress testing, and auto-liquidation mechanics in a clearing context.
+
+ - Strong fluency with AI-assisted development and coding, paired with the judgment to pressure-test AI outputs against well-established risk models and catch what looks plausible but is wrong.
+
+ - Expert-level Python (numerical stack: NumPy, pandas, SciPy; solid software engineering practices).
+
+ - Advanced degree in a quantitative field (math, statistics, physics, financial engineering, CS) or equivalent experience.
+
+ - Strong mathematical foundation in stochastic calculus and linear algebra.
+
+
+
+Nice to Have
+
+ - C# and/or C++ for performance-critical or production systems.
+
+ - Familiarity with crypto market structure, perpetuals, or prediction markets.
+
+ - Experience with CCP risk frameworks (CPMI-IOSCO PFMI, default management, margin methodology).
+
+ - Experience building real-time risk systems.
+
+
+
+Location & Work Setup
+
+This role is based in our New York City office, in person. You'll be working directly alongside the trading, engineering, and risk teams. Compensation: USD 400,000 - 450,000 per year.

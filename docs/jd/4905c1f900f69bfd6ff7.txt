@@ -1,0 +1,75 @@
+Engineering Manager, Clearing, Payments & Risk
+Polymarket
+Location: New York
+Link: https://jobs.ashbyhq.com/polymarket/3f60e757-3ae3-4b1a-b075-4e2e458103c9
+
+ABOUT POLYMARKET
+
+Polymarket is the world's largest prediction market. In the US, Polymarket operates a CFTC-regulated exchange (DCM) and clearinghouse (DCO), and we're building the infrastructure to bring event contracts to a much wider set of customers and partners. Engineering here is small, senior, and close to the business: the systems you build move real money under real regulatory obligations.
+
+
+
+
+ABOUT THE ROLE
+
+We're hiring an Engineering Manager to lead the teams that move, clear, and protect customer funds on Polymarket US. You'll own our clearing, payments, and risk systems, and you'll lead engineering for our Futures Commission Merchant (FCM) build, one of the most important initiatives in the company. This role needs a manager who has built these systems before and understands the regulatory model behind them, not one who will learn it on the job.
+
+
+
+
+WHAT YOU'LL DO
+
+• Lead engineering for the FCM program end to end: customer onboarding and account structure, customer fund segregation, margin and collateral, and the integration between the FCM and our clearinghouse.
+
+• Own the clearing engine and the post-trade path: settlement, position and balance management, reconciliation, and the ledger that sits underneath all of it.
+
+• Own payments: deposits and withdrawals across bank, card, and wallet rails, fraud and risk checks at authorization, and the processor and banking partners behind them.
+
+• Build risk controls that run in real time: pre-trade and pre-funding checks, exposure limits, and the monitoring that tells us when something is wrong before a customer or regulator does.
+
+• Work daily with Clearing Operations, Treasury, Compliance, Legal, and the DCO/FCM business leads to turn regulatory and operational requirements into systems that hold up under audit.
+
+• Hire, grow, and manage a team of senior engineers. Set the technical bar, run on-call, and stay close enough to the code to make good design calls.
+
+What we're looking for
+
+• 8+ years in software engineering and 2+ years managing engineers, with a track record of shipping financial systems in production.
+
+• Direct subject-matter experience with at least two of: FCM operations, clearing and settlement, payments infrastructure. Ideally you've built these at an FCM, futures or crypto derivatives exchange, broker-dealer, or payments company.
+
+• Working knowledge of the CFTC framework for customer funds: segregation, margining, daily reconciliation and reporting, and what regulators expect from the systems that produce them.
+
+• Strong instincts for money-movement correctness: double-entry ledgers, idempotency, reconciliation, and failure handling across external partners.
+
+• Comfort leading a 0-to-1 build at startup speed while keeping the controls a regulated business needs.
+
+• Clear written communication with both engineers and non-technical partners in operations, finance, and compliance.
+
+•(Plus) Experience standing up a new FCM, DCO, or derivatives clearing member, or taking one through a regulatory review.
+
+•(Plus) Background with margin methodologies (for example SPAN-style models) or collateral management.
+
+•(Plus) Experience with stablecoin or on-chain settlement rails alongside traditional banking rails.
+
+•(Plus) Hands-on experience in Go or another systems language used for high-throughput services.
+
+
+BENEFITS
+
+ - Competitive salary and equity
+
+ - Unlimited PTO
+
+ - Health, vision, and dental coverage
+
+ - 401(k) match
+
+ - Full hardware setup: new MacBook Pro, large display, and accessories
+
+
+
+PAY TRANSPARENCY 
+
+Base salary range: $350,000 to $500,000 annually, plus equity and benefits.
+
+This range reflects a good-faith estimate for this position. Experience levels vary widely within a title here, so please reach out even if your expectations fall outside it. We're always happy to chat. Compensation: USD 350,000 - 500,000 per year.

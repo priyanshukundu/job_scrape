@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Outreach Search Links</title>
+<style>
+:root { --bg:#f7f7f8; --card:#fff; --ink:#111827; --mute:#6b7280; --line:#e5e7eb; --dark:#0f172a; --accent:#1d4ed8; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0b1020; --card:#131a2e; --ink:#e5e7eb; --mute:#94a3b8; --line:#26304a; --dark:#e5e7eb; --accent:#60a5fa; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui,Segoe UI,Arial,sans-serif; }
+.wrap { max-width:1100px; margin:0 auto; padding:16px; }
+h1 { margin:8px 0 2px; font-size:24px; }
+.sub { color:var(--mute); margin:0 0 14px; }
+.box { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:14px; }
+.row { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+label { display:block; font-size:12px; font-weight:700; letter-spacing:.04em; color:var(--mute); margin-bottom:4px; text-transform:uppercase; }
+input, select { width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); font:inherit; }
+.chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+.chip { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:4px 11px; cursor:pointer; font:inherit; font-size:13px; }
+.chip.on { background:var(--accent); border-color:var(--accent); color:#fff; }
+.btn { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:8px; padding:7px 12px; cursor:pointer; font:inherit; font-weight:600; text-decoration:none; display:inline-block; }
+.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; display:flex; flex-direction:column; gap:8px; }
+.card h3 { margin:0; font-size:15px; }
+.card p { margin:0; color:var(--mute); font-size:12px; word-break:break-word; }
+.acts { display:flex; gap:6px; margin-top:auto; }
+h2 { font-size:12px; letter-spacing:.06em; color:var(--mute); text-transform:uppercase; margin:18px 0 8px; }
+a.back { color:var(--accent); text-decoration:none; font-weight:600; }
+</style></head>
+<body><div class="wrap">
+<a class="back" href="index.html">&larr; Job queue</a>
+<h1>Outreach Search Links</h1>
+<p class="sub">Type one or more cities (comma separated, or click the chips) and a role. Every outreach avenue appears as a Google search.</p>
+
+<div class="box">
+  <div class="row">
+    <div><label for="city">Cities (comma separated)</label><input id="city" placeholder="New York, Jersey City, Boston" autocomplete="off"></div>
+    <div><label for="role">Role / keyword</label><input id="role" placeholder="Market Risk" autocomplete="off"></div>
+    <div><label for="company">Company (optional)</label><input id="company" placeholder="Morgan Stanley" autocomplete="off"></div>
+    <div><label for="when">Posted within (posts and listings)</label><select id="when"><option value="">Any time</option><option value="d">Past 24 hours</option><option value="w">Past week</option><option value="m">Past month</option></select></div>
+  </div>
+  <datalist id="cities"></datalist>
+  <div class="chips" id="roleChips"></div>
+  <div class="chips" id="cityChips" style="margin-top:6px"></div>
+  <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+    <button class="btn primary" id="openAll">Open all in tabs</button>
+    <button class="btn" id="allCities">All cities</button>
+    <button class="btn" id="reset">Reset</button>
+    <span class="sub" id="status" style="margin:0;align-self:center"></span>
+  </div>
+  <p class="sub" id="note" style="margin:10px 0 0;font-size:13px">Tip: Google reads only about 32 words per search, so keep to 3 or 4 cities at once. Extra cities or roles may be silently ignored.</p>
+  <div style="display:none">
+  </div>
+</div>
+
+<div class="box" id="matrixBox" style="margin-top:14px">
+  <div class="row" style="align-items:end">
+    <div><label for="avenue">Role x City matrix: one search per role and city</label><select id="avenue"></select></div>
+    <div style="display:flex;gap:8px"><button class="btn primary" id="openMatrix">Open all combos</button><button class="btn" id="openNext" style="display:none">Open next</button></div>
+  </div>
+  <p class="sub" id="matrixStatus" style="margin:8px 0 0;font-size:13px"></p>
+  <div id="matrix" class="grid" style="margin-top:10px"></div>
+</div>
+
+<div class="box" id="postsBox" style="margin-top:14px">
+  <label>Hiring posts found by the 2026-11-03 search run (past 14 days, hand-filtered)</label>
+  <p class="sub" id="postsStatus" style="margin:6px 0 10px;font-size:13px">Loading</p>
+  <div id="posts"></div>
+</div>
+<script>
+fetch('hiring_posts.json').then(function(r){return r.json()}).then(function(d){
+  document.getElementById('postsStatus').textContent=d.posts.length+' posts, newest first. Built '+d.built+'. Each links to the LinkedIn post.';
+  var box=document.getElementById('posts');
+  d.posts.sort(function(a,b){return a.age-b.age}).forEach(function(p){
+    var a=document.createElement('a');a.href=p.url;a.target='_blank';a.rel='noopener';a.style.display='block';a.style.margin='0 0 10px';a.style.textDecoration='none';a.style.color='inherit';
+    var t=document.createElement('b');t.textContent=p.title;
+    var m=document.createElement('div');m.className='sub';m.style.margin='2px 0 0';m.style.fontSize='13px';m.textContent=p.role+' | '+p.city+' | '+(p.age?p.age+' days ago':'today')+' | '+p.desc;
+    a.appendChild(t);a.appendChild(m);box.appendChild(a);
+  });
+}).catch(function(){document.getElementById('postsStatus').textContent='Could not load hiring_posts.json'});
+</script>
+<div id="out"></div>
+</div>
+<script>
+var ROLES = ["Market Risk","ALM","Treasury","Liquidity Risk","Model Risk","Capital Planning","Fixed Income","Quant","Credit Risk","FP&A"];
+var CITIES = ["New York","Jersey City","Charlotte","Chicago","Boston","San Francisco","Dallas","Atlanta","Washington DC","Houston","Los Angeles","Minneapolis","Philadelphia","Miami"];
+var ATS = [
+  ["Greenhouse / Lever / Workday / SmartRecruiters / Ashby / iCIMS", ['boards.greenhouse.io','job-boards.greenhouse.io','jobs.lever.co','myworkdayjobs.com','jobs.smartrecruiters.com','careers.smartrecruiters.com','jobs.ashbyhq.com','apply.workable.com','jobs.jobvite.com','icims.com','bamboohr.com','applytojob.com']],
+  ["Dayforce / UltiPro / ADP / Paylocity / Rippling / Pinpoint", ['jobs.dayforcehcm.com','recruiting.ultipro.com','workforcenow.adp.com','csod.com','ats.rippling.com','recruiting.paylocity.com','paycomonline.net','pinpointhq.com','jobs.gem.com']],
+  ["SuccessFactors / Taleo / Oracle HCM / Eightfold / Avature", ['teamtailor.com','successfactors.com','sapsf.com','taleo.net','oraclecloud.com/hcmUI','eightfold.ai','avature.net','recruitee.com','breezy.hr','jobs.personio.de','jobs.personio.com','comeet.com']],
+  ["Other ATS (PageUp / Tal.net / Zoho / Darwinbox)", ['careers.pageuppeople.com','tribepad.com','tal.net','livehire.com','darwinbox.in','darwinbox.com','recruit.zoho.com','zohorecruit.com','jobs.pyjamahr.com','r.ripplehire.com']]
+];
+var BOARDS = ['indeed.com','glassdoor.com','linkedin.com','ziprecruiter.com','simplyhired.com','monster.com','careerbuilder.com','dice.com','builtin.com','efinancialcareers.com','wallstreetoasis.com','jobs.ashbyhq.com'];
+function sites(list) { return '(' + list.map(function(d) { return 'site:' + d; }).join(' OR ') + ')'; }
+var MANAGER_TITLES = ['"manager"','"head"','"director"','"lead"','"vice president"','"VP"'];
+var RECRUITER_TITLES = ['"recruiter"','"talent acquisition"','"HR recruiter"'];
+var PEER_TITLES = ['"analyst"','"associate"','"senior analyst"'];
+
+function q(s) { return '"' + s + '"'; }
+function orGroup(list) { return '(' + list.join(' OR ') + ')'; }
+function cityList(v) { return v.split(',').map(function(x) { return x.trim(); }).filter(Boolean); }
+function cityExpr(v) { var c = cityList(v); return c.length === 1 ? q(c[0]) : '(' + c.map(q).join(' OR ') + ')'; }
+function roleExpr(roles) { return roles.length === 1 ? '(' + q(roles[0]) + ')' : '(' + roles.map(q).join(' OR ') + ')'; }
+function build(city, roles, company) {
+  var loc = cityExpr(city), role = roleExpr(roles), co = company ? ' ' + q(company) : '';
+  var cards = [
+    ["Hiring managers", "People", 'site:linkedin.com/in/ ' + loc + co + ' ' + role + ' ' + orGroup(MANAGER_TITLES) + ' -recruiter -"talent acquisition"', false],
+    ["Recruiters / TA", "People", 'site:linkedin.com/in/ ' + loc + co + ' ' + orGroup(RECRUITER_TITLES) + ' ' + role, false],
+    ["Team peers (analyst / associate)", "People", 'site:linkedin.com/in/ ' + loc + co + ' ' + role + ' ' + orGroup(PEER_TITLES) + ' -recruiter', false],
+    ["Rutgers alumni", "People", 'site:linkedin.com/in/ ' + loc + co + ' ' + role + ' "Rutgers"', false],
+    ["LinkedIn hiring posts", "Posts", 'site:linkedin.com/posts ' + loc + co + ' ' + role + ' ("hiring" OR "we\'re hiring" OR "now hiring")', true],
+    ["Company careers pages", "Jobs", loc + co + ' ' + role + ' (inurl:careers OR intitle:"careers") ' + BOARDS.filter(function(d) { return d !== 'jobs.ashbyhq.com'; }).map(function(d) { return '-site:' + d; }).join(' '), true]
+  ];
+  ATS.forEach(function(g, i) { cards.push(["ATS " + (i + 1) + ": " + g[0], "Jobs", loc + co + ' ' + role + ' ' + sites(g[1]), true]); });
+  var tbs = $('when').value ? '&tbs=qdr:' + $('when').value : '';
+  cards = cards.map(function(c) { return [c[0], c[1], c[2], c[3] ? tbs : '']; });
+  return cards.map(function(c) {
+    return { title: c[0], group: c[1], query: c[2], url: 'https://www.google.com/search?q=' + encodeURIComponent(c[2]) + (c[3] || '') };
+  });
+}
+
+var selected = [];
+var $ = function(id) { return document.getElementById(id); };
+function save() { try { localStorage.setItem('outreach', JSON.stringify({ city: $('city').value, role: $('role').value, company: $('company').value, when: $('when').value, sel: selected })); } catch (e) {} }
+function load() { try { return JSON.parse(localStorage.getItem('outreach') || '{}'); } catch (e) { return {}; } }
+function roles() {
+  var typed = $('role').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+  var all = selected.concat(typed.filter(function(t) { return selected.indexOf(t) < 0; }));
+  return all;
+}
+function render() {
+  var city = $('city').value.trim(), rs = roles(), co = $('company').value.trim();
+  var out = $('out');
+  if (!city || !rs.length) { out.innerHTML = ''; $('status').textContent = 'Enter at least one city and one role.'; renderMatrix(); return; }
+  $('status').textContent = '';
+  var many = cityList($('city').value).length + rs.length > 6;
+  $('note').style.color = many ? '#b45309' : '';
+  $('note').style.fontWeight = many ? '700' : '';
+  var cards = build(city, rs, co), groups = ["People", "Posts", "Jobs"], html = '';
+  groups.forEach(function(g) {
+    html += '<h2>' + g + '</h2><div class="grid">';
+    cards.filter(function(c) { return c.group === g; }).forEach(function(c, i) {
+      html += '<div class="card"><h3></h3><p></p><div class="acts"><a class="btn primary" target="_blank" rel="noopener">Open Google search</a><button class="btn">Copy query</button></div></div>';
+    });
+    html += '</div>';
+  });
+  out.innerHTML = html;
+  var nodes = out.querySelectorAll('.card'), idx = 0;
+  groups.forEach(function(g) {
+    cards.filter(function(c) { return c.group === g; }).forEach(function(c) {
+      var n = nodes[idx++];
+      n.querySelector('h3').textContent = c.title;
+      n.querySelector('p').textContent = c.query;
+      n.querySelector('a').href = c.url;
+      n.querySelector('button').onclick = function(ev) {
+        navigator.clipboard.writeText(c.query).then(function() { ev.target.textContent = 'Copied'; setTimeout(function() { ev.target.textContent = 'Copy query'; }, 1200); });
+      };
+    });
+  });
+  window._cards = cards;
+  renderMatrix();
+  save();
+}
+var AVENUES = ["LinkedIn hiring posts", "Hiring managers", "Recruiters / TA", "Team peers (analyst / associate)", "Rutgers alumni", "Company careers pages"];
+function matrixPairs() {
+  var cs = cityList($('city').value), rs = roles(), co = $('company').value.trim(), av = $('avenue').value, out = [];
+  rs.forEach(function(r) { cs.forEach(function(c) {
+    var card = build(c, [r], co).filter(function(x) { return x.title === av; })[0];
+    if (card) out.push({ role: r, city: c, url: card.url, query: card.query });
+  }); });
+  return out;
+}
+function renderMatrix() {
+  var pairs = matrixPairs(), m = $('matrix');
+  window._pairs = pairs;
+  m.innerHTML = '';
+  $('matrixStatus').textContent = pairs.length ? pairs.length + ' searches (' + roles().length + ' roles x ' + cityList($('city').value).length + ' cities). Popup blockers may stop more than a few tabs; allow popups for this page.' : 'Pick at least one role and one city.';
+  pairs.forEach(function(p) {
+    var a = document.createElement('a'); a.className = 'btn'; a.target = '_blank'; a.rel = 'noopener'; a.href = p.url; a.textContent = p.role + ' | ' + p.city; a.title = p.query;
+    m.appendChild(a);
+  });
+}
+function chips() {
+  var rc = $('roleChips'), cc = $('cityChips');
+  rc.innerHTML = ''; cc.innerHTML = '';
+  ROLES.forEach(function(r) {
+    var b = document.createElement('button'); b.className = 'chip' + (selected.indexOf(r) >= 0 ? ' on' : ''); b.textContent = r;
+    b.onclick = function() { var i = selected.indexOf(r); if (i >= 0) selected.splice(i, 1); else selected.push(r); chips(); render(); };
+    rc.appendChild(b);
+  });
+  CITIES.forEach(function(c) {
+    var b = document.createElement('button'); b.className = 'chip' + (cityList($('city').value).indexOf(c) >= 0 ? ' on' : ''); b.textContent = c;
+    b.onclick = function() { var l = cityList($('city').value), i = l.indexOf(c); if (i >= 0) l.splice(i, 1); else l.push(c); $('city').value = l.join(', '); chips(); render(); };
+    cc.appendChild(b);
+  });
+}
+$('cities') && CITIES.forEach(function(c) { var o = document.createElement('option'); o.value = c; $('cities').appendChild(o); });
+AVENUES.forEach(function(a) { var o = document.createElement('option'); o.value = a; o.textContent = a; $('avenue').appendChild(o); });
+$('avenue').addEventListener('input', renderMatrix);
+$('allCities').onclick = function() { $('city').value = CITIES.join(', '); chips(); render(); };
+var nextIdx = 0;
+$('openMatrix').onclick = function() {
+  var ps = window._pairs || [];
+  if (ps.length > 12 && !confirm('Open ' + ps.length + ' tabs?')) return;
+  var blocked = 0;
+  ps.forEach(function(p, i) { var w = window.open(p.url, '_blank'); if (!w) blocked++; });
+  nextIdx = ps.length - blocked;
+  $('matrixStatus').textContent = blocked ? 'Browser blocked ' + blocked + ' of ' + ps.length + ' tabs. Allow popups for this page (icon in the address bar) and click again, or use "Open next" to open them one click at a time.' : 'Opened ' + ps.length + ' tabs.';
+  $('openNext').style.display = blocked ? '' : 'none';
+};
+$('openNext').onclick = function() {
+  var ps = window._pairs || [];
+  if (nextIdx >= ps.length) { $('openNext').style.display = 'none'; return; }
+  window.open(ps[nextIdx].url, '_blank'); nextIdx++;
+  $('openNext').textContent = 'Open next (' + (ps.length - nextIdx) + ' left)';
+};
+['city', 'role', 'company', 'when'].forEach(function(id) { $(id).addEventListener('input', function() { chips(); render(); }); });
+$('openAll').onclick = function() { (window._cards || []).forEach(function(c) { window.open(c.url, '_blank', 'noopener'); }); };
+$('reset').onclick = function() { $('city').value = ''; $('role').value = ''; $('company').value = ''; $('when').value = ''; selected = []; try { localStorage.removeItem('outreach'); } catch (e) {} chips(); render(); };
+var s = load(); $('city').value = s.city || ''; $('role').value = s.role || ''; $('company').value = s.company || ''; $('when').value = s.when || ''; selected = s.sel || [];
+chips(); render();
+</script></body></html>

@@ -1,0 +1,11 @@
+{
+ "note": "Employers the scout cannot poll yet. Shown in the page's 'Not covered' dropdown. Remove an entry once its fetcher is live.",
+ "companies": [
+  {"name": "BNP Paribas", "reason": "Akamai blocks the group job list (403 to scripts). The applicant system bwelcome.hr.bnpparibas serves single jobs but has no list, job sitemap or open search; about 60 US roles exist but finding them means probing about 9000 job ids per run"},
+  {"name": "Citadel", "reason": "Cloudflare Turnstile challenge on citadel.com, also in a real browser; no public ATS board found (Greenhouse, Lever, Ashby and The Muse have none)"},
+  {"name": "Rabobank", "reason": "WAF 403 to scripts on rabobank.jobs, including its own search API (POST /api/v1/jobs/); about 116 jobs, mostly Netherlands"},
+  {"name": "UniCredit", "reason": "Reachable now: it is an Avature site (careers.unicredit.eu/en_GB/jobsuche/SearchJobs, about 500 jobs) but none are in the US (Romania, Czech Republic, Italy, Hungary, Germany and others), so it was not added"},
+  {"name": "ABN AMRO", "reason": "werkenbijabnamro.nl vacancy API pages with pageNumber (8 per page, with sort params) but stops at page 9 (72 of 134), and its country facet is only Netherlands, Belgium and UK, so no US roles"},
+  {"name": "NatWest", "reason": "Cloudflare Turnstile challenge on jobs.natwestgroup.com, also in a real browser; no other public board found"}
+ ]
+}

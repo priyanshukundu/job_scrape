@@ -1,0 +1,1 @@
+Cron trigger for the job-scout workflow. Deploy: `wrangler secret put GH_TOKEN` (fine-grained PAT, this repo only, Actions: read and write), optionally `wrangler secret put NTFY_TOPIC`, then `wrangler deploy`.

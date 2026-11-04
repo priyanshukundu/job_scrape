@@ -1,0 +1,136 @@
+name: job-scout
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-scout-run
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pytest
+        run: python -m pip install pytest
+
+      - name: Run offline regression tests
+        run: python -m pytest -q test_validate_config.py test_liveness.py test_fetchers.py test_health.py test_scout_review_guards.py test_scout_regressions.py test_deep_paging_and_close_check.py
+
+      - name: Validate company config
+        if: ${{ always() }}
+        run: python validate_config.py
+
+  fetch:
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]  # keep in step with --fetch-shard's /12 below
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # a run queued behind another must not start from its stale trigger-time commit
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch shard
+        run: python job_scout.py --fetch-shard ${{ matrix.shard }}/12 --out shard_${{ matrix.shard }}.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: shard_${{ matrix.shard }}.json
+          retention-days: 1
+
+  scout:
+    needs: [validate, fetch]
+    # A failed shard can still be processed, but invalid config or failed tests must block scouting.
+    if: ${{ !cancelled() && needs.validate.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # a run queued behind another must not start from its stale trigger-time commit
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          path: shards
+          merge-multiple: true
+
+      - name: Validate company config before scout
+        run: python validate_config.py
+
+      - name: Run job_scout
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          set -o pipefail
+          python -u job_scout.py --from-fetched shards 2>&1 | tee scout.log
+
+      - name: Summarize scout health
+        if: ${{ always() }}
+        run: python health.py --shards shards --scout-log scout.log --output health.json --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload scout health
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: scout-health
+          path: health.json
+          retention-days: 7
+
+      - name: Cache job descriptions for Copy JD
+        continue-on-error: true
+        run: python jd_cache.py --budget 600 --workers 12
+
+      - name: Generate shared HTML view
+        run: |
+          mkdir -p docs
+          python job_scout.py --queue --all --html docs/index.html
+
+      - name: Commit updated state/queue/page
+        run: |
+          git config user.name "job-scout-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A docs/jd
+          git add data/filters_sig.json 2>/dev/null || true
+          git add data/state.json data/queue.json data/fetch_times.json data/board_freshness.json data/multisite_cache.json docs/index.html health.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update job-scout state [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git fetch origin main
+            if ! git rebase origin/main; then
+              # generated files: keep this run's version, the next run regenerates them
+              git checkout --theirs docs/index.html data/fetch_times.json data/multisite_cache.json health.json 2>/dev/null || true
+              git add docs/index.html data/fetch_times.json data/board_freshness.json data/multisite_cache.json health.json
+              GIT_EDITOR=true git rebase --continue || { git rebase --abort; echo "state conflict, aborting"; exit 1; }
+            fi
+            sleep $((RANDOM % 10 + 1))
+          done
+          exit 1

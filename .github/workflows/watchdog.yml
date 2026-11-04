@@ -1,0 +1,55 @@
+name: scout-watchdog
+
+on:
+  schedule:
+    - cron: "50 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Alert when job-scout runs keep failing or timing out
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          # newest first; in-progress and queued runs have no conclusion yet and are skipped
+          gh run list --repo "$GITHUB_REPOSITORY" --workflow job-scout --limit 30 \
+            --json conclusion --jq '[.[] | select(.conclusion != "")] | map(.conclusion) | .[]' > conclusions.txt
+          bad=0
+          while read -r c; do
+            if [ "$c" = "success" ]; then break; fi
+            bad=$((bad + 1))
+          done < conclusions.txt
+          echo "consecutive non-success runs: $bad"
+          # first alert at 2 in a row, then a reminder every 6 more
+          if [ "$bad" -eq 2 ] || { [ "$bad" -gt 2 ] && [ $((bad % 6)) -eq 0 ]; }; then
+            if [ -n "$NTFY_TOPIC" ]; then
+              curl -s -H "Title: job-scout is failing" -H "Priority: high" \
+                -d "$bad hourly job-scout runs in a row were cancelled or failed. No new jobs are reaching the page." \
+                "https://ntfy.sh/$NTFY_TOPIC"
+            fi
+          fi
+
+      - name: Alert when no scout run has succeeded for hours
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          # same secret the new-job alerts use; first alert at 3h without a success, then every 6h
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/scout.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].updated_at')
+          if [ -z "$last" ] || [ "$last" = "null" ]; then echo "::error::no successful scout run found"; exit 1; fi
+          age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 60 ))
+          echo "minutes since last successful scout run: $age"
+          if [ "$age" -ge 180 ] && [ $(( (age - 180) % 360 )) -lt 60 ]; then
+            if [ -z "$NTFY_TOPIC" ]; then echo "::error::NTFY_TOPIC secret missing, cannot alert"; exit 1; fi
+            curl -s -H "Title: job-scout stalled" -H "Priority: high" \
+              -d "No successful scout run for $((age / 60)) hours. Check GitHub Actions." \
+              "https://ntfy.sh/$NTFY_TOPIC"
+          fi
