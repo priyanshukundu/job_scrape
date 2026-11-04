@@ -1,0 +1,93 @@
+Staff Software Engineer - Billing Platform
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/4371e808-51f1-4c7a-a1ca-1819926a5c74
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+The Billing & Payments Platform team builds Snowflake's central systems for customer resource consumption, revenue processing, invoicing, and reporting. Our systems power Snowflake's business and enable every other engineering team. The architectures we ship also serve as reference patterns for customers building on Snowflake.
+
+Computing Snowflake's bills is a distributed systems problem. Usage is metered across every cloud and region. The pricing catalog keeps changing, including new commercial constructs for Cortex AI, Snowflake Intelligence, and the broader agentic portfolio. The same systems have to catch abuse and fraud on a usage-based product, then produce a bill Finance can audit. The bar is accuracy, auditability, and processing that keeps up with usage as it happens.
+
+This is a deeply cross-functional role. You will partner with Product, Finance, Legal, Growth, Go-to-Market Systems, Snowsight, Cortex AI, and product engineering teams to deliver experiences that customers and internal stakeholders depend on every day.
+
+
+
+
+AS A STAFF SOFTWARE ENGINEER ON BILLING PLATFORM YOU WILL :
+
+ - Drive multi-team initiatives from an ambiguous business problem through design, launch, and operation, and set the technical approach other engineers execute. Own a bounded project end-to-end when that is the right scope.
+
+ - Build the billing systems that meter, rate, and invoice usage across Snowflake services, on Snowflake's own product. Usage is collected across clouds and regions, then reconciled into an auditable bill.
+
+ - Shape how Snowflake meters, prices, and bills AI products with Cortex AI, Intelligence, and Apps, including token-based inference, agent workflows, and AI-native subscriptions.
+
+ -  Be the go-to expert for a primary billing domain — metering, rating, invoicing, contracts, payments, threshold billing, fraud, or reporting — and influence the systems next to it.
+
+ - Own reliability and correctness for what you build. Participate in on-call, debug across unfamiliar areas, and drive systemic fixes to monitoring, alerts, and quality rather than one-off patches.
+
+ - Mentor senior engineers. Review designs, raise the bar on testing and rollout, and help others operate these systems.
+
+ - Partner with Product, Finance, GTM Systems, Growth, Trust, and Legal. Write designs that both engineering and Finance can execute.
+
+
+
+
+OUR IDEAL STAFF SOFTWARE ENGINEER WILL HAVE:
+
+ - Significant experience building and operating large-scale production distributed systems, typically 10+ years or equivalent impact.
+
+ - A bachelor's or master's degree in computer science, a related technical field, or equivalent practical experience.
+
+ - Strong fundamentals in distributed systems: consistency, fault tolerance, idempotency, exactly-once processing, queueing, and stream and batch pipelines.
+
+ - Strong fundamentals in databases and data modeling. SQL fluency, schema design, performance tuning, and an appreciation for the operational realities of large-scale data systems.
+
+ - Proficiency in one or more of Java, Scala, Python, or Go, and the practices that make systems operable at scale: testing, observability, CI/CD, and incremental rollout.
+
+ - A track record of driving outcomes that span teams. Framing the problem when Product, Finance, and engineering disagree. Writing the design. Making the tradeoffs. Landing the system in production.
+
+ - Depth in at least one domain adjacent to billing — metering, rating, invoicing, contracts, payments, revenue, or financial reporting — with enough range to debug and influence the systems next to it.
+
+ - Hands-on use of AI as a builder's tool in design, coding, debugging, and incident response. On this team that includes Cortex Code and Snowflake Intelligence, but prior use of those specific tools is not required.
+
+ - Clear writing and communication with non-engineering partners. You can explain a pricing or contract change so Finance can audit it and engineering can build it.
+
+
+
+Bonus points for:
+
+ - Prior experience in billing, payments, metering, revenue, or financial systems at a SaaS or cloud company.
+
+ - Experience with fraud detection, abuse mitigation, or trust and safety systems in a usage-based product.
+
+ - Experience designing or evolving pricing models for AI/ML products, including inference, fine-tuning, and agentic workloads.
+
+ - Experience building on Snowflake or comparable cloud data platforms, including Snowpark, Streams and Tasks, Iceberg, Streamlit, or Cortex.
+
+ - Contributions to internal AI developer-productivity tooling, agentic skills, or similar coding-agent workflows.
+
+
+
+
+WHY THIS ROLE?
+
+ - Build on Snowflake, with Snowflake. You will use Snowflake's own product, including Cortex AI, as the substrate for one of the most business-critical systems in the company.
+
+ - Front-row seat to AI commercialization. Billing is where AI strategy becomes real for customers. You will help define how Snowflake meters, prices, and bills for the AI products shaping the next decade.
+
+ - Real cross-functional scope. Few engineering roles touch as many parts of the company. Your work will be visible to Finance, GTM, Product, and the engineering teams shipping every Snowflake service.
+
+ -  Distributed systems at meaningful scale. Accurate metering and rating across every cloud, region, and service, with strict correctness and auditability, is genuinely hard and genuinely interesting work.
+
+
+
+Every Snowflake employee is expected to follow the company's confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company's data security plan as an essential part of their duties. It is every employee's duty to keep customer information secure and confidential.
+
+
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 339,200 per year.
