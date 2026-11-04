@@ -4058,12 +4058,11 @@ function copyText(text) {
   });
 }
 (function() {
-  var CATEGORIES = __CATEGORIES__;
   var COMPANY = __COMPANY__;
   var JD_COMPANIES = __JD_COMPANIES__;
   var bar = document.getElementById('filterBar');
   var rows = Array.prototype.slice.call(document.querySelectorAll('table tbody tr'));
-  var HIDE = ['hidden-by-filter', 'hidden-by-category', 'hidden-by-company', 'hidden-by-location'];
+  var HIDE = ['hidden-by-filter', 'hidden-by-company', 'hidden-by-location'];
   var COL_COMPANY = 'company', COL_ROLE = 'role', COL_LOCATION = 'location';
   // Cell lookup by header text, never by position: tables differ (the dedup page adds columns).
   function cellOf(tr, name) {
@@ -4098,50 +4097,13 @@ function copyText(text) {
   ['filterSearchBtn', 'optOnlyBtn', 'springBtn', 'expMin', 'expMax', 'expIncludeNA', 'expReset', 'dateMin', 'dateMax', 'dateIncludeNA'].forEach(function(id) {
     var el = document.getElementById(id);
     if (el) el.addEventListener(el.tagName === 'BUTTON' ? 'click' : 'change', function() {
-      setTimeout(function() { applyCategory(); applyCompany(); applyLocation(); }, 0);
+      setTimeout(function() { applyCompany(); applyLocation(); }, 0);
     });
   });
 
-  // Categories
-  var wrap = document.createElement('div');
-  wrap.className = 'fb-row';
-  wrap.innerHTML = '<span class="lbl">Categories</span>' + CATEGORIES.map(function(c) {
-    return '<label class="chip"><input type="checkbox" data-cat-key="' + c.key + '"> ' +
-           c.label.replace(/&/g, '&amp;') + '</label>';
-  }).join('');
-  if (bar) bar.appendChild(wrap);
-  var checkboxes = Array.prototype.slice.call(wrap.querySelectorAll('input[type=checkbox]'));
-  function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-  CATEGORIES.forEach(function(c) {
-    c.re = c.terms.length ? new RegExp('\\b(?:' + c.terms.map(function(t) { return escapeRegex(t.toLowerCase()); }).join('|') + ')\\b') : null;
-    c.ex = c.exclude.length ? new RegExp('\\b(?:' + c.exclude.map(function(t) { return escapeRegex(t.toLowerCase()); }).join('|') + ')\\b') : null;
-  });
-  rows.forEach(function(tr) {
-    var role = textOf(tr, COL_ROLE).toLowerCase();
-    var matched = [];
-    CATEGORIES.forEach(function(c) { if (c.re && c.re.test(role) && !(c.ex && c.ex.test(role))) matched.push(c.key); });
-    if (!matched.length) matched.push('other');
-    tr.dataset.cats = matched.join(',');
-  });
-  function applyCategory() {
-    var ticked = checkboxes.filter(function(cb) { return cb.checked; }).map(function(cb) { return cb.dataset.catKey; });
-    rows.forEach(function(tr) {
-      var rc = tr.dataset.cats ? tr.dataset.cats.split(',') : [];
-      tr.classList.toggle('hidden-by-category', ticked.length > 0 && !ticked.some(function(k) { return rc.indexOf(k) !== -1; }));
-    });
-    recount();
-    try { localStorage.setItem('jobScoutCategoryTicks', JSON.stringify(ticked)); } catch (e) {}
-  }
-  try {
-    var saved = JSON.parse(localStorage.getItem('jobScoutCategoryTicks') || '[]');
-    checkboxes.forEach(function(cb) { cb.checked = saved.indexOf(cb.dataset.catKey) !== -1; });
-  } catch (e) {}
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', applyCategory); });
   var metroBox = null;
   var resetBtn = document.getElementById('expReset');
   if (resetBtn) resetBtn.addEventListener('click', function() {
-    checkboxes.forEach(function(cb) { cb.checked = false; });
-    applyCategory();
     if (metroBox) { metroBox.checked = false; applyLocation(); }
     hideBox.checked = false;
     applyCompany();
@@ -4195,7 +4157,6 @@ function copyText(text) {
   }
   try { metroBox.checked = localStorage.getItem('jobScoutMetroOnly') === '1'; } catch (e) {}
   metroBox.addEventListener('change', applyLocation);
-  applyCategory();
   applyCompany();
   applyLocation();
 
@@ -4258,7 +4219,7 @@ function copyText(text) {
 })();
 </script>
 <style>
-tr.hidden-by-category, tr.hidden-by-company, tr.hidden-by-location { display: none; }
+tr.hidden-by-company, tr.hidden-by-location { display: none; }
 .skip-btn { display: inline-block; width: 5.5rem; margin: 0 4px 0 0; padding: 3px 0; font-size: 0.85rem; cursor: pointer; white-space: nowrap; text-align: center; }
 td.act { white-space: nowrap; }
 </style>
@@ -4298,11 +4259,7 @@ def _jd_company_map():
 
 
 def _extra_script():
-    cats = [dict(key=f"cat{i}", label=label, terms=terms, exclude=ROLE_CATEGORY_EXCLUDE.get(label, []))
-            for i, (label, terms) in enumerate(ROLE_CATEGORIES.items())]
-    cats.append(dict(key="other", label="Other (no category)", terms=[], exclude=[]))
     return (_EXTRA_SCRIPT
-            .replace("__CATEGORIES__", json.dumps(cats))
             .replace("__COMPANY__", json.dumps(HIDE_COMPANY))
             .replace("__JD_COMPANIES__", json.dumps(_jd_company_map(), separators=(",", ":")))
             .replace("__JD_URL__", json.dumps(JD_PROXY_URL)))

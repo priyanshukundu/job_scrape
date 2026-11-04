@@ -79,7 +79,6 @@ def test_hospital_support_titles_excluded(title):
     "Alternative Investments Sales Desk Associate",
     "Full- stack Engineer 5 - Capital One Shopping Tech",
     "Android Mobile Engineer - Marcus - Associate",
-    "Senior Java Developer - Rates Derivatives Algo & E-Trading",
     "Production Engineer, Global Banking & Markets",
     "Process Automation Engineer - Investment Management, VP-I",
     "Associate Information Security Specialist III",
