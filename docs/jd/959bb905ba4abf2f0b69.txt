@@ -1,0 +1,189 @@
+Senior Systems Test Software Engineer
+Saronic
+Location: Austin, TX
+Link: https://jobs.ashbyhq.com/saronic/d5f30d63-303c-4899-8d68-c248c8d7905b
+
+Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.
+
+
+
+
+JOB OVERVIEW
+
+Saronic is seeking a Systems Software Test Engineer to own and advance the testing strategy for the software stack running on every Saronic vessel. You will help unify and expand our existing verification capabilities, including Hardware-in-the-Loop (HITL) stations, virtual machine (VM) integration tests, replay-based evaluation, and simulation, into a cohesive, extensible testing platform.
+
+You will also introduce and scale advanced testing methodologies, including property-based testing, protocol and message-bus fuzzing, deterministic simulation, and fault injection for safety-critical state machines.
+
+This is a software engineering role focused on building the infrastructure and tools that give engineers confidence in shipping reliable software to autonomous vessels operating in the open ocean. You will work closely with our autonomy, perception, systems, controls, networking, and infrastructure teams to develop end-to-end validation frameworks that run as native Rust unit and property tests, VM-based integration tests, on physical HITL stations connected to real hardware, and in simulation using captured fleet data.
+
+Your work will directly impact mission reliability by identifying edge cases early, strengthening system-level validation, and ensuring that vessel software is rigorously tested before deployment.
+
+
+RESPONSIBILITIES
+
+
+TEST STRATEGY AND VERIFICATION ARCHITECTURE
+
+ - Own and drive testing initiatives for Saronic's system software, including the HITL test catalog, station orchestrator, HITL-to-VM bridge framework, and NixOS-based VM integration test suite.
+
+ - Design and implement a unified verification strategy that combines Rust unit and property tests, VM-based integration tests, HITL testing, and replay- and simulation-based scenario testing.
+
+ - Establish a risk-based testing framework that determines the appropriate test type for each risk class, balancing coverage, execution cost, and confidence.
+
+ - Develop reusable testing patterns and infrastructure that enable engineers across the organization to author, extend, and maintain high-quality tests.
+
+
+PROPERTY-BASED TESTING, SIMULATION, AND FUZZING
+
+ - Expand property-based and deterministic simulation testing across the software stack.
+
+ - Develop invariant-based tests for critical components, including planners, trackers, schedulers, state machines, codecs, inter-process communication (IPC) framing, and certificate and identity systems.
+
+ - Establish shared invariant-testing patterns that other engineers can readily adopt.
+
+ - Build fuzz-testing infrastructure from the ground up, identifying high-value attack surfaces, developing test harnesses, integrating continuous execution, and triaging or resolving findings.
+
+ - Develop fault-injection and chaos-testing capabilities, including process termination, network partitions, time skew, CAN bus interference, and sensor dropouts.
+
+ - Ensure fault-injection capabilities can be reused across property-based, simulation, and HITL testing workflows.
+
+
+HITL INFRASTRUCTURE AND INTEGRATION TESTING
+
+ - Expand the HITL test catalog and improve coverage in underserved areas of the software stack.
+
+ - Extend VM-based integration tests to exercise real hardware interfaces and end-to-end system behavior.
+
+ - Treat HITL stations as a first-class software product by improving their reliability, observability, reproducibility, and maintainability.
+
+ - Harden CI scheduling and orchestration systems responsible for reservations and test execution across multiple physical HITL stations.
+
+ - Reduce flaky tests and improve test-result dashboards, analytics, and debugging workflows.
+
+ - Integrate onboard test infrastructure with cloud-based artifact storage, MCAP capture and replay, metrics collection and storage, fleet-data retrieval, and existing CI systems.
+
+ - Enable engineers to author tests once and run them locally, in CI, on HITL stations, or against historical fleet data with minimal friction.
+
+
+SYSTEMS ENGINEERING AND CROSS-FUNCTIONAL COLLABORATION
+
+ - Partner with engineers across autonomy, perception, systems, controls, networking, infrastructure, and hardware to identify system-level risks and develop effective validation strategies.
+
+ - Participate in design reviews and collaborate with feature owners on test plans before implementation.
+
+ - Write and maintain high-value tests that expose real system defects, diagnose failures, and prevent regressions.
+
+ - Develop and maintain software systems using NixOS to support autonomous navigation, control, and communication across surface vessels.
+
+ - Collaborate with hardware engineers to integrate software with vessel systems and validate end-to-end operation.
+
+ - Support testing and validation of controls, sensor fusion, network communications, and other mission-critical software components as needed.
+
+ - Optimize and validate communications in low-bandwidth, high-latency environments.
+
+ - Troubleshoot complex software issues, perform root-cause analysis, and improve system reliability and performance.
+
+ - Travel to test sites as needed to validate software and testing infrastructure on operational vessels.
+
+
+ENGINEERING EXCELLENCE AND DOCUMENTATION
+
+ - Maintain high standards for code quality, scalability, reliability, and maintainability through code reviews and sound software engineering practices.
+
+ - Document verification architecture, testing patterns, operational runbooks, and test results so other engineers can independently extend and operate the platform.
+
+ - Continuously evaluate emerging tools, techniques, and industry best practices relevant to autonomous systems verification and reliability.
+
+
+QUALIFICATIONS
+
+
+SENIOR ENGINEER
+
+ - 5+ years of professional software engineering experience, including substantial ownership of test infrastructure, verification and validation (V&V) strategy, or reliability engineering for a complex production system.
+
+ - Experience in one or more relevant domains, such as robotics, autonomous vehicles, distributed systems, embedded software, or networking.
+
+
+STAFF ENGINEER
+
+ - 8+ years of equivalent professional experience, including architecture ownership and cross-functional technical leadership of a verification platform, test infrastructure, or reliability engineering function.
+
+
+REQUIRED QUALIFICATIONS
+
+ - Strong software development skills in Rust and/or C++, with proficiency in Python for test orchestration, data analysis, and CI tooling.
+
+ - Hands-on experience building and operating one or more of the following:
+   
+   - Hardware-in-the-Loop (HITL) test rigs or infrastructure.
+   
+   - Fuzz-testing harnesses and infrastructure.
+   
+   - Property-based testing suites.
+   
+   - Deterministic simulation frameworks.
+   
+   - Large-scale simulation, replay, or scenario-testing pipelines.
+
+ - Demonstrated ability to treat test infrastructure as a production software codebase, with an emphasis on maintainability, extensibility, reliability, and usability.
+
+ - Strong systems intuition, including the ability to understand unfamiliar software components, identify critical invariants and failure modes, and develop tests that expose defects.
+
+ - Excellent debugging, troubleshooting, and root-cause analysis skills.
+
+ - A proactive approach to both resolving existing failures and preventing future defects through better tooling and test coverage.
+
+ - Ability to operate effectively in a fast-paced startup environment, translating testing strategy into practical systems and shipped software.
+
+
+PREFERRED QUALIFICATIONS
+
+ - Direct experience with deterministic simulation testing.
+
+ - Experience designing and operating fuzz-testing infrastructure.
+
+ - Familiarity with Rust property-testing frameworks such as proptest and quickcheck.
+
+ - Experience with NixOS testing, Nix flakes, and Cargo-to-Nix integration.
+
+ - Familiarity with robotics middleware and IPC patterns, including ROS/ROS 2, Zenoh, Redis pub/sub, and MCAP.
+
+ - Experience with embedded Linux, low-level serial and hardware protocols, and networking fundamentals, including RS-232, CAN, SPI, I²C, TCP/IP, UDP, QUIC, VPNs or network overlays, and PTP/PPS.
+
+ - Experience operating CI systems at scale, such as Buildkite or GitHub Actions.
+
+ - Familiarity with sensor fusion, controls, path planning, or perception evaluation.
+
+ - Experience in maritime, aerospace, robotics, autonomous systems, or other safety-critical environments.
+
+ - Familiarity with Department of Defense (DoD) software development standards and regulations.
+
+ - A bias toward building tools and frameworks that empower engineers to discover and diagnose defects independently, rather than acting solely as a testing gatekeeper.
+
+
+BENEFITS
+
+ - Medical Insurance: Comprehensive health insurance plans covering a range of services.
+
+ - Dental and Vision Insurance: Coverage for routine dental care, orthodontics, and vision care.
+
+ - Employer-Paid Premiums: Saronic pays 100% of employee medical insurance premiums and 80% of dependent premiums.
+
+ - Time Off: Generous paid time off and company holidays.
+
+ - Parental Leave: Paid maternity and paternity leave.
+
+ - Competitive Compensation: Competitive salary and opportunities for performance-based bonuses.
+
+ - Retirement Plan: 401(k) plan.
+
+ - Equity: Stock options that provide an opportunity to participate in Saronic's long-term success.
+
+ - Life and Disability Insurance: Basic life insurance and short- and long-term disability coverage.
+
+ - Additional Perks: Free lunch, drinks, and snacks in the office.
+
+If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status. As defined by U.S. law, individuals who are any one of the following are considered to be a “U.S. Person”: (1) U.S. citizens, (2) legal permanent residents (a.k.a. green card holders), and (3) certain protected classes of asylees and refugees, as defined in 8 U.S.C. 1324b(a)(3) https://www.govinfo.gov/link/uscode/8/1324b.
+
+Saronic does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. We are also committed to providing reasonable accommodations for qualified individuals with disabilities.

@@ -1,0 +1,179 @@
+Senior Staff Software Engineer, Cloud Availability Platform
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/crusoe/a14be664-690f-4c05-aa5a-837f866fc30e
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+
+BUILD THE OPERATING SYSTEM FOR THE AI DATACENTER
+
+Crusoe operates one of the world's largest managed GPU fleets, and it is growing fast. A fleet at this scale cannot be run the way GPU clouds have traditionally been run: runbooks, war rooms, and heroics. It has to be run by a unified platform that senses, reasons about, and acts on the entire fleet, so infrastructure that used to take a team to operate takes a service instead. That is what our cloud platform team builds. You will work on the control plane for one of the largest AI fleets in the world, at a point where fleet autonomy is still an open problem: nobody has fully solved this at this scale, in this market.
+
+
+
+A true platform, not internal tooling: We want to be explicit about that heading, because it is the thing most infrastructure roles get wrong. Everything we build ships as a product, fleet engineers, SREs, and product teams across Crusoe build their own services and workflows on top of what we ship. A platform team does not scale by doing everyone's work; it scales by making everyone's work self-serve. Concretely:
+
+
+
+ - API-first. Every capability is exposed through well-designed, versioned APIs behind a single gateway. If it isn't an API, it doesn't exist. No side doors, including for us.
+
+ - SDKs and paved paths. First-class client libraries, workflow templates, and golden paths so a fleet or SRE engineer can ship a new remediation or lifecycle workflow in days without asking the platform team.
+
+ - Micro frontends and a self-serve portal. Teams plug their own UI surfaces into one developer portal instead of building one-off dashboards. One console for the fleet, extensible by every team.
+
+ - Platform as product. Internal teams are customers. We own contracts, versioning, deprecation policy, quotas, documentation, and support. Adoption is our success metric: the platform wins when other teams choose it because it is the fastest path, not because it is mandated.
+
+
+
+
+WHAT THIS PLATFORM IS
+
+Four layers, built as one system:
+
+ - Agents on every site and host that collect telemetry and execute commands.
+
+ - A distributed infra graph: Models system connections down to the rack, fabric, power, and cooling layers. By integrating these connections with telemetry signals, the platform can precisely trace events to identify their blast radius and root cause.
+
+ - A reconciliation core: workflow engine, policy engine, and state reconciler that continuously close the gap between intended state and reality, exposed through the API gateway.
+
+ - Domain services: Services spanning provisioning, firmware upgrade, validation, deployment, repair and RMA, capacity, power and thermal, and Day-2 operations. Built once, run fleet-wide, consumable by any team through APIs and SDKs.
+
+
+
+We operate on a continuous autonomy loop—sense, correlate, reason, act, learn—incorporating guardrails that evolve from recommendation to full automation. We treat every recurring manual intervention as a signal to engineer the next automation.
+
+
+
+
+YOU'LL THRIVE HERE IF YOU
+
+ - Want to build a platform, not integrate one. This is core distributed-systems engineering: event buses, graph models, reconciliation loops, policy evaluation.
+
+ - Treat internal engineers as customers and sweat API ergonomics, docs, and onboarding the way product teams sweat UX.
+
+ - Like owning a hard abstraction and defending it as ten teams build on top of you.
+
+ - Believe the interesting problems are where physical infrastructure meets software: a firmware counter, a thermal event, and a scheduling decision are one problem, not three.
+
+ - Measure yourself by what stops paging humans, and by how fast another team ships on your platform.
+
+
+
+
+WHAT YOU'LL DO
+
+ - Design and build core platform services: RBAC, tenancy, the workflow engine, policy engine, and state reconciler that drive fleet actions safely at scale.
+
+ - Design the public face of the platform: the API gateway, resource model, and versioned API contracts that fleet, SRE, and product teams build against.
+
+ - Build SDKs, workflow templates, and golden paths that make the platform self-serve, plus the developer portal and micro frontend framework that let teams bring their own UI surfaces.
+
+ - Build the inventory and topology graph as the fleet's source of intended truth, and the pipelines that keep it honest against reality (metadata drift is one of our top verified incident root causes; you will kill it).
+
+ - Build site, GPU, and network agents and the event bus that moves fleet telemetry and commands reliably.
+
+ - Deliver the platform roadmap: pilot site on the foundation layer, first site deployed entirely through the platform, zero-downtime firmware upgrades, first fully automated RMA, then 100K+ GPUs on platform with MTTD under 60 seconds and MTTR under 30 minutes.
+
+ - Work with embedded engineers from fleet and production engineering who bring the operational scar tissue, and turn it into services other teams extend.
+
+
+
+
+REQUIREMENTS
+
+ - 10+ years building distributed systems, control planes, or infrastructure platforms.
+
+ - Strong software engineering skills in Go, Python, or Rust.
+
+ - Experience building platforms other engineers consume: public or internal APIs, SDKs, or developer tooling with real adoption.
+
+ - Depth in at least one of: workflow/orchestration engines (Temporal or similar), event-driven architectures, graph data models, policy/rules engines, or reconciliation-based control loops (Kubernetes operator patterns).
+
+ - Experience running what you build: you have carried a pager for a platform other teams depend on.
+
+ - Systems thinking across the hardware/software boundary.
+
+ - Bachelor’s degree in Computer Science, Data Science, or a closely related technical field.
+
+
+
+
+BONUS EXPERIENCE
+
+ - Internal developer platforms: API gateways, service catalogs, Backstage-style portals, micro frontend architectures.
+
+ - GPU or bare-metal fleet infrastructure: DCGM, Redfish/IPMI, firmware lifecycle.
+
+ - High-cardinality observability platforms (per-GPU telemetry at fleet scale).
+
+ - InfiniBand or RoCE fabrics.
+
+ - AI agents applied to infrastructure triage and autonomous remediation.
+
+
+
+
+ABOUT CAPE
+
+Vision. Crusoe's infrastructure runs as a self-aware, self-healing system: anticipating and auto-remediating failures, shaping its own power demand, and tuning silicon-to-orchestration as one instrument. The world's most reliable, efficient, and sustainable AI compute platform.
+
+Mission. We design, build, and operate the world's most reliable and energy-efficient AI infrastructure platform by treating the physical and digital layers as one software-defined system. Every day, for every workload, we automate away the latency, waste, and fragility between stranded energy and delivered intelligence.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $250,000 - $300,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.

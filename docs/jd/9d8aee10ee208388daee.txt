@@ -1,0 +1,124 @@
+Senior Software Engineer, Identity & Access Management
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/crusoe/a03c5749-0ed2-4e7c-b443-fcfe08a9bad8
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About the Role:
+
+Crusoe is building the world's favorite AI-first cloud, and the Identity & Access Management (IAM) team is the security bedrock our customers trust to run their most demanding AI and GPU workloads. IAM sits on the hot path for every request in the cloud, authorizing millions of requests at single-digit-millisecond latency, so reliability and performance are non-negotiable. We are seeking seasoned Senior Software Engineers to design, build, and scale this platform: the fine-grained authorization model for Crusoe Cloud resources, enterprise SSO and identity federation, multi-tenant organization hierarchies, identity for the agentic-AI era, and credential and secrets management. As a Senior Engineer, you'll own the design and delivery of significant IAM services end-to-end, partner across teams, and help raise the technical bar through mentorship and code review.
+
+
+
+What You'll Be Working On:
+
+ - Design and Deliver IAM Services - Own the end-to-end design, development, and operation of core IAM services - fine-grained authorization, authentication, identity federation, and identity lifecycle - that secure every request in Crusoe's AI cloud.
+
+ - Solve Complex AuthN/AuthZ Problems - Design and build solutions to complex authentication and authorization scenarios at the platform level, including the fine-grained authorization model for accessing Crusoe Cloud resources.
+
+ - Engineer for the Hot Path - Deliver low-latency, fault-tolerant services that remain highly available under load, since IAM is on the critical path for every API call.
+
+ - Harden Security Posture - Apply security best practices such as OAuth2/OIDC, RBAC/ABAC, and session and credential management across the services you own.
+
+ - Contribute to Architecture - Contribute to architectural decisions that support security, reliability, and maintainability across the company.
+
+ - Collaborate Across Teams - Work with product, design, security, and SRE to evaluate tools, frameworks, and customer needs, aligning priorities to ship customer-first solutions.
+
+ - Mentor and Elevate - Mentor engineers, enhance hiring and onboarding practices, perform code reviews, and contribute to a strong, inclusive engineering culture.
+
+
+
+What You'll Bring to the Team:
+
+ - Education & Experience - Bachelor's degree in Computer Science or a related field (or equivalent practical experience) and 5+ years of software development experience, primarily in Go and gRPC (or an equivalent compiled language).
+
+ - Distributed Systems Expertise - Proven ability to design and scale fault-tolerant distributed systems and develop managed cloud services.
+
+ - Security & Identity Expertise - Hands-on experience building authentication and authorization into production services - OAuth2/OIDC, RBAC/ABAC, and session, credential, and secrets management - along with strong security fundamentals such as encryption and TLS.
+
+ - Production Ownership - Experience operating the services you build: on-call, observability (metrics, logging, and alerting), and keeping latency-sensitive systems reliable.
+
+ - API & Data Modeling - Strong API design (gRPC and REST) and experience modeling multi-tenant identity hierarchies - users, organizations, projects, and resource boundaries.
+
+ - Collaboration Skills - Ability to work with cross-functional teams to align priorities and deliver customer-first solutions.
+
+ - Mentorship Abilities - Experience mentoring engineers and giving thoughtful, constructive code reviews.
+
+ - Communication Skills - Exceptional ability to articulate complex ideas and align technical solutions with customer and business needs.
+   
+   
+
+Bonus Points
+
+ - Hands-on experience with IAM / authorization frameworks such as Ory, SpiceDB, or OpenFGA.
+
+ - Familiarity with additional identity standards and protocols: SAML, JWT, identity federation, SCIM, and WebAuthn.
+
+ - Experience with cloud-native tooling such as Kubernetes, Docker, Terraform, and CI/CD systems.
+
+ - Experience with multi-tenant isolation, audit, or compliance (e.g., SOC 2) for security-critical platforms.
+
+ - Experience with identity for AI agents and agentic workloads, or with GPU / AI cloud infrastructure.
+
+ - Contributions to open-source security, identity, or distributed-systems projects.
+
+You don't need to check every box. If you bring strong fundamentals and are excited about this work, we encourage you to apply, even if you aren't a 100% skill or experience match.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $170,000 -$205,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.

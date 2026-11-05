@@ -1,0 +1,124 @@
+Senior Staff Software Engineer, Storage DPU
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/crusoe/9d7b0457-5263-46ad-ace8-4551027a01c4
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About the Role:
+
+Crusoe is building a globally distributed, high-performance storage platform purpose-built for AI/HPC workloads.
+
+We're looking for a Senior Staff Software Engineer to own how Crusoe's storage stack uses DPUs (NVIDIA BlueField-class SmartNICs) and related hardware offload to move that work off the host CPU and onto purpose-built silicon. This is a software-defined-acceleration role sitting at the boundary between our storage data plane and the physical network/compute fabric — you'll design and build the control-plane and data-plane software that lets Crusoe's storage stack take advantage of hardware offload for NVMe-oF, RDMA, and related protocol-level work, in close partnership with the Storage Networking and Compute/Hypervisor teams.
+
+You will set technical direction for DPU/offload strategy within Storage, work hands-on across the host/DPU boundary, and partner closely with the storage-networking, and Compute hypervisor-level DPU function
+
+ 
+
+What You'll Be Working On:
+
+ - Hardware Offload for Storage Protocols: Design and implement software that offloads storage-protocol work (NVMe-oF target/initiator processing, encryption, compression, checksums, erasure coding) from the host CPU onto DPUs/SmartNICs, measurably reducing host CPU overhead per I/O.
+
+ - Control-Plane Integration: Build and maintain the integration between Crusoe's storage orchestration layer and DPU-resident services, including provisioning, health/telemetry, and failover of offload paths.
+
+ - Cross-Team Fabric Work: Partner with the storage-networking function on the RDMA/RoCE and NVMe-oF fabric work that DPU offload depends on, and with Compute/Hypervisor on SR-IOV/vDPA-based virtualization of DPU resources for multi-tenant isolation.
+
+ - Vendor Framework Integration: Evaluate and integrate vendor DPU SDKs and frameworks (e.g., NVIDIA DOCA, BlueField SNAP) to accelerate storage virtualization (virtio-blk/virtio-fs offload) without building bespoke firmware from zero.
+
+ - Observability & Testing: Build monitoring and testing infrastructure specific to DPU-offloaded paths — this is new surface area for the team, and strong tooling here determines how fast we can safely iterate.
+
+ - Performance Benchmarking: Drive IOPS/throughput/latency benchmarking and quantify host-CPU-cycles-saved per offloaded operation, to make the case for where offload investment pays off next.
+
+ - Technical Point of Contact: Serve as the storage team's technical lead on DPU-related architecture decisions, including with hardware vendors.
+
+ 
+
+What You'll Bring to the Team:
+
+ - 10+ years of professional software engineering experience, with deep, hands-on systems-level programming (C, C++, or Rust) and production experience in Go, Java, or similar for control-plane/orchestration work.
+
+ - Direct, hands-on experience with SmartNICs/DPUs in production — NVIDIA BlueField (2/3), Intel IPU, ConnectX 6/7, or comparable hardware-offload platforms.
+
+ - Working knowledge of NVMe-oF, RDMA/RoCE/InfiniBand, and the storage protocols DPU offload commonly accelerates.
+
+ - Experience with kernel-bypass and hardware-offload techniques: SR-IOV, vDPA, virtio (virtio-blk/virtio-fs), XDP/eBPF, or DPDK/SPDK.
+
+ - Strong Linux systems background — kernel internals, device drivers, I/O subsystems — sufficient to debug issues that span host, hypervisor, and DPU.
+
+ - Experience contributing to at least one of file, block, or object storage systems, and genuine comfort working alongside (not reimplementing) mature storage data planes.
+
+ - Demonstrated ability to work across team boundaries — this role sits at the intersection of Storage, Networking, and Compute, and will not succeed as a purely heads-down IC function.
+
+ - Bachelor’s degree or higher in Computer Science, Engineering, or related discipline
+   
+   
+
+Bonus Points
+
+ - Direct experience with NVIDIA DOCA, BlueField SNAP, or other DPU-native storage-virtualization frameworks.
+
+ - Experience building or operating NVMe-oF target/initiator offload in production.
+
+ - Prior work on multi-tenant hardware isolation (SR-IOV/vDPA) in a cloud or hyperscale environment.
+
+ - Familiarity with GPUDirect Storage or other GPU-to-storage data-path optimizations relevant to AI/HPC workloads.
+
+ - Open-source contributions to DPDK, SPDK, Open vSwitch, or similar projects.
+
+ 
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+ 
+
+Compensation Range
+
+Compensation will be paid in the range of up to $245,000 - $290,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
