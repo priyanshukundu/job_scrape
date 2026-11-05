@@ -1,0 +1,92 @@
+Data Engineer
+Fluidstack
+Location: Austin, TX
+Link: https://jobs.ashbyhq.com/fluidstack/78365bf7-7a0e-4e15-b30f-827d68c9b8b8
+
+ABOUT FLUIDSTACK
+
+We exist to make humanity more free. For most of human history, you farmed or you starved. Technology gave people more time for the things they wanted to do, instead of things they had to do. Powerful AI will be the biggest lever for human choice we've ever built - but only if models are aligned with what humanity actually wants. There are groups building AI who don't share these goals. Whoever deploys frontier compute infrastructure fastest will decide whether AI expands human freedom or shrinks it. 
+
+
+We're singularly focused on delivering 10 to 100s of GWs of compute faster than anyone else, rethinking every layer of the stack. We acquire power, design and build data centers, and operate them - with teams spanning hardware and software. Speed and scale are our key differentiators. Come be a part of building civilization-scale infrastructure for AI.
+
+
+We hire people who care deeply about this problem space. If that is you, please apply!
+
+
+
+
+HOW WE OPERATE
+
+ - Be a barrel. Full autonomy. Own things end to end, take on scope without being asked, no permission required to operate outside your core role.
+
+ - Insane urgency. We drive everything forward as fast as possible.
+
+ - Reason from first principles. Challenge every assumption. Zero analogy thinking, no egos, the best idea wins.
+
+ - Love of the game. The frontier of AI is the most interesting problem of our time. We put in long hours at high intensity to push the frontier forward.
+
+ - Build something that actually matters. If you're going to spend your time, spend it on something that matters to the world.
+
+
+
+
+THE ONTOLOGY TEAM
+
+Examples of key problems the team is working on
+
+ - Reduce the latency from something happening to Fluidstack knowing about it. Index operational systems, documents, conversations, and telemetry as they change, so a delayed shipment or a rack coming online becomes usable context while there is still time to act.
+
+ - Give every entity in Fluidstack's domain a shared identity. Connect a machine’s design, order, delivery, deployment, and incidents even when each system describes it differently.
+
+ - Turn what Fluidstack knows into business signals. Compare plans with observations across sites, supply chains, and compute operations, and surface the gaps that matter as the company builds at gigawatt scale.
+
+ - Build a secure platform where agents can be first-class citizens. Give agents access within each user’s permissions, with every answer traceable to its sources, freshness, and gaps in the evidence.
+
+
+ROLE SCOPE
+
+ - Build the internal data platform that turns updates from procurement, construction, compute operations, documents, and conversations into fresh, queryable context for Fluidstack teams and agents.
+
+ - Make new sources straightforward to add, including vendor records, PDFs, spreadsheets, and exports, while keeping a clear path from structured data back to its original evidence.
+
+ - Ship query and retrieval services that enforce a caller’s permissions before data reaches an agent, including when an answer combines or summarizes information from multiple systems.
+
+ - Preserve source ownership, provenance, history, freshness, and access policies as data is transformed or combined, and propagate deletions and permission changes to downstream results.
+
+ - Set and operate freshness, quality, and security guarantees, using real operational questions and failures to judge whether the platform helps Fluidstack act sooner.
+
+
+WHAT WE'RE LOOKING FOR
+
+The below is a starting point. We always make space for exceptional people, so if you don't fit this role exactly, tell us where you would. https://jobs.ashbyhq.com/fluidstack/05c2e69c-42f9-4fcb-9cf0-a467aaf98f1c
+
+ - You’ve built and operated a shared data system that changed how other teams made decisions or ran critical workflows.
+
+ - You’ve made heterogeneous operational data coherent and extensible enough for other engineers to bring new domains into it.
+
+ - You’ve built permissioned query or retrieval systems that software could use on behalf of people, with source restrictions enforced in search and derived answers.
+
+ - You’ve kept data systems correct as sources, permissions, and records changed, including when data had to be replayed or removed.
+
+ - You’ve worked directly with operators to find the decisions their data needed to support, then built shared capabilities around those needs.
+
+ - You’ve traced a wrong or stale answer back to its source, fixed the cause, and made that failure detectable the next time.
+
+ - Bonus: Data warehouse and lakehouse platforms (Snowflake, Databricks, ClickHouse). Change data capture and streaming (Debezium, Kafka). Authorization systems (OpenFGA, attribute-based access control). Search and document extraction. Physical infrastructure, inventory, or supply chain data.
+
+
+
+We are committed to pay equity and transparency.
+
+Fluidstack is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Fluidstack will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law.
+
+
+Applicant Privacy Notice https://fluidstack.io/legal/applicant-privacy-notice
+AI Screening Notice https://fluidstack.io/legal/ai-screening-notice
+Ashby Bias Audit https://fluidstack.io/legal/ashby-bias-audit
+
+
+
+You will receive a confirmation email once your application has successfully been accepted. If there is an error with your submission and you did not receive a confirmation email, please email careers@fluidstack.io with your resume/CV, the role you've applied for, and the date you submitted your application--  someone from our recruiting team will be in touch. 
+ Compensation: USD 224,000 - 279,000 per year.

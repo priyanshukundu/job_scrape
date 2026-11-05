@@ -1,0 +1,38 @@
+Senior Software Engineer, Prediction Markets Platform
+Crypto.com
+Location: San Francisco
+Link: https://jobs.lever.co/crypto/6c4cb921-2657-477e-91d3-0e72118d8633
+
+About the team We build the platform that lists and settles event contracts on our CFTC-regulated exchange. That covers sports, crypto, and other real-world events. Our systems take in data from several sports and market providers, turn each event into tradeable contracts, and settle them correctly once the event ends. Settlement moves real money, so correctness and auditability matter as much as speed. We are moving the platform from Python and Airflow to Go services built around Postgres. You’ll help decide what the new platform looks like. What you’ll do Own the design of Go backend services that list and settle event contracts around the clock. Lead the move of business-critical workflows from Python/Airflow to Go services and durable job processing, without breaking live markets. Design pipelines that take in data from multiple providers, match the same event across them, and reconcile differences accurately and idempotently. Build settlement logic that holds up when things go wrong, including: Late or corrected results Cancellations Voided markets Provider outages Race conditions Write and review design docs, set engineering standards, and lead technical decisions across teams. Mentor engineers through code review, pairing, and design feedback. Take part in on-call, lead incident response, and remove the causes of recurring incidents. Work with trading, operations, compliance, and product teams across time zones. What we’re looking for Required 5+ years building and running production backend systems, with ownership from design through on-call. Strong skills in Go, or deep experience in another backend language plus a clear willingness to work primarily in Go. Deep Postgres knowledge, including: Schema design Migrations Query performance Transactions Isolation levels Experience designing distributed systems, including: Concurrency Idempotency Retries At-least-once processing Failure handling A record of leading projects that span teams and making sound architecture trade-offs. Clear writing, good judgment, and comfort when requirements are unclear. Nice to have Experience with prediction markets, sportsbooks, exchanges, or sports data feeds, such as OpticOdds, LSports, StatsPerform, or Sportradar. Experience with ledgers, payments, settlement, or other systems where money is on the line. Redis, Kafka, or Postgres-backed job queues such as River. Python and Airflow experience, which would help with the migration. React/TypeScript. AWS, Kubernetes, Docker, and CI/CD. Experience in regulated environments, such as CFTC/DCM, FINRA, or similar. Startup or zero-to-one experience. Life @ Crypto.com
+Empowered to think big. Try new opportunities while working with a talented, ambitious and supportive team.
+Transformational and proactive working environment. Empower employees to find thoughtful and innovative solutions.
+Growth from within. We help to develop new skill-sets that would impact the shaping of your personal and professional growth.
+Work Culture. Our colleagues are some of the best in the industry; we are all here to help and support one another.
+One cohesive team. Engage stakeholders to achieve our ultimate goal - Cryptocurrency in every wallet. 
+Work Flexibility Adoption. Flexi-work hour and hybrid set-up
+Aspire career alternatives through us - our internal mobility program offers employees a new scope.  
+ 
+Are you ready to kickstart your future with us? 
+ 
+Benefits
+Competitive salary
+Attractive annual leave entitlement including: birthday, work anniversary
+401(k) plan with employer match
+Eligible for company-sponsored group health, dental, vision, and life/disability insurance
+Work Flexibility Adoption. Flexi-work hour and hybrid set-up
+Aspire career alternatives through us. Our internal mobility program can offer employees a diverse scope.  
+ 
+Our Crypto.com benefits packages vary depending on region requirements, you can learn more from our talent acquisition team.
+ 
+ 
+About Crypto.com:
+Founded in 2016, Crypto.com serves more than 150 million customers and is the world's fastest growing global cryptocurrency platform. Our vision is simple: Cryptocurrency in Every Wallet™. Built on a foundation of security, privacy, and compliance, Crypto.com is committed to accelerating the adoption of cryptocurrency through innovation and empowering the next generation of builders, creators, and entrepreneurs to develop a fairer and more equitable digital ecosystem.
+ 
+Learn more at https://crypto.com. 
+ 
+Crypto.com is an equal opportunities employer and we are committed to creating an environment where opportunities are presented to everyone in a fair and transparent way. Crypto.com values diversity and inclusion, seeking candidates with a variety of backgrounds, perspectives, and skills that complement and strengthen our team.
+ 
+Personal data provided by applicants will be used for recruitment purposes only.
+ 
+Please note that only shortlisted candidates will be contacted.
+ Compensation: USD 200,000 - 230,000 per year.

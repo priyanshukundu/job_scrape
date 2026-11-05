@@ -1,0 +1,105 @@
+Software Engineer, Energy Management
+Fluidstack
+Location: Austin, TX
+Link: https://jobs.ashbyhq.com/fluidstack/9e7a062f-752b-4690-98fd-a3cf29860636
+
+ABOUT FLUIDSTACK
+
+We exist to make humanity more free. For most of human history, you farmed or you starved. Technology gave people more time for the things they wanted to do, instead of things they had to do. Powerful AI will be the biggest lever for human choice we've ever built - but only if models are aligned with what humanity actually wants. There are groups building AI who don't share these goals. Whoever deploys frontier compute infrastructure fastest will decide whether AI expands human freedom or shrinks it. 
+
+
+We're singularly focused on delivering 10 to 100s of GWs of compute faster than anyone else, rethinking every layer of the stack. We acquire power, design and build data centers, and operate them - with teams spanning hardware and software. Speed and scale are our key differentiators. Come be a part of building civilization-scale infrastructure for AI.
+
+
+We hire people who care deeply about this problem space. If that is you, please apply!
+
+
+
+
+HOW WE OPERATE
+
+ - Be a barrel. Full autonomy. Own things end to end, take on scope without being asked, no permission required to operate outside your core role.
+
+ - Insane urgency. We drive everything forward as fast as possible.
+
+ - Reason from first principles. Challenge every assumption. Zero analogy thinking, no egos, the best idea wins.
+
+ - Love of the game. The frontier of AI is the most interesting problem of our time. We put in long hours at high intensity to push the frontier forward.
+
+ - Build something that actually matters. If you're going to spend your time, spend it on something that matters to the world.
+
+
+
+
+THE FACILITY CONTROLS TEAM
+
+
+The Facility Controls team builds the control systems behind Fluidstack's data centers: real-time load control, MEP and behind-the-meter integration, automated commissioning, and autonomous deployment.
+
+
+Examples of key problems the team is working on
+
+ - Deliver the controls behind gigawatt-scale data centers this decade.
+
+ - Own real-time load control and MEP and behind-the-meter integration.
+
+ - Automate Level 4 and Level 5 commissioning.
+
+ - Drive autonomous, robotic deployment.
+   
+
+
+ROLE SCOPE
+
+
+ - Build and own the facility side of the energy control contract. The production services that carry it: the protocol layer, the gateway service, and the API third-party plant controllers poll against.
+
+ - Design and evolve the messaging and state layer. It computes the facility's load intent from live telemetry and publishes it every second with a forecast ahead of it.
+
+ - Own the data contracts and engineering standards other teams build against. Keep them from drifting as the platform reaches new sites and new counterparties.
+
+ - Build the constraint execution path. It answers an incoming request with what the facility can actually achieve and by when, inside deadlines measured in seconds.
+
+ - Build the observability that proves conformance in production. Per-stage latency, staleness and watchdog health, so a missed budget is visible before it becomes an incident.
+   
+
+
+WHAT WE'RE LOOKING FOR
+
+
+The below is a starting point. We always make space for exceptional people, so if you don't fit this role exactly, tell us where you would. https://jobs.ashbyhq.com/fluidstack/05c2e69c-42f9-4fcb-9cf0-a467aaf98f1c
+
+
+ - You have worked with high-throughput messaging systems (NATS, Kafka, or equivalent) at real scale and you know where the failure modes are before they surface in production.
+
+ - You have designed time-series data models in ClickHouse, TimescaleDB, or a comparable system and you understand the tradeoffs between write throughput, query performance, and schema evolution.
+
+ - You have instrumented production services with observability tooling (Prometheus, Grafana, or equivalent) and you treat metrics and alerting as part of shipping, not something you add after the fact.
+
+ - You have built and owned production services that other teams depend on, and you do not ship code you would not want to be paged for at 3am.
+
+ - You design before you build. You can name the patterns you reach for and why, explain the alternatives you rejected, and point to a system you deliberately refactored because the original design stopped fitting the problem.
+
+ - You draw boundaries on purpose: interfaces, modules and failure domains, so a dependency going down degrades your service instead of taking it with it. The tests you write are the ones that catch the failures you actually fear.
+
+ - You have worked across the full signal chain from device to database, and you treat data integrity as non-negotiable. You work backwards from device-level constraints to build pipelines that are correct by design rather than merely functional, and you handle a stale value differently from a wrong one because both have burned you.
+
+ - You move toward a broken pipeline in production the same way you would move toward any other hard problem: with urgency and without drama.
+
+ - Bonus: Our stack (Go, NATS, Redis). Industrial and utility protocols (DNP3, Modbus TCP, OPC UA). Kubernetes and ArgoCD for production service deployment. Real-time control and dispatch systems (SCADA, EMS, power plant controllers). Real-time dashboarding (Grafana or equivalent).
+
+
+
+We are committed to pay equity and transparency.
+
+Fluidstack is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Fluidstack will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law.
+
+
+Applicant Privacy Notice https://fluidstack.io/legal/applicant-privacy-notice
+AI Screening Notice https://fluidstack.io/legal/ai-screening-notice
+Ashby Bias Audit https://fluidstack.io/legal/ashby-bias-audit
+
+
+
+You will receive a confirmation email once your application has successfully been accepted. If there is an error with your submission and you did not receive a confirmation email, please email careers@fluidstack.io with your resume/CV, the role you've applied for, and the date you submitted your application--  someone from our recruiting team will be in touch. 
+ Compensation: USD 250,000 - 300,000 per year.
