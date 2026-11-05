@@ -1,0 +1,75 @@
+Senior Machine Learning Engineer - Fraud
+Plaid
+Location: San Francisco HQ
+Link: https://jobs.ashbyhq.com/plaid/85cd5d07-9920-45fa-931a-daf8c3558e5b
+
+We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam.
+
+The Fraud Data team at Plaid builds the machine learning systems that power Plaid’s fraud detection products, leveraging insights from across Plaid’s network to help identify and stop fraud before it happens. Our team works across the full data science and machine learning lifecycle—from discovering new signals and experimenting with models to deploying and optimizing them in production. We continuously learn from real-world model performance and customer feedback to improve our systems and develop new ways to protect customers and consumers from evolving fraud threats.
+
+As a Senior Machine Learning Engineer on Plaid's Fraud Data team, you will develop models that improve fraud detection for our customers. You will identify predictive patterns in Plaid's network data and lead projects from initial experiments through model deployment and ongoing improvement.
+
+ - Investigate fraud patterns and model errors to identify new signals, improve detection, and expand coverage across customers and use cases.
+
+ - Develop training datasets and predictive features, addressing challenges such as incomplete labels, class imbalance, data leakage, and changing fraud behavior.
+
+ - Design, train, and tune models using traditional and modern ML methods, including gradient-boosted trees and neural networks, and evaluate newer architectures against existing approaches.
+
+ - Design experiments to test features and models, comparing performance across time periods and customer segments using agreed detection and false-positive metrics.
+
+ -  Build data and training pipelines that support reproducible experiments and efficient iteration on features and models.
+
+ - Deploy models with Engineering and ML Infrastructure partners, balancing detection quality, latency, cost, and reliability.
+
+ - Independently lead ML projects, agreeing on priorities and evaluation metrics with Data Science and Product and coordinating work through model release.
+
+Responsibilities:
+
+ - Build hands-on machine learning expertise across the full ML lifecycle, from feature engineering and experimentation to model deployment.
+
+ - Take models from initial experimentation through production and evaluate their impact using real-world customer outcomes.
+
+ - Develop experience building and scaling reliable ML systems in production.
+
+ - Explore how LLMs and Generative AI can improve fraud detection, prevention, and investigation.
+
+ - Accelerate your career in a fast-paced environment with opportunities to take ownership, solve complex problems, and make a meaningful impact.
+
+Qualifications:
+
+ - 7+ years of professional experience in machine learning, applied science, or software engineering for ML, including hands-on model development and deployment.
+
+ - Hands-on experience designing, training, tuning, and deploying models, and measuring improvements in production performance or business metrics.
+
+ - Strong ML and statistical fundamentals, including feature engineering, experiment design, model evaluation, and diagnosing why a model underperforms.
+
+ - Strong understanding of the strengths, limitations, and applications for both traditional and modern ML methods, including gradient-boosted trees and neural networks.
+
+ - Experience constructing training datasets and addressing label quality, data leakage, class imbalance, and generalization across time periods or populations.
+
+ - Strong Python skills, SQL proficiency for working with training and evaluation data, and hands-on experience with ML frameworks such as PyTorch, scikit-learn, XGBoost, or equivalents.
+
+ - Experience independently leading ML projects from an open-ended problem through deployment, coordinating requirements and model releases with Data Science, Product, and Engineering.
+
+Nice-to-Have:
+
+ - Strongly preferred: Fraud or risk modeling experience, including familiarity with fraud patterns, delayed feedback, and the tradeoff between fraud detection and legitimate-user friction.
+
+ - Experience developing models that generalize across customers with different data and behavior patterns.
+
+ - Experience using graph-based systems to extract predictive signals, uncover fraud patterns, and improve fraud model performance.
+
+ - Experience applying newer modeling approaches, such as learned representations, transformers, or foundation models, to improve a production ML use case.
+
+Our mission at Plaid is to unlock financial freedom for everyone. To support that mission, we seek to build a diverse team of driven individuals who care deeply about making the financial ecosystem more equitable. We recognize that strong qualifications can come from both prior work experiences and lived experiences. We encourage you to apply to a role even if your experience doesn't fully match the job description. We are always looking for team members that will bring something unique to Plaid!
+
+
+
+Plaid is proud to be an equal opportunity employer and values diversity at our company. We do not discriminate based on race, color, national origin, ethnicity, religion or religious belief, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, military or veteran status, disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state, and local laws. Plaid is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance with your application or interviews due to a disability, please let us know at accommodations@plaid.com.
+
+
+
+Please review our Candidate Privacy Notice here https://plaid.com/legal/#candidate-privacy-notice.
+
+
+Additional compensation in the form(s) of equity and/or commission are dependent on the position offered. Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k). Pay is based on factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience and skillset, and location. Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation or benefit plans. Compensation: USD 228,960 - 315,360 per year.

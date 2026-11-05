@@ -1,0 +1,94 @@
+Software Engineer, Infrastructure AI
+Airwallex
+Location: US - Seattle
+Link: https://jobs.ashbyhq.com/airwallex/5031c6ab-8fd3-4b2f-8c1d-4271e85075b0
+
+ABOUT AIRWALLEX
+
+Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or build and monetize financial products of their own.
+
+We started in Melbourne in 2015 to build the infrastructure global commerce runs on. We're the regulated backbone behind global payments: not by accident, but by design. A decade plus, 85+ licenses, and a financial infrastructure spanning North America, Europe, the Middle East, and Asia-Pacific.
+
+We're co-headquartered in San Francisco and Singapore, with more than 2,700 people across 27 offices. We hire builders with founder-level energy, people who move fast with good judgment, dig in with real curiosity, and make calls from first principles rather than waiting to be told what to do. Read our operating principles https://www.airwallex.com/en-us/operating-principles to see it in full.
+
+ 
+
+About the Team
+
+Airwallex’s Infrastructure & Productivity team is on a mission to turn everyday software engineers into superheroes. The team builds and maintains the internal platforms, tooling, and CI/CD infrastructure that power Airwallex’s global engineering organization, serving hundreds of engineers across multiple offices and time zones.
+
+
+
+The team is now pioneering a bold new direction: an AI agent ecosystem where goal-oriented agents continuously operate across every repository — automating infrastructure operations, incident response, database management, and DevOps workflows. Built on Quartermaster, our internal agent platform, these agents autonomously plan, reason, and execute multi-step tasks against real infrastructure. You will be joining at the ground floor of this initiative, building the intelligent systems that fundamentally change how infrastructure work gets done at Airwallex.
+
+
+
+What You’ll Do
+
+As a Senior Software Engineer on the Infrastructure AI team, you will design, build, and operate goal-oriented AI agents that automate SRE, DevOps, and DBA workflows across Airwallex’s global infrastructure. You won’t be doing operations work yourself — you’ll be building the AI systems that do it. Your agents will autonomously investigate incidents, provision infrastructure, manage databases, execute deployments, and handle the operational tasks that traditionally require human intervention.
+
+You will work on top of Quartermaster, Airwallex’s internal agent platform, building domain-specific agents that interact with real infrastructure tooling (Kubernetes, Terraform, cloud APIs, databases, monitoring systems). This role requires you to think deeply about agent architecture — planning and reasoning loops, tool selection and execution, safety guardrails, human-in-the-loop escalation, and how to make autonomous systems reliable in production infrastructure environments.
+
+
+
+This hybrid role is based in Seattle, WA. 
+
+
+
+Responsibilities
+
+ - Build goal-oriented infrastructure AI agents: Design and implement autonomous agents on the Quartermaster platform that handle SRE, DevOps, and DBA workflows — including incident investigation and remediation, infrastructure provisioning, deployment orchestration, database operations, and capacity management.
+
+ - Design agent architectures for safety and reliability: Build robust agent loops with planning, reasoning, tool-use, error recovery, and human-in-the-loop escalation. Infrastructure agents touch production systems — they must be safe, auditable, and predictable.
+
+ - Integrate agents with infrastructure tooling: Give agents the ability to interact with real systems — Kubernetes, Terraform, cloud APIs (AWS, GCP, Aliyun), monitoring/observability platforms, databases, and CI/CD pipelines — through well-designed tool interfaces.
+
+ - Evaluate and improve agent performance: Define metrics for agent effectiveness (task completion rate, accuracy, time-to-resolution, escalation rate). Build evaluation frameworks to measure whether agents reliably achieve their goals.
+
+ - Collaborate cross-functionally: Partner with SRE, DevOps, and platform engineering teams to identify the highest-value workflows for agent automation. Understand real operational pain points and translate them into agent capabilities.
+
+ - Shape the future of infrastructure AI at Airwallex: Contribute to the technical vision for how AI agents will transform infrastructure operations. Stay at the forefront of agentic AI developments and bring new ideas into the team.
+
+
+
+Who You Are:
+
+We’re looking for people who meet the minimum requirements for this role. The preferred qualifications are great to have, but are not mandatory:
+
+ - 3+ years of professional software engineering experience, with strong proficiency in backend languages such as Python, Go, Java, or Kotlin.
+
+ - Infrastructure and cloud knowledge: Practical experience with cloud platforms (AWS, GCP, or Aliyun), container orchestration (Kubernetes), infrastructure-as-code (Terraform), and CI/CD systems. You understand the domain the agents will operate in.
+
+ - Strong system design skills with the ability to architect reliable, safe, and scalable agent systems that interact with production infrastructure.
+
+ - Excellent communication and collaboration skills, with a track record of working effectively across cross-functional teams in a global environment.
+
+
+
+Preferred Qualifications:
+
+ - Hands-on experience building agentic AI systems: You have designed and built AI agents that autonomously plan, reason, and execute multi-step tasks using LLMs. This includes agent loop design, tool-use orchestration, and managing agent state and memory. This is a core requirement, not a nice-to-have.
+
+ - Experience with agent orchestration frameworks (e.g., LangGraph, CrewAI, AutoGen, or custom agent frameworks) and LLM APIs (OpenAI, Anthropic, etc.).
+
+ - Experience with observability and monitoring systems (Grafana, Prometheus, Datadog, ELK stack) — either building them or building agents that interact with them.
+
+ - Experience with database administration or automation (schema migrations, query optimization, backup/recovery) — knowledge that helps build effective DBA agents.
+
+ - Understanding of SRE practices: incident response, runbooks, postmortems, SLOs/SLIs — the operational domain these agents will automate.
+
+ - A forward-thinking mindset about where AI agents are headed. You have opinions on agent reliability, safety, evaluation, and the path toward increasingly autonomous infrastructure systems.
+
+
+APPLICANT SAFETY POLICY: FRAUD AND THIRD-PARTY RECRUITERS
+
+To protect you from recruitment scams, please be aware that Airwallex will not ask for bank details, sensitive ID numbers (i.e. passport), or any form of payment during the application or interview process. All official communication will come from an @airwallex.com http://airwallex.com email address. Please apply only through careers.airwallex.com http://careers.airwallex.com or our official LinkedIn page.
+
+Airwallex does not accept unsolicited resumes from search firms/recruiters.  Airwallex will not pay any fees to search firms/recruiters if a candidate is submitted by a search firm/recruiter unless an agreement has been entered into with respect to specific open position(s).  Search firms/recruiters submitting resumes to Airwallex on an unsolicited basis shall be deemed to accept this condition, regardless of any other provision to the contrary.
+
+
+
+
+EQUAL OPPORTUNITY
+
+Airwallex is proud to be an equal opportunity employer. We value diversity and anyone seeking employment at Airwallex is considered based on merit, qualifications, competence and talent. We don’t regard color, religion, race, national origin, sexual orientation, ancestry, citizenship, sex, marital or family status, disability, gender, or any other legally protected status when making our hiring decisions. If you have a disability or special need that requires accommodation, please let us know. Compensation: USD 130,000 - 200,000 per year.
