@@ -1,0 +1,127 @@
+Senior Software Engineer - Managed Kubernetes
+Lambda
+Location: San Francisco Office (Fremont St)
+Link: https://jobs.ashbyhq.com/lambda/c349334c-6329-4399-a034-93a68a51c925
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our San Francisco, San Jose, or Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+
+About the Role
+
+We are seeking a Senior Software Engineer to join our Managed Kubernetes (Mk8s) team. You will play a crucial role in shaping the architecture, reliability, and automation of our Kubernetes-based infrastructure, which powers mission-critical workloads across our global platform.
+
+Lambda is building the AI Cloud of the future. We are seeking a Senior Software Engineer to help our development of our Managed Kubernetes platform. Think GKE, but purpose-built for AI workloads and running on bare metal. In this role, you will help build the infrastructure that powers the next generation of AI training and inference at scale.
+
+As a Senior Engineer on our Orchestration team, you will contribute to Lambda's managed orchestration services, including Managed Kubernetes, Managed Slurm on Kubernetes, and higher-level platform services for inference and AIOps. You'll work at the intersection of distributed systems, GPU-accelerated computing, and Cloud Native infrastructure to build systems that are reliable, performant, and elegantly simple for our customers.
+
+This is not a role for someone who just operates Kubernetes; it's a role for an engineer who understands how compute, network, storage, and security interact, and can build solutions that account for that context — even while focused primarily on the orchestration layer. You'll be working closely with NVIDIA's open-source ecosystem, and partnering with internal teams across the stack to deliver a world-class managed platform.
+
+
+
+What You’ll Do
+
+ - Design, build, and maintain scalable control plane services, operators, and custom Kubernetes controllers; develop automation in Go/Python for end-to-end cluster lifecycle management — provisioning, upgrades, patching, and deletion
+
+ - Build GPU-aware orchestration systems, working within the platform architecture to support GPU scheduling and resource allocation
+
+ - Partner with the Network team on networking solutions for AI workloads: CNI integration (Cilium, Multus), high-performance fabrics (InfiniBand, RoCE), RDMA, and GPUDirect
+
+ - Write resilient systems that handle failure gracefully — timeouts, retries, backoff, and degraded-mode operation — across large-scale distributed environments
+
+ - Develop platform services for inference: model serving infrastructure, autoscaling based on inference load, and multi-model deployment patterns
+
+ - Build internal tools and CLIs that let ML/AI teams deploy and monitor their own inference services
+
+ - Support and debug production issues through on-call rotation
+
+Required Qualifications
+
+ - Have 6+ years of experience in software engineering, with a track record of owning significant technical scope within a team (e.g., driving a project from design through production, or acting as a de facto tech lead on a workstream)
+
+ - Deep understanding of Kubernetes internals: controllers, schedulers, operators, CRDs, CSI, CNI, and the extension patterns that make Kubernetes powerful
+
+ - Solid grasp of distributed systems fundamentals — fault tolerance, graceful degradation, and failure handling in large-scale environments
+
+ - Experience operating the control plane and low-level pieces of large-scale Kubernetes clusters
+
+ - Experience with observability at scale: Prometheus, Grafana, distributed tracing, and building actionable alerting systems
+
+ - Strong programming skills in Go and Python; ability to collaborate effectively on shared codebases
+
+ - Solid knowledge of Linux systems, networking, containers, and cloud infrastructure
+
+ - Take pride in owning and delivering core components of products and platforms
+
+Preferred Qualifications
+
+ - Experience building and operating managed Kubernetes services (GKE, EKS, AKS, or similar) or working on Kubernetes control plane components
+
+ - Hands-on experience with NVIDIA's GPU/networking ecosystem: GPU Operator, device plugins, DCGM, MIG, Network Operator, NCCL tuning, or similar
+
+ - Familiarity with HPC and traditional job schedulers (Slurm) and Kubernetes-native batch scheduling (KAI, Volcano, Kueue)
+
+ - Familiarity with GPU, InfiniBand, RDMA, or high-performance computing on Kubernetes
+
+ - Exposure to storage architecture for AI/ML workloads
+
+ - Past contributions to CNCF projects or Kubernetes SIGs a plus
+
+If you don’t meet all of these requirements but believe you may be a good fit, please still apply and provide a cover letter that helps us understand your experience and readiness for this role.
+
+Why Lambda
+
+Lambda is building the essential infrastructure for the AI era. We're not just another cloud provider: we're a company founded by ML practitioners, for ML practitioners. Our customers include leading AI research labs and enterprises pushing the boundaries of what's possible with artificial intelligence.
+
+What makes this role special:
+
+ - You'll be building core platform services the world's largest AI companies will consume
+
+ - NVIDIA partnership: Deep integration with NVIDIA's GPU and networking stack, working with cutting-edge open-source tooling
+
+ - Real technical challenges: Massive scale GPU clusters and the unique demands of AI workloads
+
+ - Cross-stack exposure: Work at the intersection of Kubernetes, networking, storage, and compute — gaining depth across the full infrastructure stack that powers AI workloads, not just the orchestration layer
+
+ - Direct impact: Your work enables AI breakthroughs. Every model trained on Lambda benefits from systems you build
+
+ - World-class team: Work alongside engineers with deep expertise in ML, systems, and infrastructure
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 230,000 - 346,000 per year.

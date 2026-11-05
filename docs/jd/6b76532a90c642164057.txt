@@ -1,0 +1,103 @@
+Senior Software Engineer - SDN
+Lambda
+Location: San Francisco Office (Fremont St)
+Link: https://jobs.ashbyhq.com/lambda/80953585-1ef8-4073-91fb-75888a61f8c6
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our San Francisco, San Jose or Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+Engineering at Lambda is responsible for building and scaling our cloud offering. Our scope includes the Lambda website, cloud APIs and systems as well as internal tooling for system deployment, management and maintenance.
+
+We are looking for an experienced Software Engineer to help design and build the next generation of our network platform. In this role, you will develop the systems, services, and automation that power our software-defined network across data centers and cloud environments. You will work deeply within the Linux networking stack, build SDN integrations, and create the tools and services that make our network programmable, reliable, and scalable. If you enjoy solving complex distributed systems challenges and working at the intersection of software and networking, this role is for you.
+
+
+What You'll Do
+
+ - Design and build software to scale Lambda’s high performance multi-tenant cloud network
+
+ - Develop reproducible automation and tooling for network configuration and deployments
+
+ - Implement and operate Software Defined Networking services and related control-plane software
+
+ - Engineer highly available network services through observability, failover, and redundancy features
+
+ - Deliver predictable networking performance for clients via software-driven network engineering solutions
+
+ - Develop, integrate, and maintain network monitoring and management tools and services
+
+ - Participate in on-call and contribute to incident response tooling and automation
+
+You
+
+ - 5+ years of professional software engineering experience, ideally in systems, infrastructure, or networking-focused domains.
+
+ - Demonstrated experience designing and implementing production-scale Software Defined Networking (SDN) systems, ideally with AWS VPC–like functionality (e.g., routing, security groups, overlays, peering).
+
+ - Hands-on experience building and maintaining SDN platforms using technologies such as OpenStack Neutron, OVN, or similar network virtualization frameworks.
+
+ - Deep understanding of the Linux networking stack, including namespaces, routing, iptables/nftables, network virtualization, SR-IOV, and DPDK, with the ability to reason from a systems programming perspective.
+
+ - Proficiency with the Linux command line and strong understanding of networking concepts from a software engineering viewpoint.
+
+ - Experience working with multi–data center and hybrid cloud networking environments, with an emphasis on automation and software-driven control planes.
+
+ - 5+ years of software development experience in C, Go, or Python for building network services, tooling, and automation.
+
+ - Experience working with CI/CD pipelines, automated testing, and deployment systems; strong familiarity with Git, and experience operating in GitOps-driven environments for infrastructure or network configuration.
+
+ - Prior involvement in on-call rotations, incident response, and building tools to improve network or system reliability.
+
+ - Experience deploying, operating, and automating applications on Kubernetes, including building supporting services or tooling for networking and lifecycle management.
+
+Nice To Have
+
+ - Experience automating network configuration within public clouds using tools like Kubernetes, HELM, Terraform, and Ansible
+
+ - Understanding of the SDN ecosystem (e.g. OVS, Neutron, VMware NSX, Cisco ACI or Nexus Fabric Controller, Arista CVP) and how to integrate with it programmatically
+
+ - Have experience working with and building automation around Spine and Leaf (Clos) network topology
+
+ - Have experience and understanding of BGP EVPN VXLAN networks and have automated their configuration or monitoring
+
+ - Experience with building and maintaining multi-data center networks, SD-WAN, DWDM, and related automation
+
+ - Experience integrating and automating policy and configuration for Next-Generation Firewalls (NGFW)
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 266,000 - 395,000 per year.

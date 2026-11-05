@@ -1,0 +1,101 @@
+Senior Software Engineer - Core Cloud Platform
+Lambda
+Location: San Francisco Office (Fremont St)
+Link: https://jobs.ashbyhq.com/lambda/343099e6-adec-4933-83e4-ad57d0510305
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our San Francisco, San Jose, or Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+
+About the Role
+
+As a Senior or Staff Software Engineer in Lambda’s Cloud Services Engineering organization, you will build and operate the distributed systems that power Lambda’s GPU cloud. Our teams own platform capabilities across compute control planes, managed Kubernetes, cloud APIs, identity and access, usage metering and billing, capacity and orchestration, reliability, and developer-facing infrastructure.
+
+You will turn large-scale GPU infrastructure into reliable, secure, customer-facing cloud services by building APIs, workflows, stateful controllers, schedulers, and operational tooling. You will be full cycle engineer, owning systems through design, deployment, on-call, incident follow-through, and continuous improvement.
+
+This role is a strong fit for engineers who enjoy cloud infrastructure, distributed systems, operational excellence, and solving ambiguous problems across software and infrastructure boundaries. Senior engineers lead complex work within a team or domain; Staff engineers additionally shape cross-team architecture and make other teams more effective.
+
+What You’ll Do
+
+ - Design, build, and operate services, APIs, control planes, and platform capabilities that power Lambda’s AI cloud.
+
+ - Solve distributed-systems problems involving state, consistency, concurrency, scheduling, failure recovery, and safe lifecycle management.
+
+ - Own the full engineering lifecycle: problem framing, architecture, implementation, testing, rollout, observability, on-call, and continuous improvement.
+
+ - Improve system availability, latency, throughput, efficiency, security, and operability as Lambda grows by orders of magnitude.
+
+ - Turn incidents and near misses into durable engineering improvements, including better automation, testing, guardrails, and backstops.
+
+ - Work across product, infrastructure, networking, storage, security, and SRE teams to resolve dependencies and deliver the right outcome for customers.
+
+ - Use AI-assisted development tools with judgment: accelerate exploration and implementation while independently verifying correctness, security, and maintainability.
+
+ - Contribute to technical standards, design and code reviews, and mentorship; at Staff level, lead cross-team architecture and raise the technical ceiling of the organization.
+
+You
+
+ - 7+ years of professional software engineering experience, or equivalent evidence of impact building production systems.
+
+ - Depth in at least one general-purpose language, we work primarily in Go and Python, and candidates interview in the language they know best. We look for someone who can reason about concurrency, error handling, and testing in that language, not someone who has used it.
+
+ - Experience designing, building, and operating backend services, distributed systems, infrastructure, or platform capabilities at meaningful scale.
+
+ - Practical understanding of system design, data models, APIs, failure modes, performance, and the tradeoffs required to run reliable software in production.
+
+ - A track record of owning complex work through delivery and operation, including testing, staged rollout, monitoring, incident response, and root-cause improvement.
+
+ - Proven track record of aligning cross functional partners and gaining consensus around decisions and tradeoffs.
+
+Nice to Have 
+
+ - 2+ years of experience building cloud services or platform infrastructure, or operating large-scale production systems on AWS, GCP, Azure, or a comparable cloud platform.
+
+ - Experience with Kubernetes, container orchestration, schedulers, controllers, or cloud control-plane systems.
+
+ - Depth in one or more cloud infrastructure or platform domains, such as compute, storage, networking, identity and access, developer platforms, container orchestration, usage metering and billing, databases, or fleet management.
+
+ - Experience with infrastructure automation, durable workflow systems, event-driven architectures, or infrastructure as code.
+
+ - Experience designing highly available, multi-region, or rapidly scaling distributed systems.
+
+ - Familiarity with GPU infrastructure, HPC environments, or large-scale AI/ML training and inference workloads.
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 230,000 - 346,000 per year.

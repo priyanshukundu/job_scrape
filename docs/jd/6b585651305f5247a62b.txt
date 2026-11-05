@@ -1,0 +1,102 @@
+Senior Software Development Engineer
+Lambda
+Location: Bellevue Office
+Link: https://jobs.ashbyhq.com/lambda/f7b9f214-b395-4fd3-8fc7-934da0106064
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+What You’ll Do
+
+ - Design, build, and operate the software that automates Lambda's network lifecycle, from data center build-out and device provisioning through day-2 operations
+
+ - Build provisioning and zero-touch deployment systems that take network devices for new GPU clusters from racked to production-ready with minimal manual work
+
+ - Develop pipelines that generate, validate, and deploy network configuration as code, with automated testing, staged rollouts, and safe rollback
+
+ - Build capacity planning tools that combine inventory, topology, and utilization data to forecast port, bandwidth, optics, and IP address needs as Lambda's footprint grows
+
+ - Keep intended and live network state in sync by integrating automation with Lambda's source-of-truth, inventory, and IPAM systems
+
+ - Create APIs, services, and CLIs that network engineers and other internal teams use to request, change, and audit network resources
+
+ - Instrument the systems you own with metrics, logging, and alerting, and use that data to improve their reliability and speed
+
+ - Partner with Network Engineering, Data Center Operations, and platform teams to turn manual runbooks into reliable, self-service automation
+
+ - Participate in the on-call rotation for the automation systems and tooling your team owns
+
+You
+
+ - Have 6+ years of professional software engineering experience building and operating production systems
+
+ - Write production-quality code, with deep expertise in multiple languages
+
+ - Have built automation or infrastructure tooling used by other engineers, such as provisioning systems, deployment pipelines, workflow engines, or internal APIs
+
+ - Have a solid grasp of distributed systems design, including API design, data modeling, idempotency, and handling partial failures
+
+ - Follow strong engineering practices: code review, automated testing, CI/CD, and git-based workflows
+
+ - Are comfortable on the Linux command line and understand core networking concepts such as TCP/IP, DNS, DHCP, VLANs, and IP routing
+
+ - Have led technical projects end to end, from design doc through production rollout, and mentored other engineers along the way
+
+ - Communicate clearly with software engineers, network engineers, and operations teams, and can turn operational pain points into software requirements
+
+Nice to Have
+
+ - Experience in the networking domain, such as designing or operating data center networks (Clos/spine-leaf fabrics, BGP, EVPN/VXLAN, ECMP)
+
+ - Experience automating network devices from vendors such as Arista, Juniper, Cisco, or NVIDIA (Cumulus/SONiC) through their APIs, NETCONF/gNMI, or Jinja templating
+
+ - Familiarity with network automation tools and libraries such as Ansible, Nornir, Netmiko, NAPALM, or Terraform
+
+ - Experience building on network source-of-truth, DCIM, or IPAM systems
+
+ - Experience building capacity planning or forecasting tools, or working with large volumes of time-series telemetry
+
+ - Familiarity with HPC/AI networking, such as InfiniBand or RoCEv2, at GPU cluster scale
+
+ - Experience running services on Kubernetes
+
+ - Understanding of data center power, space, and cooling constraints and how they shape build-out plans
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 284,000 - 378,000 per year.

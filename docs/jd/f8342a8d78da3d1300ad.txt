@@ -1,0 +1,106 @@
+Staff Software Engineer - Infrastructure Storage
+Lambda
+Location: San Francisco Office (Fremont St)
+Link: https://jobs.ashbyhq.com/lambda/c7ecb434-fdc0-434e-a455-9c200055cda0
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our San Francisco/Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+
+In the world of distributed AI, raw GPU and CPU horsepower is just a part of the story. High-performance networking and storage are the critical components that enable and unite these systems, making groundbreaking AI training and inference possible.
+
+The Lambda Infrastructure Engineering organization forges the foundation of high-performance AI clusters by welding together the latest in AI storage, networking, GPU and CPU hardware.
+
+Our expertise lies at the intersection of:
+
+ - High-Performance Distributed Storage Solutions and Protocols: We engineer the protocols and systems that serve massive datasets at the speeds demanded by modern clustered GPUs.
+
+ - Dynamic Networking: We design advanced networks that provide multi-tenant security and intelligent routing without compromising performance, using the latest in AI networking hardware.
+
+ - Compute Virtualization: We enable cutting-edge virtualization and clustering that allows AI researchers and engineers to focus on AI workloads, not AI infrastructure, unleashing the full compute bandwidth of clustered GPUs.
+
+
+
+About the Role:
+
+We are seeking a seasoned Staff Storage Software Engineer with deep experience designing and deploying storage protocol solutions at scale across object, block, and file paradigms.
+
+This is a unique opportunity to work at the intersection of large-scale distributed systems and the rapidly evolving field of artificial intelligence infrastructure. This is an opportunity to have a significant impact on the future of AI. You will be building the foundational infrastructure that powers some of the most advanced AI research and products in the world.
+
+
+
+What You’ll Do
+
+ - Technical Leadership: Set technical direction for storage software architecture across petabyte-scale deployments, authoring and reviewing design docs, mentoring senior engineers, and serving as the technical anchor for cross-functional initiatives spanning storage, networking, compute, and control plane teams. Represent the storage software team in architectural reviews, roadmap planning, and customer-facing technical discussions.
+
+ - Execution: Design, develop, and maintain high-performance storage systems software across file (NFS, SMB, Lustre), block (NVMe-oF, iSCSI), and object (S3) protocols. Build distributed systems for orchestrating storage resources, integrate with NVMe/GPU-direct/DPU-accelerated hardware, and troubleshoot complex production issues across performance, protocol, and hardware failure domains. Own the full lifecycle from requirements and design through deployment, monitoring, and maintenance, including benchmarking, profiling, and capacity planning tooling.
+
+ - Collaboration: Partner closely with storage software, networking, control plane, Kubernetes, observability, compute, and fleet engineering teams to deliver cross-functional infrastructure initiatives, define and track storage SLOs/SLIs, and ensure reliable deployment and maintenance of distributed storage infrastructure.
+
+ - Innovate: Stay current with AI and HPC storage research, evaluate emerging protocols and hardware (from open-source filesystems to vendor-specific accelerated storage), and optimize solutions for AI workloads including checkpoint I/O, high-throughput dataset serving, and latency-sensitive inference pipelines.
+
+You Have:
+
+ - Experience: 10+ years in storage systems engineering, with 5+ years in a technical lead or Staff+ IC role. Proven track record designing and operating multi-petabyte storage infrastructure in production data center or cloud environments. Background in HPC, AI/ML infrastructure, or large-scale cloud storage.
+
+ - Systems-Level Programming: Strong proficiency in C, C++, Rust, or Go. Ability to write high-performance, concurrent, production-grade systems code. Familiarity with DPDK/SPDK and kernel-bypass data paths is a plus; kernel-level storage driver or storage daemon experience is even better.
+
+ - Storage Protocol & API Expertise: Deep hands-on experience with two or more protocols, object (S3), block (iSCSI, NVMe-oF), or file (NFS, SMB, Lustre, DAOS), including implementing or maintaining protocol servers/clients in production, not just consuming them.
+
+ - Storage Performance Optimization: Experience profiling and tuning for throughput, latency, and IOPS under real workloads using tools like fio, elbencho.
+
+ - Modern Storage Technologies: Working knowledge of NVMe, NVMe-oF, RDMA (RoCE or InfiniBand), and DPUs (e.g., NVIDIA BlueField).
+
+ - Operational Acumen: Comfortable in physical data center environments, rack-scale infrastructure, storage hardware, failure domains. Experience designing for reliability, writing runbooks, and driving incident response. Familiar with storage observability tooling (Prometheus, Grafana, log aggregation, tracing).
+
+Nice to Have
+
+ - Experience with NVIDIA BlueField DPUs or SuperNICs for accelerated storage data paths, including GPUDirect Storage implementation.
+
+ - Deep production experience with enterprise or HPC storage platforms: Vast Data, Weka, NetApp, or Lustre.
+
+ - Experience deploying and operating Ceph like service at scale (100PB+) in an HPC or AI infrastructure environment.
+
+ - Familiarity with emerging storage technologies such as CXL memory pooling, computational storage, or ZNS (Zoned Namespace) SSDs.
+
+ - Experience contributing to or maintaining open-source storage projects (e.g., Ceph, DAOS, Lustre, MinIO).
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 314,000 - 465,000 per year.
