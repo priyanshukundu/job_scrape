@@ -1,0 +1,61 @@
+Member of Technical Staff (Software Engineer, GPU Cluster Infrastructure)
+Perplexity
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/perplexity/886f4ab3-e691-45ed-b2db-069edf6f5413
+
+Perplexity serves hundreds of millions of queries a month, and every one of them fans out into multiple AI inference requests running in real time. Behind that sits a large GPU fleet spread across several cloud providers. Today, our inference engineers and researchers build models while also managing networking, securing capacity, and operating the underlying GPU clusters, responsibilities we want a dedicated platform team to own. Your job is to take ownership of that infrastructure and hide its complexity behind a unified, self-serve platform for running training and inference workloads.
+
+
+
+
+RESPONSIBILITIES
+
+ - Build a self-serve compute platform. Design and own the systems that let inference engineers and researchers launch training jobs and operate inference services without managing GPU provisioning, cluster configuration, or provider-specific infrastructure.
+
+ - Operate the GPU fleet. Own provisioning, lifecycle management, reliability, and capacity integration across providers, giving teams a consistent way to use compute regardless of where it runs.
+
+ - Solve for GPU scarcity. Build the scheduling and placement logic that finds available capacity across providers, packs it efficiently, and gets the right workload onto the right hardware under real constraints.
+
+ - Support two very different workloads. Keep long-running distributed training jobs healthy while simultaneously guaranteeing the availability and latency of production inference services on the same fleet.
+
+ - Own the Kubernetes for GPU orchestration. Write the operators and CRDs, and manage many clusters across providers so the platform behaves the same everywhere we run.
+
+ - Make failure boring. Build the fault tolerance, autoscaling, and observability that keep the fleet utilized and let workloads survive node loss, provider hiccups, and capacity shifts without human intervention.
+
+ - Set technical direction across teams. Partner with inference and cloud infrastructure engineers to turn operational constraints into a coherent platform architecture and roadmap.
+
+
+
+
+QUALIFICATIONS
+
+We expect you to have real depth in most of these:
+
+ - Deep Kubernetes experience — custom operators, CRDs, and multi-cluster federation, not just running kubectl apply.
+
+ - You've managed GPU clusters at scale: NVIDIA hardware, CUDA, and the networking that makes them fast (InfiniBand or RoCE).
+
+ - You've orchestrated compute across multiple clouds (CoreWeave, AWS, GCP, or similar) and understand how different each one really is.
+
+ - Strong distributed systems fundamentals: scheduling, resource allocation, and fault tolerance under load.
+
+ - You write infrastructure and systems-level code in Go, Rust or C++.
+
+ - You've supported both long-running training jobs and high-availability inference services, and you know why they pull infrastructure in opposite directions.
+
+ - You own problems end-to-end and do well when the path forward isn't laid out for you.
+
+
+
+
+ADDITIONAL EXPERIENCE WE VALUE
+
+ - Inference serving stacks: vLLM, SGLang, or TensorRT-LLM.
+
+ - Slurm or other HPC schedulers.
+
+ - GPU kernel work in CUDA or Triton — not required, but notable.
+
+ - High-speed interconnects: InfiniBand, RoCE, or RDMA in production.
+
+ - Observability for ML workloads: Prometheus, Grafana, or Weights & Biases. Compensation: USD 250,000 - 485,000 per year.

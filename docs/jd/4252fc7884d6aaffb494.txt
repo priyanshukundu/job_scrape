@@ -1,0 +1,164 @@
+Staff Software Engineer, Model Infrastructure
+Harvey
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/harvey/3ae2aecf-16c4-4e6e-a8fd-0db33ebeb16c
+
+WHY HARVEY
+
+At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, we’re reshaping how critical knowledge work gets done for decades to come.
+
+This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. We’re scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth — personal, professional, and financial — is unmatched.
+
+Our team moves fast, takes ownership, and is deeply committed to the mission — operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you.
+
+At Harvey, the future of professional services is being written today — and we’re just getting started.
+
+
+
+
+ROLE OVERVIEW
+
+As a Staff Software Engineer on the Model Infrastructure team, you'll lead the design and development of the systems that power every AI request at Harvey. You'll partner closely with AI Research, Product Engineering, Infrastructure, and external model providers to build a platform that is highly reliable, scalable, observable, and efficient.
+
+
+
+WHAT YOU’LL DO
+
+ - Lead the design and implementation of Harvey's Model Infrastructure platform.
+
+ - Build systems to ensure high availability, low latency, and operational excellence for AI inference.
+
+ - Design and improve Harvey's Unified Model Controller (UMC) and Model Selector platform to automatically detect model degradations and intelligently route traffic based on reliability, latency, quality, compliance, and cost.
+
+ - Develop systems for model provisioning, capacity management, failover, and traffic engineering across multiple AI providers.
+
+ - Integrate new model providers and maintain provider APIs and SDKs, enabling Harvey to rapidly adopt emerging frontier models.
+
+ - Improve observability through health dashboards, alerting, token usage analytics, cost reporting, and end-to-end telemetry.
+
+ - Partner with Product Engineering to support model launches, experimentation, and proactive monitoring of production AI workloads.
+
+ - Drive infrastructure efficiency through capacity planning, utilization optimization, and cost visibility.
+
+ - Collaborate with AI Research to build the infrastructure foundation for future model evaluation, training, and deployment.
+
+ - Lead cross-functional technical initiatives and mentor engineers across the organization.
+   
+   
+
+
+WHAT YOU’LL BUILD
+
+ - Model Reliability & Operations
+   
+   - Model health monitoring
+   
+   - Automated failover and recovery
+   
+   - Capacity provisioning
+   
+   - Operational tooling and incident automation
+
+ - Unified Model Controller (UMC)
+   
+   - Policy-based model routing
+   
+   - Intelligent Model Selector
+   
+   - Model health monitoring
+   
+   - Traffic management
+   
+   - Reliability and latency optimization
+
+ - Provider Platform
+   
+   - Multi-provider architecture
+   
+   - API and SDK integrations
+   
+   - OpenAI, Anthropic, Azure OpenAI, Fireworks, Baseten, and future providers
+   
+   - Rapid adoption of new frontier models
+
+ - Observability & Cost Platform
+   
+   - Token usage analytics
+   
+   - Cost attribution
+   
+   - Latency and reliability dashboards
+   
+   - Capacity forecasting
+   
+   - Utilization optimization
+
+ - AI Platform Foundation
+   
+   - Infrastructure supporting model evaluation
+   
+   - Model deployment and operations
+   
+   - Future model training platform
+   
+   - Agent infrastructure and CcaaS
+
+
+
+WHAT YOU HAVE
+
+ - 10+ years of software engineering experience building large-scale distributed systems.
+
+ - Experience designing and operating highly available production services.
+
+ - Strong programming skills in Go, Java, Python, Rust, or C++.
+
+ - Deep understanding of distributed systems, cloud infrastructure, networking, and observability.
+
+ - Experience leading technical projects across multiple engineering teams.
+
+ - Ability to balance long-term architecture with pragmatic execution.
+
+ - Strong communication and collaboration skills.
+
+ - Passion for building foundational platforms that enable other engineering teams.
+
+
+NICE TO HAVE
+
+ - Experience with AI infrastructure, LLM serving, or machine learning platforms.
+
+ - Experience with model routing, inference gateways, or policy-based serving systems.
+
+ - Experience working with OpenAI, Anthropic, Azure OpenAI, Fireworks, Baseten, or open-source LLMs.
+
+ - Experience with Kubernetes, cloud infrastructure, and service mesh technologies.
+
+ - Experience with large-scale observability and SRE best practices.
+
+ - Experience with data infrastructure technologies such as Kafka, Spark, Flink, Airflow, or Iceberg.
+
+ - Familiarity with GPU infrastructure or model training platforms.
+
+
+
+
+
+
+
+COMPENSATION
+
+$236,000 - $340,000 USD
+
+
+
+
+DEPENDING ON YOUR LOCATION, AN APPLICANT PRIVACY NOTICE MAY APPLY TO YOU. YOU CAN FIND ALL OF OUR APPLICANT PRIVACY NOTICES HERE https://harveyai.notion.site/Harvey-Candidate-Privacy-Notices-319ac3fcdd7a803bb807d5094f249922?pvs=74.
+
+
+
+#LI-AK1
+
+Harvey is an equal opportunity employer and does not discriminate on the basis of race, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition, or any other basis protected by law.
+
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made by emailing accommodations@harvey.ai Compensation: USD 231,000 - 340,000 per year.

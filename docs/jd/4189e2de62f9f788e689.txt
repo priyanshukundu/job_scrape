@@ -1,0 +1,88 @@
+Senior/Staff System Research Engineer – LLM Inference Optimization
+Snowflake
+Location: US-WA-Bellevue
+Link: https://jobs.ashbyhq.com/snowflake/9e0ae021-f264-4efb-bc80-26c04bd06df6
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+We are looking for talented systems developers and researchers to join the Snowflake AI Research team and advance the state of the art in LLM inference systems and optimization.
+
+
+
+Our mission is to build the next generation of high-performance and intelligent inference systems. We optimize not only how fast and efficiently models run, but also how quickly inference systems can adapt to new models, architectures, hardware, and workloads.
+
+
+
+Our work spans the full inference stack—from distributed serving and runtime systems to GPU kernels and model-system co-design. We explore techniques such as adaptive parallelism, speculative and parallel decoding, disaggregated inference, scheduling and batching, KV-cache optimization, model swapping, quantization, and GPU kernel optimization to push the frontier of latency, throughput, scalability, and cost.
+
+
+
+Beyond optimizing individual models, we are building intelligent and adaptive inference systems that can automate performance optimization—rapidly profiling new models and workloads, identifying bottlenecks, selecting effective execution strategies, and adapting system configurations with minimal manual tuning. We embrace AI-native engineering, using AI not only as the workload we optimize, but also as a tool to accelerate system development, experimentation, debugging, optimization, and adaptation to new models. Our goal is to accelerate both the speed of inference and the agility of inference development.
+
+
+
+This is an exciting opportunity to collaborate with a world-class team, including founding members of DeepSpeed, vLLM, and TensorFlow. Together, we will push the boundaries of AI systems and bring cutting-edge research into production-scale AI.
+
+
+
+Responsibilities
+
+ - Design and develop high-performance LLM inference systems, spanning distributed serving, runtime systems, GPU execution, and performance-critical kernels.
+
+ - Develop novel techniques to improve inference latency, generation speed, throughput, memory efficiency, scalability, and cost.
+
+ - Explore advanced inference techniques including speculative and parallel decoding, prefill/decode disaggregation, adaptive parallelism, continuous batching and scheduling, KV-cache management, quantization, and communication optimization.
+
+ - Develop adaptive and intelligent inference systems that automatically optimize execution for new model architectures, hardware platforms, workload characteristics, and deployment environments.
+
+ - Apply AI-driven and AI-native approaches to systems engineering, including automated profiling, bottleneck identification, configuration search, code generation, experimentation, runtime strategy selection, debugging, and performance tuning.
+
+ - Independently identify high-impact performance and systems problems, formulate hypotheses, prototype solutions, and drive promising ideas from research through production.
+
+ - Design distributed inference strategies across GPUs and nodes, including tensor, sequence, pipeline, data, and expert parallelism.
+
+ - Develop efficient approaches for multi-model serving, dynamic resource management, model loading and swapping, and workload-aware scheduling.
+
+ - Analyze and optimize GPU kernels and operators for attention, MoE, communication, and other performance-critical model components.
+
+ - Explore model-system co-design, including model or post-training techniques that unlock substantially more efficient inference.
+
+ - Profile and benchmark end-to-end workloads to identify bottlenecks across compute, memory, communication, networking, scheduling, and model execution.
+
+ - Collaborate closely with model researchers, infrastructure teams, and product teams to deploy research innovations in production.
+
+ - Open-source and publish innovations through technical blogs and top-tier systems and machine learning conferences.
+
+
+
+Requirements
+
+ - Bachelor’s degree in Computer Science, Electrical Engineering, or a related field. A Master’s degree or PhD is preferred.
+
+ - 5+ years of experience in one or more of the following areas: LLM inference systems, distributed AI systems, GPU systems, or high-performance computing.
+
+ - Strong understanding of modern LLM inference architectures and the performance tradeoffs involved in serving large-scale models.
+
+ - Hands-on experience with modern LLM inference and serving frameworks, such as vLLM, SGLang, TensorRT-LLM, or similar systems.
+
+ - Experience designing, extending, or optimizing inference runtimes, including areas such as scheduling, batching, KV-cache management, distributed execution, parallelism, speculative decoding, or disaggregated serving.
+
+ - Strong understanding of GPU architectures and experience with CUDA, Triton, or similar GPU programming environments.
+
+ - Experience with performance-oriented libraries and frameworks such as CUTLASS, cuBLAS, cuDNN, or related technologies.
+
+ - Experience profiling and diagnosing end-to-end system performance using Nsight Systems, Nsight Compute, or equivalent tools.
+
+ - Demonstrated ability to operate as an independent problem identifier and solver—recognizing important problems with limited direction, defining the right technical questions, and driving solutions through ambiguity.
+
+ - Strong ability to work across model, runtime, distributed system, and hardware layers and reason about end-to-end performance tradeoffs.
+
+ - Experience using AI-native engineering approaches to accelerate software development, experimentation, debugging, optimization, or system adaptation is a strong plus.
+
+ - Excellent communication skills and the ability to collaborate effectively across research, engineering, and product teams.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 330,000 per year.

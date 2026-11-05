@@ -1,0 +1,80 @@
+Senior Software Engineer - Foundation DB
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/5a4a6ea7-fcfb-4639-83ce-90266cad1548
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+There is only one Data Cloud. Snowflake’s founders started from scratch and designed a data platform built for the cloud that is effective, affordable, and accessible to all data users. But it didn’t stop there. They engineered Snowflake to power the Data Cloud, where thousands of organizations unlock the value of their data with near-unlimited scale, concurrency, and performance. This is our vision: a world with endless insights to tackle the challenges and opportunities of today and reveal the possibilities of tomorrow.
+
+FoundationDB https://www.foundationdb.org/ (FDB) is an open source, highly scalable database capable of ACID transactions at high frequencies and low latencies. FDB has been a core component in Snowflake's unique shared-metadata architecture since 2014, making possible Snowflake's vision to build the greatest data warehouse for the cloud. FDB performs millions of transactions per second across thousands of processes. The FDB team builds features on open-source FDB that improve the performance, scale, reliability and operability of the product.
+
+We are looking for an outstanding Senior Software Engineer with a passion for large scale databases and distributed systems to help us take FoundationDB to the next level. FoundationDB powers all of Snowflake’s products and services and is rapidly evolving to meet Snowflake’s future needs. We are growing at a fast rate and we need to scale FoundationDB by at least one order of magnitude over the next few years. Additionally, new workloads are emerging that need FoundationDB’s reliability, high availability and strong consistency semantics. These workloads will require innovation to re-architect the core components of our system.
+
+
+
+AS A SENIOR SOFTWARE ENGINEER AT SNOWFLAKE, YOU WILL:
+
+ - Identify strategically important problems, inefficiencies or opportunities for impactful improvements
+
+ - Own the end to end delivery of your projects, from identifying a solution, to design, implementation, test and safe production rollout
+
+ - Design and implement critical high performance systems to handle the ever growing request rate of our database
+
+ - Build the next generation transaction system, caching, storage engine and multi tenant capabilities
+
+ - Evangelize best practices in database usage and end-to-end architecture.
+
+ - Analyze and understand performance and scalability bottlenecks in the system and solve them.
+
+ - Pinpoint problems, instrument relevant components as needed, and ultimately implement solutions.
+
+OUR IDEAL SENIOR SOFTWARE ENGINEER WILL HAVE:
+
+ - 6+ years hands-on software engineering experience.
+
+ - Systems programming skills including multi-threading, concurrency, etc. Fluency in C++, C, or Java is preferred.
+
+ - Experience designing, building, and operating large-scale distributed systems or web services
+
+ - Experience with scalable Key-Value stores such as FoundationDB, RocksDB/LevelDB, DynamoDB, Redis, etc. a plus.
+
+ - Strong CS fundamentals including data structures, algorithms, and distributed systems.
+
+ - Track record of delivering highly complex projects in the distributed systems space
+
+ - Intense curiosity, willingness to question and passion for making systems better
+
+ - Strong technical problem solving, communication, and collaboration skills
+
+ - Excitement by the challenge of hard technical problems
+
+ - BS in Computer Science; Masters or PhD Preferred.
+
+
+
+About Snowflake:
+
+Snowflake SIGMOD 2016 paper https://www.snowflake.com/wp-content/uploads/2019/06/Snowflake_SIGMOD.pdf
+
+
+
+About FoundationDB:
+
+FDB SIGMOD 21 Paper https://www.foundationdb.org/blog/fdb-paper/
+
+FoundationDB Summit 2018 https://www.youtube.com/playlist?list=PLbzoR-pLrL6q7uYN-94-p_-Q3hyAmpI7o and FoundationDB Summit 2019 https://www.youtube.com/playlist?list=PLbzoR-pLrL6oWYrC950yAhbLk8FRRB_Bt
+
+How FDB powers Snowflake Metadata Forward! https://www.snowflake.com/blog/how-foundationdb-powers-snowflake-metadata-forward/
+
+
+
+
+
+
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 200,000 - 287,000 per year.

@@ -1,0 +1,75 @@
+Senior Software Engineer, Compute Service
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/95b87897-68dc-47c0-a4c0-2320d36dafac
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+There is only one Data Cloud. Snowflake’s founders started from scratch and designed a data platform built for the cloud that is effective, affordable, and accessible to all data users. But it didn’t stop there. They engineered Snowflake to power the Data Cloud, where thousands of organizations unlock the value of their data with near-unlimited scale, concurrency, and performance. This is our vision: a world with endless insights to tackle the challenges and opportunities of today and reveal the possibilities of tomorrow.
+
+Our product offering runs on multiple cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud. Our infrastructure self-optimizes and provides high availability and data protection across cloud providers, so our users can focus on using their data, not managing it.
+
+Our team is the Compute Service team. We build and operate the systems that schedule and run warehouse-backed work beyond a user’s interactive query: asynchronous and scheduled compute, elastic capacity for parts of live queries, and the scheduling control plane those workloads run on. We balance usability, performance, cost, and reliability for the teams and customers that depend on this compute.
+
+
+
+We are actively hiring talented distributed systems developers. This role is an opportunity to shape the architecture and operation of core services that the rest of Snowflake runs on.
+
+
+AS A SENIOR DISTRIBUTED SYSTEMS ENGINEER AT SNOWFLAKE YOU WILL:
+
+ - Solve real business needs at large scale by applying software engineering and analytical problem solving.
+
+ - Design and implement scalable distributed systems for scheduling, queueing, dispatch, and completion of warehouse-backed work.
+
+ - Analyze fault tolerance, high availability, performance, and scale challenges, and solve them.
+
+ - Build admission control, isolation, and capacity management so shared compute stays fair and predictable.
+
+ - Lead cross-functional initiatives, and collaborate with engineers, product managers, and technical program managers across teams.
+
+ - Judge trade-offs among consistency, durability, latency, and cost, and build systems that meet the demands of rapidly growing services.
+
+ - Ensure operational readiness of the services, and meet commitments to customers on availability and performance.
+
+
+OUR IDEAL DISTRIBUTED SYSTEMS ENGINEER WILL HAVE:
+
+ - Substantial industry experience designing, building, and supporting large-scale systems in production.
+
+ - Experience building large-scale, distributed, fault-tolerant services and control planes, including compute placement, queueing, and monitoring.
+
+ - A strong understanding of operating-system concepts, including multi-threading, memory management, networking, storage, performance, and scale.
+
+ - Strong computer-science fundamentals, including data structures, algorithms, and distributed systems.
+
+ - Systems programming skills, including multi-threading and concurrency. Fluency in Java is preferred.
+
+ - A track record of identifying problems and implementing creative solutions.
+
+ - Experience with cloud infrastructure on AWS, Azure, or Google Cloud.
+
+ - A BS in Computer Science, or equivalent practical experience. An advanced degree is a plus.
+
+
+WHY JOIN THE ENGINEERING TEAM AT SNOWFLAKE?
+
+ - Build an industry-leading cloud data platform.
+
+ - Solve challenging technical problems in parallel and distributed systems, resource management, scheduling, and large-scale system operation.
+
+ - Work closely with partner teams, understand their use cases and needs, and choose the right problem to solve at the right time.
+
+ - Contribute to a highly scalable and reliable cloud platform that runs on a very large fleet of machines, and to the Java systems that schedule and execute work on it.
+
+ - Join a world-class team of industry veterans and rising engineers.
+
+
+
+
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 200,000 - 287,500 per year.

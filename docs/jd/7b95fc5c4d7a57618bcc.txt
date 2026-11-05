@@ -1,0 +1,62 @@
+Member of Technical Staff (Software Engineer, Enterprise Agent Evals & Efficiency)
+Perplexity
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/perplexity/f3814af2-55a3-49a5-b0cb-67199a2a45fb
+
+ABOUT THE ROLE
+
+The Enterprise Agent Evals & Efficiency team makes Perplexity's agents better at completing real work across enterprise connectors, tools, and data. Our goal is to help agents choose the right tools, use the right context, and complete complex workflows reliably, with less time and compute. This team owns the improvement loop: define what successful work looks like, build evaluations that measure it, understand where agents fail, and ship changes that improve outcomes.
+
+This is a hands-on engineering role with end-to-end ownership, from building realistic enterprise evaluation environments to shipping improvements across the agent harness, tools, and skills. You'll create complex scenarios spanning connected systems, data, and permissions, use them to identify where agents struggle, and improve the tools agents call, the skills they follow, the context they receive, and the models they use. Working with AI Research, Connectors, and Platform teams, you'll turn experimental results into measurable gains in task success, latency, and cost per successful task. The goal is not just to measure agents, but to make more enterprise work reliable and practical to automate.
+
+
+
+
+KEY RESPONSIBILITIES
+
+ - Build realistic enterprise evaluation environments spanning connected applications, representative datasets, user roles, and permissions, with complex, multi-step workflows and reproducible system state.
+
+ - Own evaluation infrastructure, task suites, and automated graders that measure how well agents complete enterprise work, calibrated against human judgment and grounded in end-to-end outcomes.
+
+ - Analyze agent trajectories and production failures, identify root causes, and ship improvements across the agent harness, tools, and skills that measurably improve task success and reliability.
+
+ - Develop reusable skills and improve tool descriptions, schemas, and result handling so agents can select the right tools, execute workflows correctly, and recover from errors with fewer unnecessary calls.
+
+ - Build and evaluate model-selection and routing strategies that match each task to the right model and effort level, balancing quality, latency, reliability, and cost.
+
+ - Improve agent efficiency through context management, skill loading, caching, and execution strategies that reduce wasted tokens and cost per successful task without compromising quality or safety.
+
+ - Build regression gates and launch-readiness signals for model, connector, tool, skill, and harness changes, and validate that evaluation gains translate into better production outcomes.
+   
+   
+
+
+QUALIFICATIONS
+
+ - 5+ years of software engineering or machine learning engineering experience, with a track record of owning complex production systems from design through deployment and operation.
+
+ - Strong system design skills, including building reliable, scalable infrastructure for experimentation, evaluation, or data-intensive applications.
+
+ - Strong proficiency in a backend language such as Python, Go, or Rust, and the ability to work effectively across a multi-language production stack.
+
+ - Hands-on experience building, evaluating, or improving LLM-based applications or agents, including tool use and multi-step workflows.
+
+ - Deep expertise in at least one of the following:
+   
+   - Evaluation infrastructure, benchmark design, and automated grading.
+   
+   - Agent harnesses, tool interfaces, and reusable skills for complex workflows.
+   
+   - Realistic test environments or simulations spanning multiple systems, datasets, permissions, and stateful workflows.
+   
+   - Model selection, routing, and inference efficiency, including context management and caching.
+
+ - Strong experimental and statistical judgment, including choosing representative tasks, defining meaningful success criteria, diagnosing failures, and distinguishing real improvements from noise.
+
+ - Sound technical judgment in balancing task quality, latency, reliability, and cost, with a track record of translating evaluation findings into shipped improvements.
+
+ - A track record of leading ambiguous, cross-team initiatives from architecture through production adoption, setting technical direction, and raising engineering quality through mentorship.
+
+
+
+If you’re excited about this role, we encourage you to apply even if you don’t meet every qualification. We value demonstrated impact, deep ownership, and the initiative to turn ambiguity into results. Compensation: USD 220,000 - 405,000 per year.

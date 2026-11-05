@@ -1,0 +1,63 @@
+Staff Software Engineer, Cortex AI Search Infrastructure
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/a1f1779b-464c-48f6-a664-56314825c8ac
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+The Cortex team is building the future of AI for enterprise data. This role focuses on the Search infrastructure that powers our flagship products like  CoWork, Cortex Code & Cortex Agents  fast, reliable, scalable and secure at the enterprise level.
+
+
+
+You will be building  high-performance retrieval engines (leveraging vector search, hybrid search, and semantic indexing) that power Snowflake Cortex. This involves optimizing how billions of rows of data are indexed and retrieved in milliseconds.
+
+
+
+
+WHAT YOU WILL DO IN THIS ROLE:
+
+ - Architect Agentic Runtimes: Build and scale the orchestration engines that execute complex agentic workflows, ensuring low-latency tool execution and robust state management.
+
+ - Scale Context Engineering Infra: Design high-performance systems for RAG (Retrieval-Augmented Generation), including vector database integration, scalable and efficient search indexing, query processing, and result ranking, semantic caching, and automated metadata extraction.
+
+ - Build the "Evals Engine": Develop the automated infrastructure required to run massive-scale golden set simulations, error analysis pipelines, and "hillclimbing" experiments.
+
+ - Productionize AI Workflows: Collaborate with the modeling team to take raw LLM capabilities and turn them into hardened, multi-tenant microservices with strict guardrails and observability.
+
+ - Optimize Performance & Cost: Direct the infra strategy for model routing, prompt caching, and token optimization to ensure Snowflake’s AI features are the most efficient in the industry.
+
+
+
+
+REQUIREMENTS:
+
+ - Education: Bachelor’s degree in Computer Science or a related technical field.
+
+ - Experience: 9 + years of experience building distributed systems, high-throughput APIs, or backend infrastructure for AI/ML products.
+
+ - Technical Stack: Deep proficiency in Go or Java (for systems) and Python (for AI orchestration).
+
+ - Systems Thinking: Strong understanding of database internals, distributed state management, and cloud-native architecture (Kubernetes, FoundationDB, etc.).
+
+ - Domain Expertise: Familiarity with the "plumbing" of AI: vector indices, agent platforms, and building scalable data pipelines.
+
+
+(BONUS) EXPERIENCE WITH:
+
+ - Query optimization and SQL engine internals.
+
+ - Designing multi-tenant systems that handle sensitive enterprise data at scale.
+
+ - Developing search infrastructure for large-scale applications.
+
+ - Direct experience with any of the subsystems outlined above.
+
+
+
+Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company’s data security plan as an essential part of their duties. It is every employee’s duty to keep customer information secure and confidential.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 339,250 per year.

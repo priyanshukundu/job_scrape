@@ -1,0 +1,60 @@
+Member of Technical Staff (Software Engineer, Enterprise Trust & Governance)
+Perplexity
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/perplexity/63785f62-07ac-4dc5-8f68-57779dddb1f3
+
+ABOUT THE ROLE
+
+The Enterprise Trust & Governance team builds the control plane that lets the world’s largest organizations deploy Perplexity broadly and with confidence. Computer and our agents work across a growing share of our customers’ environments, tools, and models. For administrators, that makes precise, enforceable control essential: who can do what, with which data, through which agents, and within what usage limits. This team makes those controls easy to manage, reliable and consistent across every product, and transparent to the people accountable for them.
+
+This is a product and platform engineering role with end-to-end ownership, from shaping the architecture and policy models to shipping the experiences our customers’ administrators and security teams use every day. You’ll work across product and infrastructure teams to turn complex enterprise requirements into reusable primitives and intuitive controls. The scope spans identity and provisioning, fine-grained role-based access across connectors, tool actions, and models, customer-managed encryption keys, admin APIs, audit logs, and policy and usage controls. Strong governance helps enterprises move from pilots to company-wide rollouts and gives them the confidence to entrust agents with greater responsibility over time.
+
+
+
+
+KEY RESPONSIBILITIES
+
+ - Own enterprise identity and provisioning, including SSO (SAML/OIDC), SCIM, WorkOS integrations, and support for identity providers such as Okta and Microsoft Entra ID.
+
+ - Build the permissions platform, with fine-grained roles and permissions for connectors, tool actions, models, and model effort levels, enforced consistently across products and agent workflows.
+
+ - Design and ship secure, well-documented admin APIs for audit logs, members, groups, roles, and settings.
+
+ - Build policy controls for model and feature availability, staged rollouts, model deprecations, usage and spend limits, alerts, and cost-center allocation.
+
+ - Build admin-facing analytics for adoption, usage, spend, and policy enforcement, helping organizations measure value and manage their deployments.
+
+ - Deliver audit logs and change notifications that help administrators investigate activity, track configuration changes, and support compliance.
+
+ - Set the technical bar for authorization correctness and reliability, with fast, consistent, explainable permission checks, well-defined failure behavior, and strong tenant isolation.
+
+ - Partner with Product, Design, Security, Sales, and Customer Success to translate complex enterprise requirements into reusable platform capabilities and intuitive admin experiences.
+   
+   
+
+
+QUALIFICATIONS
+
+ - 4+ years of software engineering experience, with a track record of owning complex backend systems from design through production operation.
+
+ - Strong system design skills, including building reliable, scalable, multi-tenant SaaS platforms with clear security and isolation boundaries.
+
+ - Strong proficiency in a backend language such as Python, Go, or Rust, and hands-on experience with cloud infrastructure such as AWS and Kubernetes.
+
+ - Deep expertise in at least one of the following:
+   
+   - Enterprise identity and provisioning, including OAuth, OIDC, SAML, and SCIM.
+   
+   - Permissions platforms, fine-grained authorization, and policy enforcement.
+   
+   - Encryption, customer-managed keys, and key lifecycle management.
+   
+   - Enterprise admin platforms, audit infrastructure, or usage and spend analytics.
+
+ - Experience building or integrating enterprise identity and access systems, including platforms such as WorkOS, Okta, or Microsoft Entra ID.
+
+ - Sound technical judgment in security-sensitive systems, balancing threat models, authorization correctness, and failure behavior with usability and delivery speed.
+
+ - A track record of leading ambiguous, cross-team initiatives from architecture through adoption, setting technical direction for shared platforms, and raising engineering quality through mentorship.
+
+If you’re excited about this role, we encourage you to apply even if you don’t meet every qualification. We value demonstrated impact, deep ownership, and the initiative to turn ambiguity into results. Compensation: USD 220,000 - 405,000 per year.

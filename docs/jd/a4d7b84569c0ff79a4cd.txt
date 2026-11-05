@@ -1,0 +1,101 @@
+Staff Software Engineer
+Snowflake
+Location: US-WA-Bellevue
+Link: https://jobs.ashbyhq.com/snowflake/b59a856f-2132-4c4e-957b-d51304bc4631
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+
+ABOUT THE TEAM
+
+The Apps & Experiences (AppEx) organization powers the unified web user experience (Snowsight) for Snowflake. Every major Snowflake customer interacts with our platform through these surfaces, making AppEx central to both customer satisfaction and revenue growth.
+
+Within Appex, our team sits at the intersection of AI, platform, and user experience. We are on a mission to create an AI‑first, scalable, maintainable, and extensible UI platform from which all Snowflake user experiences can be built. The team owns:
+
+ - The serving layer that powers Snowsight, Snowflake CoWork, and UX features
+
+ - Developer tooling that enable our engineers to move fast and deliver
+
+ - Frontend infrastructure and shared services for product teams
+
+ - CI pipelines that ensure fast and reliable builds
+
+ - Testing and validation platform that maintains code and product quality
+
+ - The monitoring and logging stack that ensures observability and trust
+
+
+
+
+WHAT YOU WILL DO
+
+Snowsight is a large, complex single-page application serving interactive analytics, data engineering, and AI workloads. As our user base and feature surface grow, we must treat performance as a first-class citizen. You will own the strategy, build the tooling, and drive the culture needed to keep Snowsight fast, and you'll partner across our platform and product teams to make performance a default rather than an afterthought.
+
+
+
+This is a high-leverage role: the systems and practices you build will affect every page load, interaction, and data-rendering path in Snowsight. You will:
+
+ - Define and drive the web performance strategy for Snowsight, setting goals grounded in real user metrics (Core Web Vitals, custom interaction metrics, time-to-visually-complete for data-heavy views).
+
+ - Build and maintain performance infrastructure: RUM/synthetic monitoring pipelines, regression detection in CI, bundle analysis, performance dashboards, and alerting, making performance visible and actionable for every product team.
+
+ - Identify and fix systemic performance bottlenecks across the application lifecycle: initial load, code splitting and lazy loading, rendering (React), data fetching and caching, large dataset rendering (virtualization, streaming), and runtime memory/CPU efficiency.
+
+ - Optimize build and delivery: work with the team on bundle size, tree-shaking, chunk splitting strategies, CDN caching, and resource prioritization (preload, prefetch, HTTP/2+ multiplexing).
+
+ - Establish performance budgets and guardrails integrated into CI/CD so regressions are caught before they ship.
+
+ - Partner with product teams to design performance-aware architectures for new features, providing guidance on data-fetching patterns, rendering strategies, and progressive loading.
+
+ - Mentor engineers across the org on performance best practices, conduct reviews of critical performance paths, and build a culture where teams own performance as a quality attribute.
+
+ - Represent Snowflake's frontend performance perspective in cross-org architectural decisions (e.g., API design, service infrastructure, caching layers) where frontend impact is significant.
+
+
+
+
+WHAT WE’RE LOOKING FOR
+
+Our ideal Staff Software Engineer will have:
+
+ - 8+ years of software engineering experience, with deep expertise in web performance for large-scale, complex web applications.
+
+ - Expert-level JavaScript/TypeScript and React knowledge, including React rendering internals and experience diagnosing and resolving performance issues in large React codebases.
+
+ - Strong understanding of browser performance fundamentals: the critical rendering path, layout/paint/composite pipeline, main-thread scheduling, Web Workers, browser DevTools/Performance panel profiling, etc.
+
+ - Experience designing and operating RUM and synthetic performance monitoring at scale (e.g., custom metrics collection, percentile-based alerting, anomaly detection for regressions).
+
+ - Deep knowledge of build tooling and delivery optimization: Webpack/Vite/Bazel, code splitting, tree-shaking, chunk strategies, lazy loading, CDN behavior, caching headers, resource hints, and their measurable impact on load performance.
+
+ - Experience with large dataset rendering: virtualization (windowing), canvas/WebGL rendering for grids or charts, streaming/incremental rendering, and efficient DOM management.
+
+ - Strong communication and influence skills: able to set technical direction, build consensus across teams, and explain performance trade-offs to both engineers and product stakeholders.
+
+ - Experience working in a platform or infrastructure role where your customers are other engineering teams.
+
+ - Ability to work on-site at our Bellevue, WA or Menlo Park, CA offices.
+
+
+
+Preferred Qualifications
+
+ - Familiarity with server-side rendering, streaming SSR, or edge rendering patterns and their performance implications.
+
+ - Familiarity with browser engines or internals (V8, Chromium, Webkit).
+
+ - Contributions to web performance standards, browser APIs, or open-source performance tooling.
+
+ - Experience with observability platforms (Datadog, Grafana, etc) and building internal performance tooling.
+
+ - Background in data-intensive UIs: query editors, result grids, dashboards, notebooks, or similar products where rendering performance under large data volumes is critical.
+
+
+
+If you’re excited about building the platform and systems that power how the world’s largest companies experience Snowflake, we’d love to hear from you.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 339,200 per year.

@@ -1,0 +1,76 @@
+Principal Software Engineer, Anti-Abuse
+Snowflake
+Location: US-WA-Bellevue
+Link: https://jobs.ashbyhq.com/snowflake/797cadbe-fad8-4f1d-a656-d14ca76d29b9
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+
+
+We are hiring a Principal Software Engineer for our Anti-Abuse team. The Anti-Abuse team sits at the core of protecting Snowflake and our customers from abuse on the Snowflake Platform. We strive to see the complete picture, leading platform-wide abuse and fraud detection while designing and deploying proactive controls for Snowflake's highest-risk capabilities: Snowpark, Data Sharing, Cortex AI, and the next generation of cloud engineering challenges as Snowflake rapidly scales. In this role, you will be the lead technical architect responsible for defining and driving our technical strategy for abuse prevention, detection, and response across the entire Snowflake ecosystem.
+
+
+
+
+AS A PRINCIPAL SOFTWARE ENGINEER, ANTI-ABUSE AT SNOWFLAKE, YOU WILL:
+
+ - Define and drive the long-term technical vision for abuse and fraud detection across the Snowflake platform, serving as the chief architect for platform-wide anti-abuse strategy
+
+ - Partner directly with product and engineering teams building Snowflake's newest and highest-risk surfaces (Snowpark user code execution runtimes, Data Sharing and Marketplace, AI/LLM services) to design and deploy robust anti-abuse controls from day one
+
+ - Architect and scale high-throughput, low-latency telemetry pipelines and risk-scoring engines capable of analyzing millions of queries, sessions, and data transactions across multi-cloud environments (AWS, Azure, GCP)
+
+ - Continuously model emerging abuse techniques, including trial compute abuse, cryptocurrency mining, bot-driven account creation, credential stuffing, and illicit network traffic routing
+
+ - Design intelligent mitigation systems that automatically throttle, challenge, or isolate abusive workloads and malicious actors with near-zero false-positive impact on legitimate enterprise workloads
+
+ - Raise the technical bar across the engineering organization through mentorship of staff and senior engineers, and influence architectural standards across adjacent platform teams
+
+
+
+
+OUR IDEAL PRINCIPAL SOFTWARE ENGINEER, ANTI-ABUSE WILL HAVE:
+
+ - 12+ years of software engineering experience in distributed systems, cloud platform infrastructure, or security engineering, with significant time dedicated to anti-abuse, fraud detection, platform trust, or threat mitigation
+
+ - Proven track record architecting mission-critical, large-scale distributed services in Java, C++, or Python
+
+ - Deep experience designing controls for code-execution runtimes, multi-tenant compute environments, cloud APIs, or data platforms (e.g., mitigating compute hijacking, sandbox escapes, abuse of serverless functions, or network egress abuse)
+
+ - Demonstrated ability to build streaming event processing, anomaly detection, behavioral heuristic engines, or graph-based syndicate detection systems at enterprise scale
+
+ - Strong intuition for attacker economics and mechanics, with experience modeling threat vectors across account lifecycles (signup, trial, payment, execution, sharing)
+
+ - Exceptional ability to partner with product managers, infrastructure teams, and security researchers to embed safety controls into high-velocity product roadmaps
+
+ - B.S., M.S., or Ph.D. in Computer Science, Computer Engineering, Cybersecurity, or equivalent practical experience
+
+
+
+
+BONUS POINTS FOR THE FOLLOWING:
+
+ - Experience building anti-abuse systems for multi-tenant cloud platforms or SaaS-at-scale environments
+
+ - Familiarity with AI/LLM abuse vectors (prompt injection, model extraction, automated content generation for fraud)
+
+ - Track record of designing zero-trust or defense-in-depth architectures for compute runtimes
+
+ - Published research or industry contributions in fraud detection, adversarial ML, or platform trust and safety
+
+ - Experience operating detection and response systems across multiple cloud providers simultaneously
+
+
+
+
+WHY JOIN OUR ANTI-ABUSE TEAM AT SNOWFLAKE?
+
+The Anti-Abuse team works at the intersection of platform security, distributed systems, and adversarial thinking. You will own the technical strategy for protecting one of the world's fastest-growing cloud platforms from novel and evolving threats. This is not a compliance checkbox role: you will architect real-time detection systems, embed native guardrails into new product primitives before they reach production, and partner directly with engineering leaders across the organization to anticipate threats no one else is seeing yet. If you want to build the immune system for the agentic enterprise, this is the role.
+
+
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 264,000 - 379,500 per year.

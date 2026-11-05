@@ -1,0 +1,80 @@
+Staff Software Engineer - Ingestion 
+Snowflake
+Location: US-WA-Bellevue
+Link: https://jobs.ashbyhq.com/snowflake/35dfd8bf-a458-4c9c-a5d2-0b5d487b9640
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+
+STAFF SOFTWARE ENGINEER – FILE INGESTION (CUSTOMER-FACING SERVICES)
+
+
+BUILD THE FUTURE OF THE AI DATA CLOUD
+
+Snowflake’s File Ingestion team owns the core engines behind COPY INTO and Snowpipe — the primary arteries landing customer data into the AI Data Cloud at hundreds of petabytes per quarter.
+
+We are expanding our core mission to build next-generation, external-facing ingestion services that directly expose file-ingest capabilities to external platforms, partner ecosystems, and customer applications. As a Staff Software Engineer, you will lead the architectural vision and execution for these mission-critical, customer-facing services. You will operate at the intersection of high-throughput distributed systems, API platform design, and direct customer feature delivery, defining how enterprise data seamlessly flows into Snowflake at global scale.
+
+
+WHAT YOU’LL DO
+
+ - Drive Technical Vision & Architecture: Define the multi-year architecture and technical strategy for high-throughput, external-facing ingestion services and APIs across multi-cloud environments (AWS, Azure, GCP).
+
+ - Deliver Customer-Facing Innovations: Lead the end-to-end execution of enterprise-grade external features, ensuring low-latency data landing, high availability, and seamless ecosystem integration (e.g., Snowpark Connect, partner connectors).
+
+ - Set Technical Direction: Author foundational design documents, establish technical standards for reliability, security, and scalability, and lead high-stakes architectural reviews across engineering orgs.
+
+ - Lead Cross-Functional Alignment: Partner closely with Principal Architects, Product Management, Security, and external developer platforms to translate customer requirements into resilient system architecture.
+
+ - Elevate Engineering Excellence: Mentor and sponsor Senior, Mid-level, and Junior engineers; raise the bar for system design, code quality, testing methodologies, and operational maturity.
+
+ - Direct Customer & Strategic Impact: Engage with enterprise customer engineering teams to solve complex integration challenges, debug production edge cases at scale, and turn direct customer feedback into core platform capabilities.
+
+
+WHAT WE’RE LOOKING FOR
+
+ - 10+ years of experience designing, building, and operating large-scale distributed systems or cloud-native infrastructure in production.
+
+ - Proven track record of architectural leadership, having successfully taken complex, customer-facing services or external APIs from initial concept to General Availability (GA) and global scale.
+
+ - Expert proficiency in Java or C++ (strong preference for engineers comfortable working across both systems-level C++ and managed service Java frameworks).
+
+ - Deep expertise in external API design, cloud service orchestration, and building resilient, multi-tenant customer-facing endpoints.
+
+ - Deep domain knowledge in at least one of the following: high-throughput ingestion pipelines, distributed query execution engines, messaging/streaming systems (e.g., Kafka, Pulsar), or database internals.
+
+ - Exceptional written and verbal communication skills with a demonstrated ability to drive technical consensus across cross-functional leadership, product partners, and external technical stakeholders.
+
+ - BS, MS, or PhD in Computer Science, Computer Engineering, or equivalent practical experience.
+
+
+BONUS POINTS
+
+ - Experience building and scaling external developer platforms, SDKs, or public SaaS APIs serving external consumers.
+
+ - Deep expertise with open table formats (Apache Iceberg, Delta Lake) and integration with ecosystems like Apache Spark or Ray.
+
+ - Advanced performance engineering expertise: memory management, SIMD, vectorization, lock-free data structures, or I/O optimization at PB-scale.
+
+ - Strong background in metadata management, transactional state machines, or consensus protocols (e.g., Raft, Paxos).
+
+ - Active contributor to open-source data infrastructure, cloud-native compute systems, or query engines.
+
+
+WHY THIS TEAM
+
+ - Massive Strategic Impact: You will lead the expansion of Snowflake's most critical data-path surface into direct, customer-facing integrations that unlock new platform ecosystems and drive platform volume.
+
+ - Broad Architectural Scope: Your work will bridge edge API layers, control-plane orchestrators, file scanners/parsers, query planners, and underlying storage engines.
+
+ - High Customer Visibility: Work directly on features that power the external integrations for Fortune 500 enterprises, seeing the immediate revenue and performance impact of your architecture.
+
+ - Culture of Technical Leadership: Partner directly with Snowflake’s top architects and leads in an environment that values deep technical autonomy, rigorous engineering, and long-term architectural stewardship.
+
+
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 339,200 per year.

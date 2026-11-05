@@ -1,0 +1,114 @@
+Staff Software Engineer, Frontier Security Team
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/aeb3fed3-b66c-475f-809c-06a456be6fb7
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+We are hiring a Staff Software Engineer for our Frontier Security AI team. Snowflake's Frontier Security AI teams develop production-grade LLM applications, intelligent agents, AI infrastructure, and evaluation systems for enterprise customers — products that must meet a high bar for quality, security, reliability, and efficiency while operating over sensitive data at large scale. In this role, you will lead the design and development of our Agentic Harness and agent evaluation platform, working across product, infrastructure, applied AI, security, and modeling teams to take new capabilities from prototype to dependable customer value.
+
+ 
+
+
+AS A STAFF SOFTWARE ENGINEER AT SNOWFLAKE, YOU WILL:
+
+ - Architect and build the Agentic Harness that executes complex, multi-step AI workflows across models, tools, data, and services.
+
+ - Design stable interfaces for tool execution, context construction, state management, memory, permissions, retries, fallbacks, and human review.
+
+ - Own agent quality end to end by building evaluation harnesses, representative datasets, automated graders, experiment pipelines, and release gates.
+
+ - Convert ambiguous reports such as "the agent feels worse" into measurable failure modes, reproducible tests, and durable fixes.
+
+ - Analyze production agent trajectories to identify failures in reasoning, retrieval, tool use, context, orchestration, and application code.
+
+ - Close the loop between production incidents, root-cause analysis, evaluation coverage, and regression prevention.
+
+ - Develop offline and online measurements for task completion, correctness, groundedness, safety, latency, reliability, and cost.
+
+ - Build simulation and replay infrastructure for golden-set tests, adversarial scenarios, model comparisons, and large-scale experiments.
+
+ - Improve agent efficiency through model routing, prompt and semantic caching, context compaction, tool-result management, and token optimization.
+
+ - Productionize new model capabilities as secure, observable, multi-tenant services with clear operational controls.
+
+ - Establish standards for evaluation design, including sampling, ground-truth quality, grader calibration, leakage prevention, and statistical significance.
+
+ - Define technical direction across multiple teams and lead projects whose scope extends beyond a single service.
+
+ - Mentor engineers, raise the quality of architecture reviews, and remain directly involved in implementation and debugging.
+
+ 
+
+
+OUR IDEAL STAFF SOFTWARE ENGINEER WILL HAVE:
+
+ - 9+ years of software engineering experience, including technical leadership of complex production systems.
+
+ - Direct experience shipping and operating LLM applications, AI agents, or model-backed workflows in production.
+
+ - Strong background in distributed systems, service architecture, high-throughput APIs, concurrency, and failure handling.
+
+ - Experience building an agent runtime, workflow engine, developer platform, evaluation system, or similar infrastructure.
+
+ - Demonstrated ability to evaluate nondeterministic systems without relying on a single aggregate score.
+
+ - Fluency in Python and strong proficiency in at least one systems or application language such as Java, Go, Rust, or TypeScript.
+
+ - Hands-on knowledge of tool calling, structured generation, retrieval, context engineering, prompt management, and model APIs.
+
+ - Experience with production observability, including structured traces, replay, metrics, logs, and incident diagnosis.
+
+ - Ability to balance agent quality with latency, reliability, security, and inference cost.
+
+ - Track record of setting technical direction and delivering results across organizational boundaries.
+
+ - Bachelor's degree in Computer Science, Engineering, or a related field, or equivalent practical experience.
+
+ - Clear written and verbal communication with engineering, product, and leadership audiences.
+
+ 
+
+
+BONUS POINTS FOR THE FOLLOWING:
+
+ - Building evaluation or observability infrastructure for agentic coding, data engineering, or analytics systems.
+
+ - Designing human-evaluation programs, scoring rubrics, annotation workflows, or grader-calibration methods.
+
+ - Working with multi-agent orchestration, long-running agents, asynchronous workflows, or durable execution.
+
+ - Developing synthetic tasks, simulations, adversarial tests, red-team exercises, or safety guardrails.
+
+ - Building retrieval systems that use vector search, hybrid search, semantic indexing, ranking, or caching.
+
+ - Operating multi-tenant systems that process sensitive enterprise data.
+
+ - Working with model training, fine-tuning, reinforcement learning, or feedback-driven optimization.
+
+ - Evaluating and onboarding frontier models based on measured product outcomes.
+
+ - Experience with databases, SQL engines, data platforms, Kubernetes, or cloud-native infrastructure.
+
+ 
+
+
+YOU MAY BE A PARTICULARLY GOOD FIT IF YOU:
+
+ - Treat evaluation as part of product engineering rather than a final validation step.
+
+ - Can move between agent behavior, distributed infrastructure, data analysis, and production debugging.
+
+ - Question metrics that do not reconcile and design tests that can expose misleading results.
+
+ - Take ownership from early architecture through deployment, operations, and measurable customer outcomes.
+
+ - Prefer evidence from representative tasks and production behavior over isolated benchmark results.
+
+ - Work effectively in fast-moving environments where requirements develop through experimentation.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 295,000 per year.

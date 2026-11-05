@@ -1,0 +1,73 @@
+Member of Technical Staff (Software Engineer, API Platform)
+Perplexity
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/perplexity/3f800e42-7c48-4f9a-9b12-43ee23e52516
+
+PERPLEXITY API PLATFORM
+
+Perplexity innovates at the frontier of AI infrastructure, search, and orchestration to serve the world's most discerning users. The Perplexity API Platform brings our technology to the world's most discerning developers. From exabyte-scale knowledge indexes to codegen-first agent runtimes, the building blocks behind Perplexity's applications are some of the most battle-tested AI systems in the industry.
+
+We believe these same building blocks can and should power the aspirations of builders everywhere. It's one thing to solve planet-scale retrieval, long-horizon orchestration, and other foundational AI challenges within a single product ecosystem. The true measure of success is to turn those solutions into elegant APIs that delight developers and agents alike. Our API Platform delivers frontier intelligence to thousands of customers: startups, trillion-dollar enterprises, U.S. and allied governments, and everyone in between.
+
+We've achieved incredible scale, yet we're just getting started. Join us to build tools for curious minds.
+
+
+
+
+ABOUT THIS ROLE
+
+Perplexity is seeking strong engineers with a passion for delivering frontier intelligence and infrastructure to developers. Our company builds technology that reshapes how people search, reason, and interact with the world around them. Week after week, we observe increasing demand for programmatic interfaces to that technology. The API Platform engineering team is charged with designing, implementing, and scaling these interfaces.
+
+As a member of our team, you'll work on an eclectic portfolio spanning distributed systems, performance optimization, agent orchestration, and frontier topics that often change with each passing month. Throughout this work, you'll prioritize great developer and agent experience alike. You'll also define technical strategy for how we scale to meet compounding growth exponentials (number of customers, agents per customer, compute/retrieval per agent, etc.).
+
+
+
+
+KEY RESPONSIBILITIES
+
+ - Design, build, and operate mission-critical APIs that provide our customers the building blocks for frontier intelligence.
+
+ - Own and evolve the API gateway and routing layer: authentication, authorization, rate limiting and quotas, usage metering, and request routing across heterogeneous upstream services.
+
+ - Build the paved road for API services: standardized service scaffolding, container builds, CI/CD, Kubernetes and Helm deployment, and progressive rollouts with fast rollback, so a new API product goes from idea to production in days, not weeks.
+
+ - Build API governance into the platform: contract-first schemas, breaking-change detection in CI, versioning and deprecation workflows, and SDKs and documentation generated from a single source of truth.
+
+ - Unify cross-cutting capabilities (billing and usage, rate limiting, organization and identity settings, analytics and observability) so every API product gets them by default instead of rebuilding them.
+
+ - Ensure low latency and high throughput through aggressive performance optimization (including on upstream systems).
+
+ - Harden system security and reliability across heterogeneous compute environments, and operate what you build: SLOs, on-call, and incident response.
+
+ - Collaborate across teams to bring novel frontier capabilities into the API Platform, and partner with infrastructure teams on compute, networking, secrets, and security.
+
+ - Continually reimagine the customer needs of tomorrow (and the architectures to serve those needs), while faithfully serving the customer workloads of today.
+
+ - Uphold engineering excellence through design reviews, code quality, and internal documentation.
+
+
+
+
+QUALIFICATIONS
+
+ - 5+ years of backend engineering experience with Python, Go, or Rust, including significant time building platforms or infrastructure used by other engineering teams.
+
+ - Strong understanding of high-traffic API design: schema evolution & versioning, idempotency, authentication patterns, rate limiting, and performance tuning.
+
+ - Hands-on experience building and operating API gateways, reverse proxies, or routing layers: authentication and authorization, rate limiting and quotas, request routing, traffic shaping, and per-request observability.
+
+ - Experience building API governance tooling: contract-first API design, breaking-change detection and API linting in CI, versioning and deprecation workflows, and SDKs and documentation generated from the contract.
+
+ - Platform depth across the build and deploy path: you have owned CI/CD pipelines, container builds and base images, infrastructure as code, and progressive delivery (canary or blue-green) on a major cloud.
+
+ - A track record of owning a platform end to end: identifying the need, designing it, aligning the teams that depend on it, shipping it, and operating it, while raising the engineering bar for the teams building on it.
+
+ - Strong customer empathy and product sense, ensuring the APIs you build are ergonomic, well-documented, and easy to adopt for developers and agents alike.
+
+Strong plus:
+
+ - Experience with modern AI APIs (including latency tuning, streaming, model orchestration, emerging technical standards).
+
+ - Usage-based billing and metering systems, multi-tenant organization and identity models, and usage analytics pipelines.
+
+ - Observability for API platforms: structured logging pipelines, metrics, tracing, and SLO tooling. Compensation: USD 220,000 - 405,000 per year.

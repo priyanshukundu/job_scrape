@@ -1,0 +1,84 @@
+Principal Software Engineer 2 - OLTP
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/b81e83f8-ad8e-420a-b8dd-2c4c919d8777
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+
+PRINCIPAL SOFTWARE ENGINEER 2 - OLTP
+
+Snowflake is building the next generation of transactional systems for applications, AI and agents. Across Snowflake Postgres and Unistore, we are combining the performance, reliability and developer experience expected from modern operational databases with Snowflake's cloud-native architecture and governed data platform.
+
+We're looking for a Principal Engineer 2 to help define and drive the architecture across database internals, storage, compute and cloud infrastructure. A core part of the role is designing transactional systems for agent-driven workloads, where isolated state, rapid database lifecycle, safe autonomous operations, and deep integration with enterprise data are first-class requirements.
+
+
+WHAT YOU'LL DO
+
+ - Define and drive the long-term technical architecture for OLTP across Snowflake Postgres, Unistore and the infrastructure they depend on.
+
+ - Lead major architectural decisions across transactions, storage, concurrency control, replication, recovery, query execution and database scalability.
+
+ - Shape the compute and storage architecture for low-latency, highly available transactional systems, including resource isolation, elasticity, networking, caching and container infrastructure.
+
+ - Build database primitives for agent-driven workloads, including fast creation of isolated transactional environments, checkpointing and rollback, and efficient lifecycle management.
+
+ - Define how agents safely read and modify operational state, with strong guarantees around consistency, recovery, access control and governance.
+
+ - Determine where PostgreSQL architecture and compatibility provide leverage and where alternative approaches can deliver meaningful advantages.
+
+ - Design for workloads where databases and transactional environments are created and operated programmatically at machine speed rather than primarily through human administration.
+
+ - Lead complex, cross-organizational engineering efforts and establish technical direction across multiple teams.
+
+ - Work closely with product leaders, senior engineering leadership, and strategic customers on the most important technical and product decisions.
+
+ - Raise the technical bar through architecture reviews, mentoring and hands-on leadership on the hardest systems problems.
+
+
+WHAT WE'RE LOOKING FOR
+
+ - 15+ years of experience building databases, distributed systems, storage systems or large-scale cloud infrastructure, with sustained impact at significant technical scope.
+
+ - Deep expertise in OLTP and database systems, including areas such as transactions, concurrency control, storage engines, indexing, query processing, replication, recovery and high availability.
+
+ - Strong understanding of cloud infrastructure for low-latency stateful systems, including compute, storage, networking, resource isolation and failure handling.
+
+ - Experience designing highly elastic, multi-tenant, or rapidly provisioned stateful systems where isolation and efficient lifecycle management are first-class concerns.
+
+ - Strong instincts for how database architecture should evolve for AI-native applications and autonomous agents, including ephemeral state, sandboxing, safe transactional actions and programmatic database lifecycle.
+
+ - Experience making difficult architectural tradeoffs across latency, throughput, consistency, availability, durability, scalability, isolation and cost.
+
+ - A track record of taking technically ambitious systems from architecture through production at meaningful scale.
+
+ - Experience influencing technical direction across multiple teams or a broad product area.
+
+ - Strong systems engineering instincts and the ability to work across abstractions, from database internals to distributed infrastructure.
+
+ - Deep PostgreSQL expertise is a strong advantage, but experience building other sophisticated transactional or distributed database systems is equally relevant.
+
+ - Strong systems programming experience; C, C++, or Rust experience is a plus.
+
+ - Exceptional technical judgment and communication skills, including the ability to influence engineers, executives and customers.
+
+
+WHY JOIN SNOWFLAKE ENGINEERING
+
+ - Define the architecture of a major expansion of Snowflake into transactional and operational workloads.
+
+ - Work on fundamental database and distributed-systems problems spanning transactions, storage, compute and cloud infrastructure.
+
+ - Build transactional systems designed for a new generation of applications and agents.
+
+ - Influence Snowflake Postgres, Unistore and how transactional systems integrate with Snowflake's broader Data & AI platform.
+
+ - Have technical impact at a scope where architectural decisions can shape Snowflake's product direction for years.
+
+Every Snowflake employee is expected to follow the company’s confidentiality and security standards for handling sensitive data. Snowflake employees must abide by the company’s data security plan as an essential part of their duties. It is every employee's duty to keep customer information secure and confidential.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 304,000 - 380,000 per year.
