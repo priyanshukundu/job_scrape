@@ -1,0 +1,132 @@
+Data Scientist ll - RiskOS
+Socure
+Location: Hub - Miami
+Link: https://jobs.ashbyhq.com/socure/5337e747-bc84-4c2d-8f5e-042cf64bc80e
+
+WHY SOCURE?
+
+Socure is building the identity trust infrastructure for the digital economy — verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and millions of people every day.
+
+We hire people who want that level of responsibility. People who move fast, think critically, act like owners, and care deeply about solving customer problems with precision. If you want predictability or narrow scope, this won’t be your place. If you want to help build the future of identity with a team that holds a high bar for itself — keep reading.
+
+
+
+Job Summary:
+
+Socure is the leading provider of digital identity verification and fraud prevention solutions, leveraging AI and machine learning to power the most accurate decisions. Our mission is to eliminate identity fraud and ensure online trust across industries.
+
+
+
+RiskOS is Socure’s AI-powered orchestration and decisioning platform, providing a centralized control plane for identity, fraud, and risk workflows across the customer lifecycle.
+
+Workforce Verification is a key RiskOS vertical focused on stopping workforce identity fraud—fake applicants, deepfake interviews, identity rental, and ghost employees—before they reach recruiters, systems, or sensitive data.
+
+
+
+As a Data Scientist for Workforce Verification on the RiskOS team, you will own the end-to-end data science lifecycle for a critical new product area focused on workforce identity and hiring fraud. You will explore and analyze rich, multi-source data (identity, device, behavioral, resume and application signals) to uncover fraud patterns in the hiring funnel, then translate those insights into rules, conditions, and machine learning models deployed within RiskOS workflows.
+
+
+
+This role sits at the intersection of fraud analytics, natural language processing, and Generative AI. You will help design and evaluate GenAI-powered components such as resume verification agents and explanation tools that operate on unstructured, text-heavy data like resumes, job descriptions, and interview artifacts.
+
+
+
+The role is hands-on but not a “solo act”: you will be embedded in the RiskOS Data Science team, with guidance from senior data scientists and close partnership with product, engineering, and Workforce GTM. It is ideal for a data scientist with strong fraud or risk experience who wants broader end-to-end ownership, enjoys working with unstructured text, and is comfortable rolling up their sleeves on data engineering and productionization when needed.
+
+
+
+Job Responsibilities:
+
+
+
+ - Own the full data science lifecycle for Workforce Verification use cases on RiskOS—from data exploration and hypothesis generation through model development, evaluation, deployment, and monitoring.
+
+ - Explore and analyze workforce-related data sources (applications, resumes, device and behavioral telemetry, background checks, ATS/HRIS integrations) to identify patterns of workforce fraud such as fake resumes, identity rental, deepfake interviews, and injection attacks.
+
+ - Design, implement, and iterate on rules, conditions, and heuristic logic in RiskOS workflows to detect high-risk workforce events (e.g., repeated identities across multiple resumes, suspicious device patterns, anomalous hiring flows).
+
+ - Develop and evaluate machine learning models for workforce risk and identity assessment (e.g., scoring applicants for fraud risk, clustering related identities, anomaly detection over hiring funnels), leveraging Socure’s broader identity and device signals where appropriate.
+
+ - Collaborate with the RiskOS and Workforce product teams on GenAI-powered features such as the Resume Verification Agent and explanation agents—help define inputs/outputs, build evaluation datasets, and design quantitative and qualitative evaluation frameworks for LLM-based components.
+
+ - Partner closely with engineering to productionize models, rulesets, and GenAI components within RiskOS: define interfaces, support integration and testing, and contribute to monitoring, alerting, and feedback loops.
+
+ - Work with product, Workforce GTM, and solution consulting to translate model and rule performance into clear, customer-facing narratives (e.g., impact on blocking fake applicants, reducing deepfake interviews, or preventing identity rental in hiring).
+
+ - Incorporate feedback and outcome data from customers to continuously improve Workforce Verification logic and models; support experimentation and offline “test harness” design to safely evaluate new workflows and templates.
+
+ - Operate with a product mindset and strong ownership: document assumptions, decisions, and evaluation results; communicate trade-offs clearly; and proactively surface risks, limitations, and opportunities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Job Requirements:
+
+
+
+ - Bachelor’s or Master’s degree in Computer Science, Statistics, Mathematics, Engineering, or a related quantitative field, or equivalent practical experience.
+
+ - 3–6 years of hands-on experience in data science, machine learning, or applied analytics, with meaningful work on fraud, risk, trust & safety, or workforce/hiring analytics preferred.
+
+ - Experience owning end-to-end analytics and/or model development projects: problem framing, data wrangling, feature engineering, model training, evaluation, and deployment support.
+
+ - Strong proficiency in Python and SQL, including experience with common data science and ML libraries (e.g., pandas, scikit-learn, XGBoost, PySpark, or similar).
+
+ - Comfort working with large, messy, and heterogeneous datasets (JSON workflows, logs, event streams, third-party enrichments) and building reusable abstractions or utilities to make them usable for yourself and others.
+
+ - Exposure to Natural Language Processing and/or unstructured text analytics—such as resume or document parsing, entity extraction, similarity search, or basic embedding-based methods—ideally applied in real-world products.
+
+ - Some hands-on experience working with Generative AI or LLM-based products (e.g., using commercial LLM APIs, prompt design, RAG-style retrieval, or evaluation of LLM outputs), with an interest in deepening this skill set.
+
+ - Strong analytical and problem-solving skills, including comfort reasoning about ambiguous signals and adversarial behavior in fraud or workforce contexts.
+
+ - Ability and willingness to take on light data engineering and production-oriented tasks when needed (e.g., building ETL transforms, contributing to Airflow/Spark jobs, or instrumenting basic monitoring) in partnership with engineering.
+
+ - Clear, concise communication skills and the ability to explain complex analyses, models, and GenAI behavior to non-technical stakeholders (product, GTM, customers).
+
+ - A bias toward ownership, learning, and collaboration—comfortable working in a fast-paced, evolving environment, receiving guidance from senior data scientists while steadily increasing your own scope and autonomy.
+
+
+
+ - Nice to have:
+   
+   - Direct experience with workforce, HR tech, ATS/HRIS data, or hiring funnel analytics.
+   
+   - Prior work on identity verification, device intelligence, or orchestration/rules engines (e.g., RiskOS or similar systems).
+   
+   - Familiarity with evaluation and monitoring of GenAI systems (e.g., offline benchmarks, human-in-the-loop review, safety/hallucination checks).
+
+
+
+
+
+
+Socure is an equal opportunity employer that values diversity in all its forms within our company. We do not discriminate based on race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+If you need an accommodation during any stage of the application or hiring process—including interview or onboarding support—please reach out to your Socure recruiting partner directly.
+
+
+
+
+Follow Us!
+
+YouTube https://www.youtube.com/c/Socure  |  LinkedIn https://www.linkedin.com/company/socure/ |  X (Twitter) https://x.com/socureme  |  Facebook https://www.facebook.com/socure/ Compensation: USD 140,000 - 170,000 per year.

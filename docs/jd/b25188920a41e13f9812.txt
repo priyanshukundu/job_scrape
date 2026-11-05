@@ -1,0 +1,107 @@
+Senior Software Engineer, Developer Experience
+Alchemy
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/alchemy/fd8debdc-fc1f-4f37-95f5-75f6b62b5798
+
+About Alchemy
+
+Alchemy is the Web3 infrastructure and developer platform that powers millions of users and the world’s most innovative blockchain applications. From enabling $1+ trillion in financial transactions worldwide to scaling L2s and enabling DeFi, Alchemy provides the infrastructure and tools developers need to build reliable, scalable, and accessible experiences.
+
+Trusted by companies like JPMorgan, Stripe, Visa, Franklin Templeton, Nike, and backed by a16z, Coatue, Silver Lake, Lightspeed, and Stanford University, Alchemy is building the foundational layer for a decentralized and AI-enabled Web3 ecosystem. For more information, visit alchemy.com http://alchemy.com.
+
+
+
+
+THE ROLE
+
+We are hiring a software engineer on the Developer Experience team. You will own projects from the first problem statement through production, and measure whether they worked.
+
+The team owns how developers discover, adopt, and operate Alchemy: the dashboard, APIs, SDKs, CLI, and MCP server that sit between our infrastructure and the people building on it. A growing share of those users are coding agents, so we design for both.
+
+Recent work spans enterprise controls, management APIs, developer observability, onboarding, and self-serve growth. Ahead of us is the shift to agents that discover tools, write code, pay for services with x402, and operate onchain infrastructure on their own.
+
+Our stack: TypeScript, Node.js, React, PostgreSQL, Temporal, Kafka, AWS, and Kubernetes. 
+
+
+WHAT YOU WILL WORK ON
+
+ - Agent-native developer tools: our CLI, SDKs, MCP server, x402 payments, and Agent Wallets.
+
+ - Enterprise capabilities for teams running production traffic: organizations, roles, SSO, key management, audit history, and spend controls.
+
+ - Public and management APIs for usage, billing, apps, and teams, used by developers, internal tools, and coding agents.
+
+ - Developer observability and product quality: usage analytics, request logs, alerts, and the reliability of the surfaces developers use every day.
+
+
+WHAT YOU WILL DO
+
+ - Own projects from problem definition through design, launch, measurement, and on-call. 
+
+ - Design APIs with clear versioning, error handling, safe defaults, and backwards compatibility.
+
+ - Build data models and services that stay correct and reliable as traffic and customer needs grow, with security built in for users, agents, and services.
+
+ - Build the user-facing side of your features across our dashboard, CLI, and SDKs, so developers and coding agents can discover and use them safely.
+
+ - Instrument what you ship. Use activation, adoption, and conversion data, plus direct developer feedback, to decide what to build next.
+
+ - Write design docs, runbooks, and developer-facing documentation. Review code and technical designs to keep quality high.
+
+ - Work with Product, Billing, Security, Growth, and other engineering teams.
+
+
+WHAT SUCCESS LOOKS LIKE 
+
+At six months, you have:
+
+ - Execution: Scoped, designed and shipped a project across our APIs, backend services, and dashboard or CLI, and paying customers use it in production.
+
+ - Ownership: Joined on-call and handled incidents in your area without escalating. Your launches ship with alerts, a runbook and a rollback plan.
+
+ - Impact: Moved a number you can name, such as feature adoption, free-to-paid upgrades, time to first API call, or support tickets.
+
+ - Team: Earned the team’s trust by making sound technical decisions, collaborating across functions, and improving code and design quality.
+
+ - Direction: Proposed what the team should build next, backed by usage data and conversations with developers.
+
+
+
+
+HELPFUL EXPERIENCE
+
+ - Blockchain experience is helpful, not required.
+
+ - Developer platforms, API products, cloud consoles, or enterprise developer tools, including SDKs, CLIs, MCP servers, agent tools, or machine-readable documentation.
+
+ - Billing, metering, or pricing systems.
+
+ - Temporal or another workflow orchestration system, plus caching and analytical data systems.
+
+ - Observability, incident response, and performance optimization.
+
+ - Blockchain products or developer tools, or agent payment and identity standards such as x402.
+
+ - Open source contributions, talks, or technical writing.
+
+
+
+
+BENEFITS & PERKS
+
+
+🏥 Private Health Insurance
+
+💪 Gym Reimbursement
+
+🚅 Commuter Benefits
+
+🌴 Flexible Time Off
+
+🥙 In-Office Group Meals
+
+🧠 Learning & Development Stipend
+
+🌎 Company Sponsored Conferences & Events
+
+🎧 Books & Audiobook subscription with Bookster https://landing.bookster.ro/ Compensation: USD 205,000 - 240,000 per year.

@@ -1,0 +1,150 @@
+Staff Software Engineer, CKD
+NerdWallet
+Location: NerdWallet US
+Link: https://jobs.ashbyhq.com/nerdwallet/e1aedfa9-c1b6-4de3-81cf-98496fee3d52
+
+At NerdWallet, we’re on a mission to bring clarity to all of life’s financial decisions and every great mission needs a team of exceptional Nerds. We’ve built an inclusive, flexible, and candid culture where you’re empowered to grow, take smart risks, and be unapologetically yourself (cape optional). Whether remote or in-office, we support how you thrive best. We invest in your well-being, development, and ability to make an impact because when one Nerd levels up, we all do.
+
+
+
+NerdWallet is looking for a hands-on Staff Software Engineer to lead the technical direction for bringing NerdWallet's financial guidance into the AI assistants consumers already use. More and more people start their financial decisions with a conversation instead of a search. We want NerdWallet's trusted guidance to be there when they do.
+
+
+
+You'll architect and build NerdWallet's apps and integrations on leading third-party AI platforms. That means production LLM-backed systems that run inside environments we don't control: they have to stay accurate, grounded in trusted content, and compliant in a highly regulated domain, while adapting to fast-moving platform capabilities, protocols, and policies. You'll be the senior technical voice across the platform integration teams and partner closely with the team that owns the shared services these integrations run on.
+
+
+
+This is a hands-on role. The ideal candidate writes a lot of code, sets the architectural bar, and makes the engineers around them better.
+
+
+
+You're a staff engineer who is energized by building on brand-new platforms where the playbook doesn't exist yet. You'll turn ambiguous product bets into clear technical plans, then build the critical parts yourself. You'll define how NerdWallet shows up across multiple AI platforms, balancing what should be shared against what needs to be platform-specific so each team can move fast and independently. You're a trusted technical advisor to Engineering Managers and Product Managers, you raise the quality bar through design and code review, and you mentor engineers on building reliable systems on top of non-deterministic models. You stay close to the rapidly changing AI ecosystem and help NerdWallet decide where to invest.
+
+
+
+This role reports to the Director, Engineering.
+
+
+
+WHERE YOU CAN MAKE AN IMPACT:
+
+ - Lead the technical direction for AI platform integrations. Own the architecture for how NerdWallet's guidance is packaged, exposed, and rendered inside third-party AI assistants, from tool and protocol design to in-conversation UI.
+
+ - Build a lot of it yourself. Write production code for new integrations, prototype new platform capabilities as they launch, and unblock teams on the hardest technical problems.
+
+ - Design for reuse across platforms. Define the abstractions, contracts, and patterns that let multiple platform teams share a common foundation while still using each platform's unique features.
+
+ - Adapt as platforms change. Track evolving platform protocols, SDKs, review processes, and policies. Turn those changes into roadmap and architecture decisions before they become blockers.
+
+ - Make quality measurable. Help define eval and testing strategy for platform integrations, including automated evals, regression suites, and end-to-end tests across environments you don't fully control.
+
+ - Build safely for a regulated domain. Partner with Security, Legal, and Compliance so integrations handle authentication, consent, and sensitive consumer data correctly and follow financial compliance requirements.
+
+ - Own reliability and performance. Set standards for monitoring, latency, cost, and incident response on platform-facing services, and help resolve production issues when they happen.
+
+ - Raise the engineering bar. Lead design reviews, set coding and architecture standards, and conduct code reviews that model what good looks like.
+
+ - Mentor and multiply. Coach engineers across FTE and contractor teams on system design, LLM-backed development, and good engineering practices.
+
+ - Partner with leadership on the roadmap. Work with Engineering Managers and Product to shape priorities, estimate effort and risk honestly, and recommend where to place technical bets.
+
+ - Use data to guide decisions. Dig into usage and performance data to find where integrations are working, where they aren't, and what to build next.
+
+
+YOUR EXPERIENCE:
+
+ - 8+ years in software engineering, with at least 3+ years at the Staff level and deep hands-on experience building and operating production backend systems.
+
+ - A track record of technical leadership: architecting complex systems end to end, leading a team through hard technical problems, establishing best practices, and mentoring other engineers.
+
+ - Hands-on experience building production features on LLMs: tool use/function calling, MCP or similar protocols, prompt and context design, retrieval (RAG), evals, and handling non-deterministic output.
+
+ - Advanced knowledge of a modern TypeScript stack (e.g., Node.js, React, GraphQL, Postgres, Redis), with the judgment to evaluate unfamiliar codebases, SDKs, and vendor tools.
+
+ - Experience designing APIs and shared services that other teams build on, including versioning, backward compatibility, and balancing competing consumer needs.
+
+ - Experience building on third-party platforms or ecosystems (e.g., app stores, plugin/extension ecosystems, partner APIs) where you work within someone else's constraints and review processes.
+
+ - Strong understanding of authentication and authorization patterns (e.g., OAuth) and security best practices for handling sensitive data.
+
+ - Comfort with early-stage, zero-to-one work where the product, platform, and process are being defined as you go.
+
+ - Strong communication skills: you can explain AI system behavior, tradeoffs, and risk clearly to engineers, product partners, and leadership.
+
+
+PREFERRED QUALIFICATIONS:
+
+ - Experience building apps, connectors, or agents for major AI assistant platforms.
+
+ - Experience shipping AI features in regulated industries (fintech, lending, insurance, healthcare), including privacy, consent, and compliance review.
+
+ - Experience with AWS, modern CI/CD, containerization, and observability for LLM systems (tracing, cost and latency monitoring).
+
+ - Experience mentoring engineers across blended FTE and vendor/contractor teams.
+
+ - Comfort in a fast-paced environment where priorities shift as platforms and user behavior evolve.
+
+
+WHERE:
+
+ - This role will be remote (based in the U.S.).
+
+ - We believe great work can be done anywhere. No matter where you are based, NerdWallet offers benefits and perks to support the physical, financial, and emotional well being of you and your family.
+
+
+WHAT WE OFFER:
+
+Work Hard, Stay Balanced (Life’s a series of balancing acts, eh?)
+
+ - Industry-leading medical, dental, and vision health care plans for employees and their dependents
+
+ - Rejuvenation Policy – Flexible Vacation Time Off + 11 holidays + holiday company shutdown
+
+ - New Parent Leave for employees with a newborn child or a child placed with them for adoption or foster care
+
+ - Mental health support
+
+ - Paid sabbatical after 5 years for Nerds to recharge, gain knowledge, and pursue their interests
+
+ - Health and Dependent Care FSA and HSA Plan with monthly NerdWallet contribution
+
+ - Monthly Wellness Stipend, Cell Phone Stipend, and Wifi Stipend (Only remote Nerds are eligible for the Wifi Stipend)
+
+ - Work from home equipment stipend and co-working space subsidy (Only remote Nerds are eligible for these stipends)
+
+Have Some Fun! (Nerds are fun, too)
+
+ - Nerd-led group initiatives – Employee Resource Groups for Parents, Diversity, and Inclusion, Women, LGBTQIA, and other communities
+
+ - Hackathons and team events across all teams and departments
+
+ - Company-wide events like NerdLove (employee appreciation) and our annual Charity Auction 
+
+ - Our Nerds love to make an impact by paying it forward – Take 8 hours of volunteer time off per quarter and donate to your favorite causes with a company match
+
+Plan for your future (And when you retire on your island, remember the little people)
+
+ - 401K with 4% company match
+
+ - Be the first to test and benefit from our new financial products and tools
+
+ - Financial wellness, guidance, and unlimited access to a Certified Financial Planner (CFP) through Northstar
+
+ - Disability and Life Insurance with employer-paid premiums
+
+If you are based in California, we encourage you to read this important information for California residents linked here https://www.nerdwallet.com/privacy-policy.
+
+NerdWallet is committed to pursuing and hiring a diverse workforce and is proud to be an equal opportunity employer. We prohibit discrimination and harassment on the basis of any characteristic protected by applicable federal, state, or local law, so all qualified applicants will receive consideration for employment.  
+
+NerdWallet will consider qualified applicants with a criminal history pursuant to the California Fair Chance Act and the San Francisco Fair Chance Act, which requires this notice https://www.sf.gov/sites/default/files/2022-12/FCO%20poster2020_0.pdf, as well as the Los Angeles Fair Chance Act, which requires this notice https://dcba.lacounty.gov/wp-content/uploads/2024/08/FCOE-Official-Notice-Eng-Final-8.30.2024.pdf.
+
+NerdWallet participates in the Department of Homeland Security U.S. Citizenship and Immigration Services E-Verify program for all US locations. For more information, please see:
+
+ - E-Verify Participation Poster (English+Spanish/Español https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf)
+
+ - Right to Work Poster (English) https://www.uscis.gov/sites/default/files/USCIS/Verification/E-Verify/E-Verify_Native_Documents/OSC_Right_to_Work_Poster.pdf / (Spanish/Español) https://www.uscis.gov/sites/default/files/USCIS/Verification/E-Verify/E-Verify_Native_Documents/OSC_Right_to_Work_Poster_ES.pdf 
+
+#LI-Remote
+
+#LI-6 Compensation: USD 152,000 - 282,000 per year.

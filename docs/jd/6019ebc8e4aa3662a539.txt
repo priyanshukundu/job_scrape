@@ -1,0 +1,113 @@
+Senior Data Engineer
+Alchemy
+Location: New York
+Link: https://jobs.ashbyhq.com/alchemy/37fa4765-8e1d-4c61-ba52-071e2d6bead0
+
+ABOUT ALCHEMY
+
+Alchemy is the Web3 infrastructure and developer platform that powers millions of users and the world’s most innovative blockchain applications. From enabling $1+ trillion in financial transactions worldwide to scaling L2s and enabling DeFi, Alchemy provides the infrastructure and tools developers need to build reliable, scalable, and accessible experiences.
+
+Trusted by companies like JPMorgan, Stripe, Visa, Franklin Templeton, Nike, and backed by a16z, Coatue, Silver Lake, Lightspeed, and Stanford University, Alchemy is building the foundational layer for a decentralized and AI-enabled Web3 ecosystem. For more information, visit alchemy.com http://alchemy.com.
+
+
+
+
+
+THE ROLE
+
+Build and run the internal data platform that helps Alchemy understand product usage, revenue, and the cost of serving customers. The existing Data Engineer intake centers on ingestion, Snowflake operations, workflow orchestration, data quality, and collaboration with analytics partners.
+
+You will own ingestion, schema changes, and checks that show whether shared datasets are current and correct. You will work with analytics engineers and data scientists to define those datasets for reporting, analysis, and AI-assisted tools.
+
+
+
+
+
+WHAT YOU WILL DO
+
+ - Build batch and streaming pipelines that connect operational databases, product events, billing systems, and external sources to the internal data platform.
+
+ - Make ingestion recoverable through change-data capture, schema-change handling, idempotent processing, and safe backfills.
+
+ - Operate and improve Snowflake, including access controls, workload management, query performance, and compute and storage costs.
+
+ - Improve orchestration and deployment workflows so engineers can test, ship, and debug pipelines safely.
+
+ - Build data-quality checks that detect stale, missing, duplicated, or inconsistent records before they reach downstream consumers.
+
+ - Work with analytics partners on shared data models, source definitions, and documentation. Make dataset ownership and upstream dependencies clear.
+
+ - Reduce recurring manual work and build reusable tools for self-service data access.
+
+ - Participate in production support and incident response for pipelines and the data platform. Restore data flow, reconcile affected datasets, and fix the causes of recurring failures.
+   
+   
+   
+
+
+WHAT WE ARE LOOKING FOR
+
+ - Experience independently building and operating production data pipelines and the infrastructure around them.
+
+ - Strong SQL and Python skills, including testing, debugging, and maintainable software design.
+
+ - Experience with Snowflake or a comparable warehouse, including performance tuning and access management.
+
+ - Experience with workflow orchestration and transformation tools such as Airflow and dbt, or equivalent systems.
+
+ - Understanding of data modeling, incremental processing, schema evolution, and data-quality testing.
+
+ - The ability to trace a data discrepancy from a downstream report back to its source, explain the cause, and fix it.
+
+ - Good judgment about stakeholder needs: turn recurring requests into reusable datasets or tooling, and make trade-offs clear.
+
+Blockchain experience is not required.
+
+
+
+
+
+HELPFUL EXPERIENCE
+
+ - Kafka, database replication, or change-data-capture systems.
+
+ - Apache Iceberg, Spark, Trino, or other lakehouse and query technologies.
+
+ - Infrastructure as code, data observability, lineage, and disaster recovery.
+
+ - Usage metering, billing and revenue data, or semantic layers for self-service analytics.
+   
+   
+   
+
+
+WHAT SUCCESS LOOKS LIKE
+
+Within three months:
+
+ - You own a production pipeline and have shipped an improvement to its freshness, reliability, or operating cost. 
+
+ - Downstream users can see whether its data is current, recovery procedures have been tested, and a recurring manual request has become a reusable dataset or tool.
+   
+   
+   
+
+
+BENEFITS & PERKS
+
+
+🏥 Private Health Insurance
+
+💪 Gym Reimbursement
+
+🚅 Commuter Benefits
+
+🌴 Flexible Time Off
+
+🥙 In-Office Group Meals
+
+🧠 Learning & Development Stipend
+
+🌎 Company Sponsored Conferences & Events
+
+🎧 Books & Audiobook subscription with Bookster https://landing.bookster.ro/ Compensation: USD 205,000 - 230,000 per year.

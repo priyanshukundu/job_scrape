@@ -1,0 +1,108 @@
+Senior Software Engineer, Data Services
+Alchemy
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/alchemy/bca25725-dbdf-4786-9af9-aa793766d2b5
+
+ABOUT ALCHEMY
+
+Alchemy is the Web3 infrastructure and developer platform that powers millions of users and the world’s most innovative blockchain applications. From enabling $1+ trillion in financial transactions worldwide to scaling L2s and enabling DeFi, Alchemy provides the infrastructure and tools developers need to build reliable, scalable, and accessible experiences.
+
+Trusted by companies like JPMorgan, Stripe, Visa, Franklin Templeton, Nike, and backed by a16z, Coatue, Silver Lake, Lightspeed, and Stanford University, Alchemy is building the foundational layer for a decentralized and AI-enabled Web3 ecosystem. For more information, visit alchemy.com http://alchemy.com.
+
+
+
+
+
+THE ROLE
+
+Build the systems that turn blockchain activity into data developers can use. Alchemy’s Data Services work includes token, portfolio, and transfer APIs, with streaming in the updated roadmap.
+
+You will own backend projects from ingestion through serving, making data correct, fresh, and fast to query. You will work with Product and customer-facing teams to understand what developers need, then ship improvements and measure their effect on reliability, performance, and cost.
+
+
+
+
+
+WHAT YOU WILL DO
+
+ - Build and operate blockchain ingestion, indexing, storage, and API-serving systems.
+
+ - Handle reorganizations, retries, duplicate events, and historical backfills without silently losing or corrupting data.
+
+ - Improve query performance and data freshness. Make those properties observable to the team and understandable to customers.
+
+ - Extend API capabilities and chain coverage, with tests for differences in chain behavior and data semantics.
+
+ - Develop streaming and event-delivery capabilities with explicit guarantees for ordering, replay, and failure recovery.
+
+ - Reduce the cost of storing, processing, and serving data through measured changes to architecture and query execution.
+
+ - Participate in production support and incident response for the systems you own. Maintain monitoring, runbooks, safe rollouts, and fixes that prevent recurrence.
+   
+   
+   
+
+
+WHAT WE ARE LOOKING FOR
+
+ - A track record of independently designing, shipping, and operating production backend or distributed data systems.
+
+ - Strong programming skills in a production backend language, plus experience with databases, indexing, and query performance.
+
+ - Experience reasoning about consistency, partitioning, asynchronous processing, and failure recovery.
+
+ - Evidence that you can diagnose a production problem and improve the system beyond the immediate fix.
+
+ - Sound API design judgment, including compatibility, pagination, error handling, and data contracts.
+
+ - Clear communication and the ability to turn an ambiguous customer problem into a scoped engineering project.
+
+Blockchain experience is helpful, but not required. You should be interested in learning how chain behavior affects data correctness.
+
+
+
+
+
+HELPFUL EXPERIENCE
+
+ - ClickHouse or other analytical databases; Kafka or similar streaming systems.
+
+ - Blockchain indexers, EVM logs and traces, finality, or non-EVM data models.
+
+ - Developer-facing data APIs, real-time delivery, or large historical datasets.
+
+ - Storage migrations and performance or cost optimization under production traffic.
+   
+   
+   
+
+
+WHAT SUCCESS LOOKS LIKE
+
+Within three months:
+
+ - You have shipped a customer-facing improvement and can show its effect on data quality, freshness, latency, or cost. 
+
+ - You own a production component, have tested its recovery behavior, and have proposed the next improvement using operational evidence and developer feedback.
+
+
+Benefits & Perks
+
+
+🏥 Private Health Insurance
+
+💪 Gym Reimbursement
+
+🚅 Commuter Benefits
+
+🌴 Flexible Time Off
+
+🥙 In-Office Group Meals
+
+🧠 Learning & Development Stipend
+
+🌎 Company Sponsored Conferences & Events
+
+🎧 Books & Audiobook subscription with Bookster https://landing.bookster.ro/
+
+ Compensation: USD 205,000 - 230,000 per year.

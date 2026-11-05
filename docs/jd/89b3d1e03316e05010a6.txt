@@ -1,0 +1,139 @@
+Senior Software Engineer, Platform
+Payabli
+Location: Remote
+Link: https://jobs.ashbyhq.com/payabli/b977ddd1-13eb-405a-8a32-9b3d76814b56
+
+Payabli is the Intelligent Fintech Operating System for software platforms. If you are a software company, you are a fintech company, and Payabli is your operating system. Built by payments industry and SaaS veterans and powered by its own models, Payabli gives platforms everything they need to embed, manage, and monetize financial services through a single developer-friendly API spanning Pay In, Pay Out, and Pay Ops. Intelligence is not a layer on top, it is the foundation, expressed through Amigo™, Payabli's native AI Agent Suite, and a growing set of capabilities that make payment operations smarter and more autonomous.
+
+ 
+
+Payabli gives software companies PayFac capabilities without the heavy lift, administrative burden, or cost of becoming a payment facilitator themselves. With PayFac-as-a-Service, embedded payment acceptance and issuance, and intelligent payment operations, platforms turn payments into a meaningful revenue stream while staying focused on their core product.
+
+
+
+Payabli is backed by world-class fintech investors including QED Investors, Fika Ventures, TTV Capital, and Bling Capital, and was recently named to the Forbes Fintech 50.
+
+
+
+For more information, visit payabli.com http://payabli.com. 
+
+
+
+About the Role
+
+As a Senior Software Engineer, Platform at Payabli, you'll own the infrastructure and developer experience that every engineer at the company builds on top of. You won't be handed a task list—you'll define the vision for how we build, test, deploy, and operate our platform on AWS, then execute against it. From CI/CD pipelines and infrastructure-as-code to local development and Cloud/Agent development environments, you'll be the person who makes every other engineer faster, safer, and more productive.
+
+This is a high-ownership role. We're looking for someone who sees a gap, builds a plan, and drives it forward—not someone who waits to be told what's next.
+
+
+
+
+WHAT YOU'LL DO
+
+Own the infrastructure. Design, build, and operate Payabli's cloud infrastructure. You'll make the architectural decisions around networking, compute, storage, and security that determine how our platform scales, performs, and stays resilient as transaction volume grows.
+
+Build the deployment backbone. Own and evolve our CI/CD pipelines end-to-end. Every push to production should be fast, safe, and repeatable. You'll design the release process that lets engineers ship with confidence—automated testing, staged rollouts, rollback strategies, and deployment observability baked in.
+
+Make local development exceptional. Engineers should be able to clone a repo and be productive in minutes, not days. You'll own the local development experience and make sure it mirrors production closely enough to catch real problems early.
+
+Enable AI-assisted development. As the team adopts AI coding agents and assistants, you'll build the environments that let engineers leverage these tools safely and effectively within a PCI-compliant infrastructure.
+
+Define and drive the platform roadmap. Assess where we are, define where we need to be, and build the plan to get there. You'll partner with engineering leadership to prioritize infrastructure investments and communicate the "why" behind them.
+
+Harden everything. Infrastructure in payments means PCI-DSS scoping, network segmentation, secrets management, access controls, and audit trails are your daily work. You'll ensure our infrastructure posture keeps pace with compliance requirements as we scale.
+
+Instrument and observe. Build the monitoring, alerting, and observability stack that gives the team real-time visibility into system health. When something goes wrong at 2 AM, the infrastructure should tell us what happened before we have to ask.
+
+Multiply the team. Document patterns, write runbooks, and establish infrastructure standards that make the entire engineering organization more self-sufficient. The best platform engineering is invisible—things just work.
+
+
+
+
+WHAT WE'RE LOOKING FOR
+
+We're looking for someone who meets the minimum requirements below. If you meet them, we encourage you to apply. Your skills and trajectory matter more than checking every box.
+
+5+ years of professional infrastructure or platform engineering experience. You've built and operated production AWS environments that serve real traffic at scale—not just spun up sandbox accounts.
+
+Deep AWS expertise. You think natively in AWS services (ECS/EKS, RDS, Lambda, VPC, IAM, CloudFormation/CDK/Terraform) and understand the trade-offs between them. You've made architectural bets and lived with the consequences.
+
+Strong CI/CD experience. You've designed and maintained deployment pipelines (GitHub Actions, GitLab CI, Jenkins, or similar) that teams actually trust and rely on. You understand the difference between a pipeline that exists and one that accelerates the business.
+
+Infrastructure-as-code fluency. You define infrastructure declaratively, version it, review it, and deploy it the same way you would application code.
+
+Security-minded by default. You understand network segmentation, least-privilege access, secrets management, and encryption at rest and in transit—especially in environments handling financial data.
+
+Proactive and opinionated. You don't wait for someone to file a ticket. You see what's broken or missing, propose a path forward, and drive it. You bring a point of view about how infrastructure should work and can back it up.
+
+Strong communicator. You can translate infrastructure decisions into business impact for engineering leadership, and explain complex systems clearly to engineers who aren't infrastructure specialists.
+
+
+
+
+NICE TO HAVES
+
+ - Prior experience in fintech, payments, or a PCI-DSS-regulated environment. You know how compliance requirements shape infrastructure decisions.
+
+ - Experience supporting or enabling AI/ML development workflows, coding agents, or LLM-based tooling within engineering teams.
+
+ - Familiarity with the .NET ecosystem and how it runs on AWS (ECS, App Runner, Lambda, etc.).
+
+ - Experience building developer platforms or internal tooling that improved developer velocity in a measurable way.
+
+ - Background with observability stacks (Datadog, Grafana, CloudWatch, OpenTelemetry) and on-call/incident response processes.
+
+ - Kubernetes experience, particularly EKS on AWS.
+
+
+
+We think you'll love being part of our team because
+
+At Payabli, you'll have a front row seat into building a high-growth venture backed fintech company. As a senior leader in Operations, you'll shape how the organization scales and be the driving force behind our AI-first operations strategy — directly influencing how we build, automate, and optimize for the future. You'll stretch yourself every day, learn a ton, grow alongside the company, and have a lot of fun building Payabli with us. We're a values driven company that cares deeply about our team, partners, and customers. Our north star values are:
+
+
+
+🤝 Team Love = Customer Love — You understand that when you build great products for your internal partners, they deliver exceptional experiences to merchants. You obsess over the platform partners and businesses that depend on every payout landing on time.
+
+
+
+🔥 Run to the Fire — When ACH returns spike or a card program hits a snag, you're the first one in the war room. You don't shy away from hard problems—you chase them. You volunteer for the complex, messy challenges others avoid.
+
+
+
+🔍 Little Things Count — You sweat the details because you know a single decimal error in a payout can damage a business. You double-check edge cases, validate every assumption, and understand that excellence lives in the details.
+
+
+
+💎 Truth Seekers — You give direct feedback, receive it with grace, and never let ego get in the way of finding the right answer. You document what you don't know, admit mistakes quickly, and hold yourself accountable in the open.
+
+
+
+🚀 Relentlessly Curious — You're constantly asking "what if?" and "why not?" You study how competitors solve problems, explore adjacent industries for inspiration, and never stop learning about the payments ecosystem.
+
+
+
+We build technology that gets noticed and a workplace where people want to grow their careers. Our work has been recognized by some of the industry’s most respected organizations, including being named No. 43 on the 2026 Inc. 5000, marking our third consecutive year on the list. Payabli was also named to the 2026 Forbes Fintech 50, recognizing the most innovative private companies in financial technology, Inc.’s 2025 Best Workplaces, and Built In’s 2026 Best Places to Work in Miami.
+
+
+
+
+WHAT WE CAN OFFER YOU
+
+ - Competitive salary
+
+ - Stock options with the potential to unlock more equity as we grow
+
+ - Flexible PTO and paid parental leave
+
+ - Medical, dental, & vision insurance
+
+ - 401K, HSA, pre-tax savings programs
+
+
+
+Payabli is an equal opportunity employer and values a diverse, inclusive workplace.
+
+
+
+Principals only. No external agency submissions. Candidates must apply directly; We will not accept submissions from third-party recruiters or staffing agencies.
+
