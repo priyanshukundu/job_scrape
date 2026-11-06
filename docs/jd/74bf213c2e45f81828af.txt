@@ -1,0 +1,49 @@
+Senior Software Engineer (Quality, Health Records)
+WHOOP
+Location: Boston, MA
+Link: https://jobs.ashbyhq.com/whoop/30c77fd3-616b-428a-8d8d-b3168285c4f8
+
+At WHOOP, we're on a mission to unlock and inspire performance for life. WHOOP empowers members to perform at a higher level through a deeper understanding of their bodies and daily lives.
+
+As a Senior Software Engineer you will own quality engineering for Health Records while building shared data-mocking capabilities that support teams across WHOOP.
+
+You will lead the testing strategy and test automation for Health Records, ensuring healthcare data is ingested, transformed, stored, and consumed accurately and reliably. In parallel, you will scope and build reusable data-mocking frameworks for internal data and third-party integrations that can be consumed by our testing services across Health and other product areas.
+
+This is a hands-on senior engineering role spanning APIs, databases, data pipelines, event-driven systems, third-party integrations, healthcare data formats, cloud infrastructure, and internal testing services.
+
+
+
+
+RESPONSIBILITIES
+
+ - Define the quality strategy and test automation for Health Records, validating data across ingestion, transformation, storage, and downstream consumption and establishing automated monitoring for data-quality regressions.
+
+ - Design and build automated validation across APIs, databases, data pipelines, and healthcare data formats such as FHIR using Java, Python, SQL, and appropriate data-validation frameworks.
+
+ - Scope, design, and build reusable data-mocking capabilities for teams across WHOOP, including internal data, third-party APIs, events, and data payloads. Drive adoption through integration with existing testing services, documentation, and common patterns.
+
+ - Lead complex quality and test-infrastructure initiatives from technical planning through delivery, identifying risks, evaluating architectural tradeoffs, investigating systemic issues, and partnering with Engineering, Product, QA, and domain experts.
+
+ - Establish and evolve engineering practices for data quality, testability, test data, observability, to ensure compliance with HIPAA requirements for PHI-safe testing, while mentoring engineers and developing additional ownership for Health Records quality.
+   
+
+
+QUALIFICATIONS
+
+ - 4+ years of experience in SDET, QA Engineering, Data Quality Engineering, ETL testing, or a related engineering discipline.
+
+ - Strong SQL and database skills, with experience validating data integrity, reconciliation, transformations, and complex data pipelines.
+
+ - Strong understanding of REST APIs, JSON, request/response patterns, events, and data payloads, including experience testing or mocking third-party integrations.
+
+ - Experience building automation and reusable testing infrastructure using Java, Python, or similar programming languages.
+
+ - Experience designing and testing ETL/ELT pipelines, distributed data flows, or other data-intensive systems, including failure, recovery, and edge-case scenarios.
+
+ - Demonstrated ability to scope and lead complex technical initiatives, evaluate tradeoffs, influence technical direction, and build reusable solutions adopted by other engineers or teams.
+
+ - Strong collaboration and communication skills with technical and non-technical partners, along with experience mentoring engineers and raising engineering practices.
+
+ - Healthcare experience is preferred, particularly with EHR/EMR data, FHIR and similar standards, clinical data, healthcare terminology, and HIPAA/PHI requirements.
+
+ - Bonus: Experience with cloud and event-driven infrastructure, high-volume data pipelines, data-quality or observability frameworks, CI/CD quality gates, or FHIR validation tooling. Compensation: USD 150,000 - 215,000 per year.
