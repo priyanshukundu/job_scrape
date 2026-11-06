@@ -1,0 +1,138 @@
+Principal Software Engineer
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/crusoe/0cd4972a-f4ea-4e5c-b3e5-d2c04e678887
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+
+ABOUT THIS ROLE
+
+As a Principal Software Engineer for Infrastructure, you will partner with teams across the company to help shape the technical direction of the compute, storage, and networking platforms that power Crusoe’s AI-first cloud. This is a high-leverage leadership role that spans the full infrastructure stack: you will work alongside engineers and stakeholders on the systems that help massive GPU clusters run AI and HPC workloads at extreme throughput, low latency, and high reliability. Your work spans the Linux kernel, hypervisors and virtualization, distributed storage, network fabrics, and the control planes that tie them together.
+
+
+
+You will be a trusted technical partner across the infrastructure stack, helping guide architecture decisions and mentoring engineers to raise our collective technical bar. You will look at the whole system alongside the teams who own each layer: how a storage tier, a scheduler, and a network fabric interact under a multi-node training job, and where the real bottleneck sits. You will collaborate closely with Product, Hardware, and Infrastructure teams to build a reliable, scalable platform together that aligns with Crusoe’s mission to innovate sustainably. This is a full-time position.
+
+
+
+
+WHAT YOU’LL BE WORKING ON
+
+ - Infrastructure Strategy: Partner with engineering, product, and leadership to help shape the long-term direction for compute, storage, and networking, and to turn that direction into practical plans and milestones.
+
+ - Architecture & Design: Collaborate with teams on architecture reviews, design documents, and code reviews for critical infrastructure components and services across all three domains.
+
+ - Compute & Virtualization: Work with compute teams on the virtualization and orchestration layers that deliver bare-metal-class performance to GPU workloads, including hypervisor tuning, SR-IOV, vDPA, virtio, device passthrough, and NUMA- and topology-aware scheduling.
+
+ - Storage Systems: Work with storage teams on high-throughput, low-latency storage for training and inference pipelines, including distributed block, file, and object storage, NVMe and NVMe-oF, RDMA-based data paths, and checkpointing and data-loading performance.
+
+ - Networking & Fabric: Partner with networking teams on architectures for GPU-to-GPU fabrics, high-speed Ethernet, and specialized AI clusters, using technologies such as XDP, eBPF, DPDK, OVS/OVN, BGP, EVPN, and VXLAN.
+
+ - Kernel & Driver Work: Contribute to Linux kernel modules and high-performance drivers across the network, storage, and device stack.
+
+ - Hardware Integration: Work with Hardware teams on accelerators and offload devices, including GPUs, SmartNICs, DPUs, IPUs, and NVMe, from qualification through bring-up of new platforms.
+
+ - Cross-Stack Performance & Reliability: Team up with on-call, SRE, and domain engineers to troubleshoot complex production issues that cross compute, storage, and network boundaries, and to improve performance, observability, capacity planning, and failure-domain design.
+
+ - Technology Evaluation: Explore emerging infrastructure technologies with the team, contribute to open-source projects where strategically relevant, and share learnings with the broader organization.
+
+ - Mentorship & Collaboration: Partner with internal stakeholders on end-to-end features, and mentor and support engineers across teams to foster a culture of engineering excellence.
+
+
+
+
+WHAT YOU’LL BRING TO THE TEAM
+
+ - Large-Scale Infrastructure Mastery: 10+ years of experience building and operating large-scale infrastructure systems in production, ideally within cloud or hyperscale data center environments.
+
+ - Cross-Domain Breadth: Hands-on experience across compute, storage, and networking, and a track record of solving problems that cross domain boundaries.
+
+ - Systems Programming Excellence: Strong systems programming skills in C, C++, Rust, or Go, with experience working on performance-critical services and control planes.
+
+ - Linux Internals Depth: Extensive knowledge of the Linux kernel architecture, memory management, scheduler, I/O and network stacks, and device driver development.
+
+ - Virtualization & Compute Literacy: Experience with KVM/QEMU or similar hypervisors, container runtimes, and orchestration platforms such as Kubernetes, plus an understanding of GPU, CPU, and NUMA topology and its effect on workload performance.
+
+ - Storage Literacy: Familiarity with distributed storage architectures (block, file, or object), NVMe/NVMe-oF, RDMA, and the consistency, durability, and performance tradeoffs involved.
+
+ - Network & Fabric Literacy: Familiarity with data center fabrics (e.g., Spine-Leaf, BGP, EVPN, VXLAN), network virtualization tools such as OVS or OVN, and high-speed packet processing technologies such as XDP, eBPF, or DPDK.
+
+ - Accelerator Knowledge: Familiarity with SmartNICs, DPUs, and accelerators, such as NVIDIA ConnectX-6/7 and BlueField-3 or Intel IPUs.
+
+ - Production Debugging: Experience working with others to diagnose complex issues across the full stack, from hardware and firmware through the kernel to control-plane software.
+
+ - Strategic Influence: A proven track record of leading through influence, with excellent written communication skills and a strong mentoring mindset.
+
+ - Education: A Bachelor’s degree in Computer Science, Computer Engineering, or a related analytical field (or equivalent professional experience).
+
+
+
+
+BONUS POINTS
+
+ - Open-Source Contributions: Active contributions to projects such as the Linux kernel, KVM/QEMU, Kubernetes, Ceph, OVS, OVN, Cilium, or Multus.
+
+ - Orchestration & Automation Expertise: Experience with infrastructure automation, fleet management, or complex orchestration tooling.
+
+ - GPU Training at Scale: Prior experience building compute, storage, or networking stacks for multi-node GPU training at scale.
+
+ - Hardware Co-Design: Experience working with hardware teams on platform design, qualification, and firmware-to-software integration.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $285,000 - $335,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
