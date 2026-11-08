@@ -66,10 +66,10 @@
   "changed": "2026-11-08"
  },
  "Wells Fargo": {
-  "n": 1643,
-  "sig": "2448ed13aed4",
+  "n": 1645,
+  "sig": "b473c5028bb1",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "RBC": {
   "n": 796,
@@ -150,10 +150,10 @@
   "changed": "2026-11-06"
  },
  "Truist": {
-  "n": 1423,
-  "sig": "fd7d230d8ae2",
+  "n": 1303,
+  "sig": "470da28a4a92",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "US Bancorp": {
   "n": 1260,
@@ -414,8 +414,8 @@
   "changed": "2026-11-07"
  },
  "Santander": {
-  "n": 1015,
-  "sig": "21c799febd78",
+  "n": 1014,
+  "sig": "f4493d042606",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -2454,10 +2454,10 @@
   "changed": "2026-11-07"
  },
  "MongoDB": {
-  "n": 375,
-  "sig": "9cc7ce52241f",
+  "n": 374,
+  "sig": "9d379c2ded4d",
   "checked": "2026-11-08",
-  "changed": "2026-11-06"
+  "changed": "2026-11-08"
  },
  "Palantir": {
   "n": 309,
@@ -3114,8 +3114,8 @@
   "changed": "2026-11-07"
  },
  "Booz Allen Hamilton": {
-  "n": 2208,
-  "sig": "3cac1c2c7c49",
+  "n": 2073,
+  "sig": "90aae0bd0c4a",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -3270,10 +3270,10 @@
   "changed": "2026-11-06"
  },
  "Thermo Fisher Scientific": {
-  "n": 3215,
-  "sig": "7701ebf04d39",
+  "n": 3213,
+  "sig": "dd628bbb5fef",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "C.H. Robinson": {
   "n": 165,
@@ -3600,8 +3600,8 @@
   "changed": "2026-11-07"
  },
  "Lowe's": {
-  "n": 12863,
-  "sig": "83ced5a9b915",
+  "n": 13004,
+  "sig": "0a0aab108e6a",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -3858,10 +3858,10 @@
   "changed": "2026-11-06"
  },
  "Flowserve": {
-  "n": 371,
-  "sig": "de5fbc154e1d",
+  "n": 374,
+  "sig": "ae2ffc258ce4",
   "checked": "2026-11-08",
-  "changed": "2026-11-06"
+  "changed": "2026-11-08"
  },
  "Westlake": {
   "n": 276,
@@ -4710,10 +4710,10 @@
   "changed": "2026-11-08"
  },
  "Standard Chartered": {
-  "n": 275,
-  "sig": "2f2b731db590",
+  "n": 272,
+  "sig": "5250cc93e2f3",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "SMBC": {
   "n": 154,
@@ -4776,8 +4776,8 @@
   "changed": "2026-11-08"
  },
  "UBS": {
-  "n": 574,
-  "sig": "a6bf98be9097",
+  "n": 571,
+  "sig": "095abec7c854",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -4879,9 +4879,9 @@
  },
  "Nordea": {
   "n": 121,
-  "sig": "da3af1c17d17",
+  "sig": "ff7c02d998f8",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "Equitable": {
   "n": 346,
@@ -4926,10 +4926,10 @@
   "changed": "2026-11-06"
  },
  "Intesa Sanpaolo": {
-  "n": 151,
-  "sig": "a50e4aa5a051",
+  "n": 149,
+  "sig": "73dfe5fe9fee",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "MarketAxess": {
   "n": 4,
@@ -4962,8 +4962,8 @@
   "changed": "2026-11-06"
  },
  "Fitch Ratings": {
-  "n": 200,
-  "sig": "306958b22274",
+  "n": 198,
+  "sig": "f8b14c867215",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -5028,8 +5028,8 @@
   "changed": "2026-11-07"
  },
  "EY": {
-  "n": 475,
-  "sig": "22fdcebe0351",
+  "n": 493,
+  "sig": "a27892ad2315",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -5484,14 +5484,14 @@
   "changed": "2026-11-07"
  },
  "Zurich Insurance": {
-  "n": 241,
-  "sig": "fb1af0285280",
+  "n": 237,
+  "sig": "5eef3ab7516a",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "Swiss Re": {
-  "n": 138,
-  "sig": "b2e7b2e15f2d",
+  "n": 140,
+  "sig": "c17cd0a4c0b4",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -5736,8 +5736,8 @@
   "changed": "2026-11-08"
  },
  "Qualcomm": {
-  "n": 2023,
-  "sig": "836fcfb37ded",
+  "n": 2037,
+  "sig": "f5c0357c1ec4",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
@@ -6018,10 +6018,10 @@
   "changed": "2026-11-05"
  },
  "Cushman & Wakefield": {
-  "n": 2177,
-  "sig": "49a05a21c021",
+  "n": 2057,
+  "sig": "20a71fa6fc09",
   "checked": "2026-11-08",
-  "changed": "2026-11-07"
+  "changed": "2026-11-08"
  },
  "StoneX": {
   "n": 114,
@@ -6126,8 +6126,8 @@
   "changed": "2026-11-04"
  },
  "Target": {
-  "n": 14119,
-  "sig": "1037dc808b64",
+  "n": 14039,
+  "sig": "b418f176da1f",
   "checked": "2026-11-08",
   "changed": "2026-11-08"
  },
