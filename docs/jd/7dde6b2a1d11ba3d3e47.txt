@@ -1,0 +1,124 @@
+Senior Software Engineer, Crusoe Managed Data Transfer
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/Crusoe/e4a6c912-75f2-48a1-9d12-864a8635489a
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About the Role:
+
+Crusoe's Managed Platform Services (MAPS) organization builds the managed services that make Crusoe Cloud easy to adopt and hard to leave, including Crusoe Container Registry, Cloud Monitoring and Managed Logs. Managed Data Transfer (MDT) is its newest service. MDT moves petabyte-scale training data from AWS S3, and later other clouds, into Crusoe storage with a single API call: the service shards the work across a fleet of transfer workers, verifies every object, and asks the customer to run nothing. For AI labs and Physical AI companies whose data lives with a hyperscaler, it removes one of the biggest obstacles to training on Crusoe GPUs.
+
+
+
+We are hiring Senior Software Engineers to build the MDT control plane: the job API, scheduler and job state that turn a customer request into a coordinated, resumable transfer. You will join a new team at the beginning, take the service from first commit to its preview launch with design-partner customers, and shape the API that new clouds and Crusoe-internal transfers will plug into later. You will work closely with the Storage, Network, IAM and Cloud Console teams, and report to the Engineering Manager of Managed Data Transfer.
+
+
+
+What You'll Be Working On:
+
+ - Job API and Lifecycle: Design and build the data-transfer API (create, list, get, cancel) with a provider-neutral model for sources and destinations, so new clouds and storage types can be added without breaking customers.
+
+ - Scheduling and Job State: Build the scheduler and state machine that split a bucket listing into units of work, place them on regional worker pools, and track progress, retries and resume across failures.
+
+ - Correctness at Scale: Make petabyte-scale jobs safe to retry and cancel, with end-to-end checksum verification and clear errors when a customer's permissions or destination are wrong.
+
+ - Cross-Cloud Identity: Implement secure access to customer buckets with short-lived, least-privilege credentials (AWS role assumption first, other clouds next), integrated with Crusoe IAM and audit logging.
+
+ - Customer Surfaces: Ship the CLI and, with partner teams, the Terraform and Console experiences for creating and monitoring transfers.
+
+ - Operational Excellence: Instrument the service with metrics, logs and alerts, write the runbooks, and take part in the team's on-call rotation.
+
+ - Cross-Team Collaboration: Agree the interfaces MDT depends on with Storage, Network, IAM and Console, and work with Product and Solutions Architects on early customer onboarding.
+
+
+
+What You'll Bring to the Team:
+
+ - Backend Engineering Craft: Experience designing and shipping production backend services and APIs, ideally in Go, with gRPC or REST, relational databases and Kubernetes.
+
+ - Professional Experience: 5+ years building cloud infrastructure or platform services, including taking a service from zero to general availability.
+
+ - Distributed Systems Judgment: Comfort with long-running, failure-prone work: idempotency, retries with backoff, leases, checkpointing and partial failure.
+
+ - API Design: Ability to design public APIs that customers automate against and that can grow without breaking changes.
+
+ - Security Mindset: Working knowledge of authentication, authorization and least privilege, and care in handling customer credentials.
+
+ - Operational Ownership: You have run services in production, been on call, and built the dashboards and alerts that keep incidents short.
+
+ - Collaboration and Writing: You work well across teams with different priorities, and your design docs settle decisions.
+
+ - Educational Foundation: A bachelor's degree in Computer Science, Engineering, or a related field, or equivalent professional experience.
+   
+   
+
+Bonus Points
+
+ - Experience with large-scale data movement, such as S3 multipart uploads, rclone, s5cmd, AWS DataSync or Google Storage Transfer Service.
+
+ - Hands-on experience with cross-cloud identity: AWS IAM and STS, GCP service-account impersonation, or Azure workload identity.
+
+ - Experience with storage systems (object storage, NFS, parallel file systems) or high-throughput networking.
+
+ - Experience with job orchestration systems such as Temporal, Argo, or Kubernetes operators.
+
+ - Experience building on GPU or AI infrastructure.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $170,000 - $205,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
