@@ -1,0 +1,115 @@
+Software Engineer - DevOps - Bitnomial
+Kraken
+Location: United States
+Link: https://jobs.ashbyhq.com/kraken.com/6d3b6e08-97ec-4eda-b3ad-bbf5fd955840
+
+BUILDING THE FUTURE OF OPEN FINANCE
+
+
+Payward - the parent company behind Kraken, NinjaTrader, Breakout,  xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system.
+
+
+
+
+THE TEAM
+
+Bitnomial is building the next generation US-based global derivatives exchange, starting with digital assets and progressively expanding to encompass a full spectrum of commodities worldwide. Bitnomial operates a US CFTC regulated exchange (DCM), clearinghouse (DCO), and brokerage (FCM). It offers a range of crypto-settled derivatives, including futures, options, and a suite of live perpetual futures, used by brokers, hedge funds, institutions, and trading firms around the world.
+
+Bitnomial's exchange, clearinghouse, and brokerage systems are written largely in Haskell. In this role you will build the services and data models that record every order, fill, and settlement at a CFTC-regulated exchange and clearinghouse, with the database as a first-class part of the design. You will build features across these systems and design the schema, queries, and migrations behind them.
+
+ 
+
+
+THE OPPORTUNITY
+
+ - Improve build and release pipelines in GitHub Actions: caching, parallelism, pinned toolchains, and required tests and scans before production
+
+ - Manage AWS infrastructure as code with Terraform, and run services as containers on Nomad
+
+ - Build deployment tooling with health checks and automated rollback, and make deploys safe around market sessions
+
+ - Add metrics and alerts to the services you build, so you can see whether a deploy worked
+
+ - Monitor systems, respond to alerts, and support daily operations such as settlement cycles
+
+ - Fix the cause of production issues and write down what you learned
+
+ - Build, test, and ship well-reviewed features and fixes in our services across the exchange, clearinghouse, and brokerage. Most of the code is Haskell
+
+ - Understand the order, trade, clearing, and settlement flows end to end
+
+ 
+
+
+WHAT YOU BRING
+
+ - Hands-on experience with CI/CD pipelines, such as GitHub Actions or GitLab CI
+
+ - Production experience with AWS and Docker, and infrastructure as code with Terraform
+
+ - Strong Linux and scripting skills (Bash, Python, or similar)
+
+ - 3+ years of professional software engineering experience with a functional or strongly typed programming language such as Haskell, Rust, or C++
+
+ - Solid computer science fundamentals, including distributed systems: failure modes, retries and idempotency, consistency, and how to observe them across services
+
+ - Willingness to take part in on-call and operational shifts
+
+ - Care and rigor with code that moves money
+
+ - Good judgment with AI tools. You use them to work faster, and you read, test, and understand what they produce before you ship it
+
+ - A habit of asking why before changing something
+
+ - Sound judgment under pressure, with a calm and methodical approach when production is live
+
+ - Collaboration across engineering, operations, risk, and compliance, with a habit of documenting
+
+ 
+
+
+NICE TO HAVES
+
+ - Financial knowledge or experience in trading, markets, or financial services
+
+ - Bachelor's degree in computer science or a related field, or equivalent experience
+
+ - Experience with Nomad or Kubernetes
+
+ - Experience with Nix, Ansible, Vault, or Prometheus, Grafana, and Loki
+
+ - Haskell experience
+
+
+
+Unless a specific application deadline is stated in the job posting, applications are accepted on an ongoing basis.
+
+Please note, applicants are permitted to redact or remove information on their resume that identifies age, date of birth, or dates of attendance at or graduation from an educational institution.
+
+We consider qualified applicants with criminal histories for employment on our team, assessing candidates in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance.
+
+
+
+
+OUR COMMITMENT
+
+Payward is powered by people from around the world and we celebrate the diverse talents, backgrounds, contributions, and unique perspectives that everyone brings to the table. We hire based on merit, seeking out people with the right abilities, knowledge, and skills for the job. We encourage you to apply for roles where you don't fully meet the listed requirements, especially if you're passionate or knowledgeable about crypto.
+
+
+We may ask candidates to complete job-related skills or work-style assessments as part of our hiring process. These assessments evaluate competencies relevant to the role and are applied consistently across candidates for similar positions. Results are considered alongside experience and interviews, and are not the sole basis for any employment decision.
+
+
+As an equal opportunity employer, we don't tolerate discrimination or harassment of any kind, whether based on race, ethnicity, age, gender identity, citizenship, religion, sexual orientation, disability, pregnancy, veteran status, or any other protected characteristic as outlined by federal, state, or local laws.
+
+
+
+Stay connected
+
+Follow us on Twitter https://twitter.com/krakenfx
+
+Learn on the Kraken Blog https://blog.kraken.com/#:~:text=Enter%20your%20email%20address
+
+Connect on LinkedIn https://www.linkedin.com/company/kraken-exchange/
+
+
+Candidate Privacy Notice https://www.kraken.com/legal/candidate-privacy-notice Compensation: USD 96,000 - 192,000 per year.
