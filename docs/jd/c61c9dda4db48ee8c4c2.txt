@@ -1,0 +1,91 @@
+Data Engineer
+Rain
+Location: San Juan, Puerto Rico
+Link: https://jobs.ashbyhq.com/rain/ded07333-555a-4b7b-a785-89e4761b6ab6
+
+About the Company
+
+Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world.
+
+You will have the opportunity to deliver massive impact at a hypergrowth company backed by some of the top investors in fintech, crypto, and SaaS. In January 2026, we closed a $250M Series C led by ICONIQ, valuing Rain at $1.95B, with Sapphire Ventures, Norwest, Galaxy Ventures, Dragonfly, Bessemer Venture Partners, FirstMark, Lightspeed, and Endeavor Catalyst also participating. If you're curious, bold, and excited to help shape a borderless financial future, we'd love to talk.
+
+Our Ethos
+
+We believe in an open and flat structure. You will be able to grow into the role that most aligns with your goals. Our team members at all levels have the freedom to explore ideas and impact the roadmap and vision of our company.
+
+About the role
+
+Rain builds payments and stablecoin infrastructure. Finance, Risk, Compliance, and our partners rely on data from card transactions, settlements, ledger entries, and onchain transfers.
+
+We’re looking for a Data Engineer with batch and streaming experience to bring this data into our warehouse and keep it correct. You’ll build scalable, idempotent pipelines that handle late and duplicate data and alert us when something breaks.
+
+At Rain, everyone models data, writes production-quality code, and automates their own workflows. We use AI to speed up repetitive work, but we own and check the results. In this role, you’ll automate ingestion and quality checks so new sources come online quickly and stay trustworthy.
+
+What you’ll do
+
+ - Build scalable batch and streaming pipelines, choosing the right approach for latency, cost, and correctness.
+
+ - Process events near real time, handling deduplication, windowing, and late or out-of-order events.
+
+ - Own batch ingestion from databases (CDC), files (SFTP and GCS), APIs, and onchain sources.
+
+ - Build incremental dbt models that handle late data, duplicates, CDC deletes, and backfills; reconcile streaming and batch outputs.
+
+ - Orchestrate pipelines in Dagster with sensors, schedules, and alerts.
+
+ - Add freshness, volume, and reconciliation checks to every source, and fix root causes.
+
+ - Work with backend pods on event and table contracts to prevent downstream breakage.
+
+ - Partner with Analytics Engineers, Data Scientists, and Risk on their data needs, including ML features.
+
+What you’ll need
+
+ - At least 3 years building production data solutions, including owning both batch and streaming pipelines end to end, from source to warehouse.
+
+ - Experience designing data solutions at scale.
+
+ - Strong SQL and Python / Rust, plus experience with a cloud data warehouse such as BigQuery, ClickHouse, or Snowflake and an understanding of their trade-offs.
+
+ - Streaming experience with tools such as Pub/Sub, Kafka, Dataflow/Beam, or Flink.
+
+ - Batch experience with dbt and an orchestrator such as Dagster or Airflow.
+
+ - Experience with production data quality testing, monitoring, and reconciliation.
+
+ - Ability to debug across the source database, pipeline, warehouse, and report.
+
+ - Ability to use AI tools to learn and work faster while checking their output.
+
+Nice to have
+
+ - Building offline and real-time ML feature pipelines, such as fraud or risk features.
+
+ - Working with payments, banking, or blockchain data, including EVM or Solana events and indexers.
+
+ - Using CDC and ingestion tools such as Datastream, Debezium, Meltano, Fivetran, or Airbyte.
+
+ - Experience with GCP.
+   
+   
+
+Things that enable a fulfilling, healthy and happy experience at Rain:
+
+Flexible time off 🌴 Unlimited vacation can be daunting, so we require Rainmakers to take 10 days minimum for themselves.
+
+Flexible working ☕ We support a flexible workplace – work from home, come into an office, or both. We want everyone to work in an environment where they're their most confident and productive selves. New Rainmakers receive a stipend to set up a comfortable home workspace.
+
+Easy to access benefits 🧠 For US Rainmakers, we cover 95% of your health, dental, and vision plan costs and 90% for your dependents, plus a 100% company-subsidized life insurance plan.
+
+Retirement goals💡 Plan for the future with confidence. We offer a 401(k) with a 4% company match.
+
+Equity plan 📦 Every Rainmaker gets an equity option plan so we all benefit from our success.
+
+Health and Wellness 📚 High performance begins from within. Rainmakers receive a monthly stipend to be used for eligible health and wellness spending like gym memberships/fitness classes, massages, acupuncture - whatever recharges you!
+
+In-office meals 🍜 Rainmakers working from the office enjoy lunch and dinner on us, covered with a DoorDash credit.
+
+Team summits ✨ Summits play an important role at Rain. Time together helps us build relationships and a common destiny. Expect team and company offsites, both domestic and international.
+
+
+ Compensation: USD 55,000 - 999,000 per year.
