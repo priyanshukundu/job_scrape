@@ -1,0 +1,137 @@
+Senior Software Engineer - Security
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/Crusoe/d93b9655-10a2-43bf-9f5e-dc01740e11c5
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About the Role:
+
+The Crusoe Cloud Software Development team is seeking a passionate and experienced Senior Software Engineer specializing in Linux Kernel Security. This critical role is essential in strengthening the security posture of our core Linux kernel and operating system components, which underpin our cutting-edge hardware and software solutions for the AI cloud. A deep understanding of Linux kernel internals, security vulnerabilities, mitigation techniques, and secure development practices is paramount for developing reliable, high-assurance systems. This is a full-time position.
+
+
+
+What You'll Be Working On:
+
+ - Kernel Hardening & CVE Triage: Implement kernel security enhancements, manage configuration hardening, and triage incoming CVEs to assess severity and exploitability.
+
+ - Access Control, Boot Security & Guardrails: Enforce mandatory access controls, secure the boot path, and establish CI guardrails and fuzzing coverage to prevent regressions.
+
+ - Vulnerability Research & Analysis: Research vulnerabilities across kernel, driver, and OS components to build proactive mitigations and backport non-trivial upstream fixes to production.
+
+ - Secure Development Practices: Establish and advocate for secure coding standards and best practices for kernel-level development. Conduct security-focused code reviews to identify and eliminate potential vulnerabilities early in the development lifecycle.
+
+ - Security Auditing & Tools: Utilize and develop specialized tools for kernel security auditing, fuzzing, static analysis, and dynamic analysis to uncover hidden vulnerabilities and ensure compliance with security policies.
+
+ - Incident Response Support: Provide expert support during security incidents involving kernel or OS-level compromises, assisting with root-cause analysis, containment, and recovery efforts.
+
+ - Performance and Security Balance: Work to ensure that security enhancements do not unduly impact system performance, especially critical for our high-performance AI infrastructure.
+
+ - First 90 days: Own kernel CVE triage end to end and have shipped at least one backported fix through our full release path. You have an independent read on where our kernel configuration is weakest.
+
+ - First year: Kernel security response has a defined SLA by severity and we consistently hit it. A hardening baseline is defined, enforced in CI, and rolled out across supported SKUs. Cloud Hypervisor has been audited and the highest-value isolation gaps are closed or scheduled.
+
+ - Cloud Hypervisor & Isolation: Audit, harden, and reduce privilege across Cloud Hypervisor device models and vhost-user datapaths, contributing upstream security fixes and advancing confidential computing primitives (AMD SEV-SNP, Intel TDX).
+
+ - Cross-Functional Collaboration: Collaborate closely with other engineering teams (hardware, hypervisor, OS development, cloud infrastructure, and security operations) to integrate security best practices and ensure a comprehensive security strategy across the stack.
+
+ - Technical Leadership: Provide technical guidance and mentorship to junior engineers on kernel security best practices, fostering a culture of security awareness and excellence.
+
+ - Debugging and Root-Cause Analysis: Debug and root-cause a variety of complex security-related issues at the kernel level.
+
+
+
+What You'll Bring to the Team:
+
+ - Linux Kernel Security Expertise: Proven deep knowledge of Linux kernel internals (e.g., memory management, process scheduling, system calls, I/O subsystems) with a strong focus on security aspects.
+
+ - Vulnerability & Exploitation Knowledge: Solid understanding of common kernel vulnerabilities (e.g., privilege escalation, information disclosure, denial of service) and associated exploitation techniques.
+
+ - Security Mitigations: Experience with existing Linux kernel security mitigations (e.g., ASLR, DEP/NX, SMEP/SMAP, KASLR, namespaces, cgroups, LSMs like SELinux/AppArmor).
+
+ - Secure Coding: Strong background in secure coding principles and experience conducting security-focused code reviews, particularly in C.
+
+ - Debugging & Analysis Tools: Proficiency with kernel debugging tools (e.g., GDB, crash, kgdb) and security analysis tools (e.g., valgrind, address sanitizers, fuzzers).
+
+ - Hardware Security Concepts: Familiarity with hardware-assisted security features (e.g., Intel SGX, AMD SEV, ARM TrustZone) and their relevance to kernel security.
+
+ - Education & Experience: Bachelor’s degree in Computer Science, Computer Engineering, or a related field, and a minimum of 5 years of relevant industry experience with at least 3 years focused on low-level operating systems or kernel security.
+
+ - Safety and Compliance: Must be able to pass a background check.
+
+ - Company Values: Embody the Company values.
+
+ - Experience dealing with CVE Remediation and automation
+
+ - First 90 days: You own kernel CVE triage end to end and have shipped at least one backported fix through our full release path. You have an independent read on where our kernel configuration is weakest.
+
+ - First year: Kernel security response has a defined SLA by severity and we consistently hit it. A hardening baseline is defined, enforced in CI, and rolled out across supported SKUs. Cloud Hypervisor has been audited and the highest-value isolation gaps are closed or scheduled.
+   
+
+Bonus Points
+
+ - Experience with specific kernel security projects or contributions to open-source kernel security initiatives.
+
+ - Familiarity with hypervisor security and the interaction between the hypervisor and the guest kernel’s security.
+
+ - Experience with hardware security modules (HSMs) or Trusted Platform Modules (TPMs).
+
+ - Background in offensive security or penetration testing at the kernel level.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $170,000 - $205,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
