@@ -1,0 +1,171 @@
+Senior Software Engineer – Backend Platforms and Agentic & ML Systems
+Socure
+Location: Hub - San Francisco
+Link: https://jobs.ashbyhq.com/socure/382aacca-5f17-41a9-961e-6f89982058fe
+
+WHY SOCURE?
+
+Socure is building the identity trust infrastructure for the digital economy — verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and millions of people every day.
+
+We hire people who want that level of responsibility. People who move fast, think critically, act like owners, and care deeply about solving customer problems with precision. If you want predictability or narrow scope, this won’t be your place. If you want to help build the future of identity with a team that holds a high bar for itself — keep reading.
+
+
+
+
+JOB OVERVIEW
+
+We are looking for a Software Engineer – Backend Platforms and Agentic & ML Systems to help build the backend, artificial intelligence, and machine-learning foundations that power Socure’s agentic investigation systems.
+
+This is a hands-on engineering role for someone who wants to work across backend services, distributed systems, AI agents, retrieval, machine-learning models, and production infrastructure. You will design, implement, test, and operate software that supports agent orchestration, asynchronous workflows, knowledge retrieval, model integration, evaluation, and reliable production operation.
+
+You will contribute to systems supporting multi-step investigations across use cases such as watchlist review, sanctions and PEP matching, adverse-media analysis, fraud-ring correlation, case management, and other risk and compliance workflows.
+
+A key part of the role is helping agents work with accurate, relevant, and timely domain knowledge. You will build capabilities that dynamically provide contextual information to agents, combine structured and unstructured data, support knowledge-graph and retrieval workflows, and preserve evidence and provenance for downstream decisions.
+
+You will work with experienced engineers, machine-learning practitioners, product partners, and investigation experts to turn complex problems into dependable software. The role is calibrated for an engineer who can own well-scoped features and components, learn quickly, contribute to design discussions, and grow toward broader technical ownership.
+
+
+JOB RESPONSIBILITIES
+
+ - Design, implement, test, and operate backend services that support agent orchestration, task execution, state management, model integrations, and investigation workflows.
+
+ - Build synchronous and asynchronous workflows for agent tasks, including queues, retries, resumability, cancellation, idempotency, scheduling, and failure recovery.
+
+ - Contribute to agent frameworks and developer harnesses that support tool calling, structured outputs, reusable skills, actor-based workflows, human review, and policy-controlled execution.
+
+ - Implement services that dynamically inject relevant knowledge into agent workflows based on investigation type, entity context, workflow state, customer policy, prior findings, and current task requirements.
+
+ - Build domain-grounding capabilities that help agents distinguish authoritative facts, customer-defined policies, derived signals, hypotheses, and unverified observations.
+
+ - Develop knowledge-ingestion and enrichment pipelines that normalize, classify, chunk, index, version, and refresh structured and unstructured data.
+
+ - Implement retrieval workflows using combinations of semantic search, lexical search, metadata filtering, hybrid retrieval, reranking, entity-aware retrieval, and temporal filtering.
+
+ - Contribute to knowledge-graph systems that represent entities, relationships, events, evidence, provenance, and risk signals.
+
+ - Support graph traversal, multi-hop retrieval, graph-enhanced context assembly, and integration between graph, vector, search, document, and API-based data sources.
+
+ - Implement context-selection logic that balances relevance, freshness, source authority, latency, tenant permissions, and model context limits.
+
+ - Add safeguards against stale, contradictory, duplicated, irrelevant, poisoned, or unauthorized information entering agent contexts.
+
+ - Build state and memory capabilities for agents, including short-term task state, investigation history, entity context, retrieval state, and provenance.
+
+ - Integrate agents with internal APIs, identity and risk data sources, case-management systems, watchlist systems, model endpoints, webhooks, and event streams.
+
+ - Develop secure connector and tool-execution patterns, including authentication, authorization, credential management, tenant isolation, audit logging, and sandboxed execution where appropriate.
+
+ - Integrate machine-learning models used for classification, ranking, extraction, entity resolution, summarization, and other investigation-related capabilities.
+
+ - Partner with machine-learning and data-science teammates on feature definitions, training data preparation, labeling strategies, dataset quality, model interfaces, and deployment workflows.
+
+ - Contribute to model training, fine-tuning, and adaptation workflows, including dataset preparation, experiment tracking, evaluation, versioning, deployment, and rollback.
+
+ - Implement model-serving and model-routing integrations that select models based on task requirements, latency, cost, quality, context, and data boundaries.
+
+ - Improve system performance through caching, batching, parallel execution, retrieval optimization, context reduction, model selection, prompt optimization, and efficient inference configuration.
+
+ - Build evaluation and regression tests for retrieval quality, grounding, citation correctness, model behavior, tool selection, workflow completion, and end-to-end investigation outcomes.
+
+ - Create test cases covering domain-specific scenarios, ambiguous cases, adversarial inputs, policy variations, knowledge freshness, retrieval failures, and production incidents.
+
+ - Instrument services with logs, metrics, traces, latency measurements, cost attribution, retrieval diagnostics, model-version tracking, and operational dashboards.
+
+ - Use production telemetry, failed runs, investigator feedback, and evaluation results to improve prompts, tools, memory, knowledge sources, model behavior, and workflow design.
+
+ - Participate in on-call and incident response for systems owned by the team. Help improve monitoring, service-level objectives, capacity planning, and recovery procedures.
+
+ - Write technical designs, document implementation decisions, participate in code and design reviews, and communicate trade-offs clearly.
+
+ - Collaborate with Product, Fraud and Risk, Investigation Operations, Platform Engineering, SRE, Security, Privacy, and Data Science.
+
+ - Contribute to engineering standards for testing, observability, deployment, security, maintainability, and responsible AI development.
+
+
+JOB REQUIREMENTS
+
+
+REQUIRED QUALIFICATIONS
+
+ - Bachelor’s or master’s degree in Computer Science, Engineering, or a related technical field, or equivalent practical experience.
+
+ - Professional experience building software or backend services, including experience taking features from implementation through testing and production operation.
+
+ - Experience with backend development, API design, service-oriented architectures, asynchronous programming, testing, debugging, and performance optimization.
+
+ - Understanding of distributed-system concepts such as queues, retries, idempotency, timeouts, concurrency, partial failures, and service reliability.
+
+ - Experience with a programming language used for backend or data-intensive systems, such as Python, Java, Go, TypeScript, or a comparable language.
+
+ - Experience building applications that use large language models, AI agents, tool calling, retrieval-augmented generation, structured generation, or related generative-AI technologies.
+
+ - Understanding of agent architecture, including orchestration, state transitions, task execution, tool use, context management, memory, human escalation, and observability.
+
+ - Experience building backend services, agent components, developer tooling, data pipelines, or other reusable platform capabilities.
+
+ - Experience grounding AI or agent workflows with domain knowledge, entity context, customer policies, case history, live data, model outputs, or other task-relevant information.
+
+ - Practical understanding of retrieval concepts such as embeddings, vector search, lexical search, metadata filtering, hybrid retrieval, reranking, query expansion, or multi-stage retrieval.
+
+ - Experience with one or more of the following: knowledge graphs, graph databases, entity graphs, graph traversal, graph-enhanced retrieval, entity resolution, ontology or schema design, provenance, or temporal data modeling.
+
+ - Experience combining structured data, unstructured documents, search systems, vector retrieval, and live API-based data sources.
+
+ - Understanding of context assembly and prompt-context construction, including relevance, freshness, source authority, permissions, context size, latency, and deduplication.
+
+ - Working knowledge of machine-learning concepts, including supervised learning, classification, ranking, embeddings, feature engineering, model evaluation, data quality, and model drift.
+
+ - Experience supporting machine-learning workflows such as dataset preparation, labeling, training, fine-tuning, experiment tracking, model evaluation, versioning, deployment, or monitoring.
+
+ - Experience evaluating AI or machine-learning systems using offline datasets, regression tests, production monitoring, task-level metrics, or qualitative review.
+
+ - Experience optimizing AI or ML systems for latency, throughput, cost, and quality through caching, batching, parallelism, retrieval optimization, context reduction, model selection, or inference configuration.
+
+ - Experience with cloud infrastructure and containerized environments, preferably AWS and Kubernetes.
+
+ - Experience with several of the following: relational databases, queues or event streams, object storage, caching systems, search platforms, vector databases, graph databases, and observability platforms.
+
+ - Understanding of service authentication, authorization, secrets management, tenant isolation, data protection, and privacy-sensitive system design.
+
+ - Ability to write maintainable, well-tested code and troubleshoot issues using logs, metrics, traces, debuggers, and other engineering tools.
+
+ - Ability to break down technical problems, estimate work, identify dependencies, raise risks, and deliver features with appropriate guidance.
+
+ - Strong written and verbal communication skills and an ability to collaborate effectively with engineering, product, data science, and operations partners.
+
+ - Startup DNA required: you thrive in fast-moving, high-ambiguity environments and take ownership like a founder, not an employee.
+
+
+PREFERRED QUALIFICATIONS
+
+ - Experience building AI or machine-learning systems for fraud, identity, financial crime, compliance, trust and safety, investigations, or other regulated domains.
+
+ - Experience with agent frameworks, model gateways, evaluation and tracing platforms, GraphRAG, enterprise search, MCP-style connectors, or custom orchestration systems.
+
+ - Experience with AWS Bedrock, SageMaker, EKS, vLLM, GPU-backed inference, or comparable technologies.
+
+ - Experience deploying fine-tuned or domain-specific models alongside larger managed models.
+
+ - Experience with workflow engines, durable execution, distributed task processing, or long-running job orchestration.
+
+ - Experience with graph databases or graph-processing technologies such as Neo4j, Neptune, OpenSearch, Elasticsearch, or comparable systems.
+
+ - Experience building data-enrichment pipelines, entity-resolution systems, semantic search, knowledge platforms, or retrieval-augmented applications.
+
+ - Experience with model monitoring, feature and data drift detection, experiment tracking, model governance, or responsible AI practices.
+
+ - Experience improving agent and model behavior using traces, evaluation results, investigator feedback, retrieval diagnostics, and production failures.
+
+ - Experience working with fraud, identity, risk, compliance, or other high-consequence data.
+
+ - Contributions to reusable libraries, technical documentation, testing frameworks, architecture patterns, or engineering practices.
+
+Socure is an equal opportunity employer that values diversity in all its forms within our company. We do not discriminate based on race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+If you need an accommodation during any stage of the application or hiring process—including interview or onboarding support—please reach out to your Socure recruiting partner directly.
+
+
+
+
+Follow Us!
+
+YouTube https://www.youtube.com/c/Socure  |  LinkedIn https://www.linkedin.com/company/socure/ |  X (Twitter) https://x.com/socureme  |  Facebook https://www.facebook.com/socure/ Compensation: USD 230,000 - 270,000 per year.
