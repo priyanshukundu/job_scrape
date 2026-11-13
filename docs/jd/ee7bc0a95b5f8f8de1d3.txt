@@ -1,0 +1,85 @@
+Staff Software Engineer - Compiler & Spark Runtime 
+Snowflake
+Location: US-CA-Menlo Park
+Link: https://jobs.ashbyhq.com/snowflake/57131f28-cdf8-4776-aa87-8f9339e494ab
+
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+ Staff Software Engineer – Compiler & Spark Runtime
+
+Location: Bellevue, WA or Menlo Park, CA
+
+
+ABOUT THE TEAM
+
+The Spark Runtime Engineering Team brings Snowflake’s performance, efficiency, and reliability to Spark workloads. Our mission is to help customers scale data processing while preserving the familiar Spark APIs and semantics they rely on. We build the compiler and runtime integration that translate Spark workloads into efficient execution on Snowflake’s cloud-native query engine. This includes tackling complex challenges in compiler infrastructure, query-plan lowering, Spark compatibility, execution integration, and end-to-end observability to deliver faster, more cost-efficient data processing at scale.
+
+We are seeking an experienced, hands-on engineer who combines deep technical expertise with the ability to lead complex engineering initiatives and influence technical direction. You will design and build critical compiler and runtime capabilities, guide architectural decisions, and mentor engineers through technical collaboration.
+
+
+ROLE OVERVIEW
+
+You will own complex projects from design through implementation and production rollout, contribute directly to the codebase, review critical designs and code, and investigate challenging correctness, performance, and reliability issues. You will provide technical leadership for engineers building production compiler and runtime capabilities for Spark workloads on Snowflake.
+
+In partnership with compiler, query engine, runtime, and product teams, you will translate customer needs into focused technical priorities and measurable engineering outcomes. You will lead through technical judgment, hands-on execution, mentorship, and influence—not through formal reporting relationships.
+
+
+RESPONSIBILITIES
+
+ - Lead the technical design and implementation of Spark query compilation and runtime integration, including intermediate representations, type resolution, semantic compatibility, query-plan transformations, and efficient SQL generation.
+
+ - Own complex engineering initiatives from problem definition and architecture through implementation, validation, and production rollout.
+
+ - Provide technical leadership to project teams by clarifying engineering trade-offs, aligning contributors, reviewing designs and code, and resolving technical blockers.
+
+ - Improve end-to-end workload performance and cost-efficiency through profiling, compilation-latency reduction, metadata-access improvements, and collaboration with query-engine teams.
+
+ - Establish strong correctness and compatibility practices, including differential testing against Apache Spark, regression coverage, and clear handling of unsupported behavior.
+
+ - Drive production quality for owned components, including observability, incident investigation, fault recovery, and safe rollout practices.
+
+ - Mentor engineers through design discussions, code reviews, debugging, and knowledge sharing, strengthening the team’s technical capabilities.
+
+ - Partner with senior technical leaders and Product Management to prioritize investments, identify dependencies, and scope deliverable engineering milestones.
+
+ - Validate changes against representative customer workloads and track measurable improvements in compatibility, latency, reliability, and cost-efficiency.
+
+
+MINIMUM QUALIFICATIONS
+
+ - 10+ years of hands-on software engineering experience, including substantial work on compilers, query-processing systems, or runtime infrastructure.
+
+ - Demonstrated experience serving as a technical lead for complex engineering initiatives, guiding engineers and coordinating delivery without requiring formal management authority.
+
+ - A track record of designing, implementing, and delivering production systems, with ownership of significant architectural and implementation decisions.
+
+ - Deep expertise in at least one relevant area, such as compiler architecture and IR transformations, relational query processing, language semantics and type systems, or runtime integration.
+
+ - Proficiency in Scala, Java, C++, or a comparable implementation language, with the ability to write and review production code.
+
+ - Strong systems fundamentals, including concurrency, memory behavior, and performance analysis, together with experience debugging complex production issues.
+
+ - Ability to translate technical and customer requirements into practical engineering priorities and collaborate effectively across teams and locations.
+
+ - Strong technical communication and mentorship skills, including the ability to build alignment around architectural decisions and explain complex trade-offs.
+
+
+PREFERRED QUALIFICATIONS
+
+ - Experience with Apache Spark internals, Catalyst, Spark Connect, or DataFrame APIs.
+
+ - Experience with relational algebra, SQL generation, query optimization, or database execution systems.
+
+ - Experience with Scala/JVM performance, native runtime functions, metadata caching, or compilation-performance optimization.
+
+ - Experience building compatibility-test frameworks, differential testing, performance benchmarks, or production observability for data systems.
+
+ - Experience technically leading systems through customer adoption, production hardening, and staged releases.
+
+ - A degree in Computer Science, Computer Engineering, or a related field, or equivalent practical experience.
+
+Snowflake is growing fast, and we’re scaling our team to help enable and accelerate our growth. We are looking for people who share our values, challenge ordinary thinking, and push the pace of innovation while building a future for themselves and Snowflake.
+
+How do you want to make your impact?
+
+For jobs located in the United States, please visit the job posting on the Snowflake Careers Site for salary and benefits information: careers.snowflake.com http://careers.snowflake.com Compensation: USD 236,000 - 339,200 per year.
