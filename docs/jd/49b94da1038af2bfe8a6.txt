@@ -1,0 +1,135 @@
+Staff Software Engineer, (DEM)
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/Crusoe/426b5bf7-68d6-4f80-ab6f-2fec0364766f
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About the Role
+Power, not silicon, is the binding constraint on AI infrastructure. Crusoe is vertically integrated from electrons to tokens: generation, batteries, controls, and the cloud orchestration layer. That puts us in a rare position to treat energy management as a software problem and to get more useful compute out of every megawatt we bring online.
+
+Dynamic Power Management (DPM) is the system that makes this real. It measures, forecasts, and orchestrates energy use across our data centers, from the site down to the individual GPU, so power goes where it does the most work. That lets us put more compute behind every megawatt, keep sites running smoothly as electrical conditions change, and deliver consistent performance to every customer.
+
+This is a mission-critical system and a ground-up build: it runs underneath every customer workload, so it has to be precise, observable, and dependable from day one. As one of the founding engineers, you’ll work with the principal architect to turn product requirements into a production architecture, ship the first version, and help shape the team that grows around it. The work runs end to end, from GPU energy management and hardware telemetry up to capacity planning and placement, and it ties directly to revenue.
+
+What You’ll Be Working On
+
+ - The DPM control loop. Design and build the system that allocates power across site, row, rack, node, and GPU based on real demand, applies those decisions through GPU and chassis power management, and adapts within seconds as conditions change.
+
+ - Power telemetry. Own the pipeline for high-frequency power data from GPUs, NICs, chassis and BMCs (Redfish/IPMI), PDUs, and facility systems, with the latency, accuracy, and handling of stale or missing data that a control system requires.
+
+ - Power modeling and forecasting. Work out how much power each site, row, and rack really needs, where capacity is sitting idle, and how sure we are of those numbers, using live telemetry and simulation instead of nameplate ratings.
+
+ - Workload energy profiling. Understand how real training and inference workloads use energy (throughput, latency, performance per watt), find where power is spent without improving results, and turn that into efficiency policies.
+
+ - Simulation and trace replay. Build tools that replay production power and workload traces so policy changes can be validated offline before they control production power.
+
+ - Shadow-to-production rollout. Run DPM in shadow mode first, computing recommendations in production and comparing them to actual usage, and turn on automated management only once the system has earned trust.
+
+ - Safety and failure design. Define fail-safe defaults, behaviour on stale telemetry, limits on how quickly settings change, audit trails, and verification that every adjustment had the intended effect.
+
+ - Capacity decisions. Connect DPM to capacity planning and VM placement
+
+ - Metrics and tradeoffs. Decide how DPM’s success is measured, from compute delivered per megawatt to performance per watt, and show engineering, energy, finance, and leadership what each policy choice gains and costs.
+
+ - Cross-functional leadership. Work with data center electrical and mechanical engineering, the energy team, capacity planning, and hardware vendors (e.g. NVIDIA) on interfaces, constraints, and roadmaps. Lead design reviews and mentor engineers across teams.
+
+
+
+What You’ll Bring to the Team
+
+ - 10+ years of industry experience (or 8+ with clear technical leadership) building and operating distributed systems in production, including leading a system from design through launch.
+
+ - Experience building control systems or closed-loop automation where wrong outputs have physical or financial consequences, such as autoscalers, admission control, rate limiting, power or thermal management, or industrial control software.
+
+ - Experience turning forecasting or simulation work into production services that other systems depend on, not one-off analyses.
+
+ - Depth with high-volume time-series telemetry: ingestion, aggregation, and reasoning about staleness, gaps, and measurement error.
+
+ - Fluency in Go or Rust.
+
+ - Comfort working directly with hardware and facility teams, and the ability to read an electrical one-line diagram or learn to quickly.
+
+ - The ability to explain a technical risk to senior engineering and business leaders in megawatts, dollars, and customer impact, and to change a decision with it.
+
+ - Strong written design skills. This role writes the RFCs others build from.
+
+ - A commitment to Crusoe’s company values.
+
+
+
+Bonus Points
+
+ - GPU energy management: NVIDIA DCGM/NVML, NVIDIA DPS, or AMD equivalents.
+
+ - Integration with BMCs (Redfish), PDUs, building management (BMS), or electrical power monitoring (EPMS) systems.
+
+ - Experience running large GPU or HPC fleets, or working on data center energy or capacity planning.
+
+ - Comfort with optimization and probabilistic methods for allocating scarce resources under risk, such as constraint solvers or failure analysis.
+
+ - Experience putting a dollar value on infrastructure choices, such as stranded power, build-out timing, or hardware utilization.
+
+ - Energy optimization software for generation, battery storage, or large grid-connected sites.
+
+ - Workload-aware scheduling with Kubernetes or Slurm.
+
+ - Predictive scaling or load forecasting at scale.
+
+
+
+Benefits
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $215,000 - $260,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
