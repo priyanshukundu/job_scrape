@@ -1,0 +1,106 @@
+Software Engineer - Data Center Tooling
+Lambda
+Location: San Francisco Office (Fremont St)
+Link: https://jobs.ashbyhq.com/Lambda/08addfcf-1466-4bea-a72e-07fb5b29fb97
+
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+
+
+*Note: This position requires presence in our San Francisco, San Jose, or Bellevue office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+
+What You'll Do
+
+ - Build and own the systems that digitally capture Lambda’s physical datacenter hardware, ensuring physical host and rack state stays accurate in our inventory source of truth
+
+ - Design and implement conflict resolution and precedence logic across competing data sources (vendor manifests, on-site observation, and system-observed telemetry)
+
+ - Build validation tooling that catches inventory errors before they propagate downstream
+
+ - Design attestation and constraint systems that validate physical topology, cabling, rack composition, and containment, against intended logical configuration at scale
+
+ - Lead the technical design of rack- and asset-level scanning workflows, including provisional-vs-verified data states, tagging/versioning of data provenance, and safe rollout of reduced-friction scanning modes
+
+ - Partner cross-functionally with DC Operations, Engineering, and vendors to define what physical data needs to be captured, when, and by whom, and drive alignment on where automation should replace manual reconciliation
+
+ - Monitor production health of capture and validation pipelines, hold SLAs, and drive resolution when physical/logical state drifts
+
+You
+
+ - Have 5+ years of engineering experience
+
+ - Are fluent in Python, Go, or similar
+
+ - Comfortable with APIs, distributed systems, and automation pipelines
+
+ - Have owned production systems with real SLAs
+
+ - Can lead technical design on medium-to-large features: take an ambiguous problem, write the doc, drive alignment, and ship
+
+ - Have worked cross-functionally and influenced technical decisions beyond your immediate team
+
+ - Have mentored peers and left systems — and teammates — better than you found them
+
+Must-Have Skills
+
+ - Python or Go fluency
+
+ - Experience with APIs, async workloads, job schedulers, and task queues
+
+ - Knowledge of React or similar JS frontend
+
+ - Knowledge of PostgreSQL or similar
+
+ - Experience deploying applications on Kubernetes
+
+ - Experience developing mission-critical user interfaces
+
+ - Comfort level with data and ETL Pipelines
+
+Nice to Have
+
+ - Mobile app development
+
+ - Experience with inventory management
+
+ - Experience with datacenters and bare metal
+
+ - Experience with network source-of-truth systems or DCIM tooling
+
+ - Experience in the machine learning or AI infrastructure industry
+
+Salary Range Information
+
+The annual salary range for this position has been set based on market data and other factors. However, a salary higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+
+
+
+About Lambda
+
+ - Founded in 2012, with 500+ employees, and growing fast
+
+ - Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In-Q-Tel (IQT), KHK & Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+
+ - We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+
+ - Our values are publicly available: https://lambda.ai/careers
+
+ - We offer generous cash & equity compensation
+
+ - Health, dental, and vision coverage for you and your dependents
+
+ - Wellness and commuter stipends for select roles
+
+ - 401k Plan with 2% company match (USA employees)
+
+ - Flexible paid time off plan that we all actually use
+
+Equal Opportunity Employer
+
+Lambda is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Compensation: USD 230,000 - 340,000 per year.
