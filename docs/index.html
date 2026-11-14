@@ -51,15 +51,15 @@ tr.hidden-by-filter { display: none; }
 </style></head>
 <body>
 <h1>Job Scout Queue - 14165 open, 5853 closed</h1>
-<p class="meta">Data last updated 2026-11-14 06:44 EST &middot; <span class="approx-marker">~</span> before a Posted date means approximate (day-count bucket, not an exact timestamp) - hover any date for details</p>
+<p class="meta">Data last updated 2026-11-14 07:44 EST &middot; <span class="approx-marker">~</span> before a Posted date means approximate (day-count bucket, not an exact timestamp) - hover any date for details</p>
 <div id="stale-banner" hidden style="background:#b00020;color:#fff;padding:10px 14px;border-radius:6px;margin:8px 0;font-weight:600"></div>
 <script>
 (function() {
-  var updated = new Date("2026-11-14T06:44:44-05:00");
+  var updated = new Date("2026-11-14T07:44:47-05:00");
   var hours = (Date.now() - updated.getTime()) / 3600000;
   if (!isNaN(hours) && hours > 10) {
     var b = document.getElementById("stale-banner");
-    b.textContent = "Scout has not updated for " + Math.floor(hours) + " hours (last run " + "2026-11-14 06:44 EST" + "). Press Ctrl+F5 first (this may be a cached copy); if it persists the workflow may be stuck, check GitHub Actions.";
+    b.textContent = "Scout has not updated for " + Math.floor(hours) + " hours (last run " + "2026-11-14 07:44 EST" + "). Press Ctrl+F5 first (this may be a cached copy); if it persists the workflow may be stuck, check GitHub Actions.";
     b.hidden = false;
   }
 })();
