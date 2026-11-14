@@ -210,8 +210,8 @@
   "changed": "2026-11-13"
  },
  "JPMorgan Chase": {
-  "n": 7004,
-  "sig": "04fa74f55595",
+  "n": 7003,
+  "sig": "58f343a08e13",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -414,14 +414,14 @@
   "changed": "2026-11-13"
  },
  "Santander": {
-  "n": 1044,
-  "sig": "c9a044a4093b",
+  "n": 1031,
+  "sig": "ef6996d6e36f",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
  "CIBC Capital Markets": {
-  "n": 629,
-  "sig": "f35dc8bcde6a",
+  "n": 630,
+  "sig": "5c673975884a",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -583,7 +583,7 @@
  },
  "DTCC": {
   "n": 99,
-  "sig": "d81574a979ab",
+  "sig": "658557ab4733",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -1254,8 +1254,8 @@
   "changed": "2026-10-23"
  },
  "BBVA": {
-  "n": 634,
-  "sig": "05876ac4ef84",
+  "n": 631,
+  "sig": "35b50c8d5a71",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -2472,10 +2472,10 @@
   "changed": "2026-10-24"
  },
  "Lyft": {
-  "n": 150,
-  "sig": "8b42b3268b2e",
+  "n": 148,
+  "sig": "1ed59e3f7ec3",
   "checked": "2026-11-14",
-  "changed": "2026-11-13"
+  "changed": "2026-11-14"
  },
  "Okta": {
   "n": 390,
@@ -3384,8 +3384,8 @@
   "changed": "2026-11-13"
  },
  "Sanofi": {
-  "n": 1406,
-  "sig": "d240368f0f5a",
+  "n": 1408,
+  "sig": "874d03014935",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -3756,10 +3756,10 @@
   "changed": "2026-11-11"
  },
  "Salesforce": {
-  "n": 1614,
-  "sig": "0ff50d0628e3",
+  "n": 1615,
+  "sig": "33dcc9885b28",
   "checked": "2026-11-14",
-  "changed": "2026-11-13"
+  "changed": "2026-11-14"
  },
  "RTX": {
   "n": 4589,
@@ -4686,10 +4686,10 @@
   "changed": "2026-10-23"
  },
  "First Merchants": {
-  "n": 68,
-  "sig": "671d8edd50a5",
+  "n": 69,
+  "sig": "c91eeeef7dc2",
   "checked": "2026-11-14",
-  "changed": "2026-11-13"
+  "changed": "2026-11-14"
  },
  "SiriusPoint": {
   "n": 24,
@@ -4711,9 +4711,9 @@
  },
  "Standard Chartered": {
   "n": 280,
-  "sig": "61c123674664",
-  "checked": "2026-11-13",
-  "changed": "2026-11-13"
+  "sig": "7cd9e80d708c",
+  "checked": "2026-11-14",
+  "changed": "2026-11-14"
  },
  "SMBC": {
   "n": 146,
@@ -4734,8 +4734,8 @@
   "changed": "2026-11-12"
  },
  "New York Life": {
-  "n": 338,
-  "sig": "aaa3711904cb",
+  "n": 67,
+  "sig": "f02ff72d2386",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -4788,8 +4788,8 @@
   "changed": "2026-11-14"
  },
  "TD Bank": {
-  "n": 1729,
-  "sig": "51dc39a3d747",
+  "n": 1728,
+  "sig": "27e8701cf21c",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
@@ -4878,10 +4878,10 @@
   "changed": "2026-11-14"
  },
  "Nordea": {
-  "n": 138,
-  "sig": "4854b1eb3616",
-  "checked": "2026-11-13",
-  "changed": "2026-11-13"
+  "n": 133,
+  "sig": "9af03ccd8e6c",
+  "checked": "2026-11-14",
+  "changed": "2026-11-14"
  },
  "Equitable": {
   "n": 345,
@@ -4928,7 +4928,7 @@
  "Intesa Sanpaolo": {
   "n": 153,
   "sig": "10cef1ae911d",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "changed": "2026-11-13"
  },
  "MarketAxess": {
@@ -4964,7 +4964,7 @@
  "Fitch Ratings": {
   "n": 193,
   "sig": "04a1f498f6ab",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "changed": "2026-11-13"
  },
  "London Stock Exchange Group": {
@@ -5022,16 +5022,16 @@
   "changed": "2026-11-13"
  },
  "Deloitte": {
-  "n": 1508,
-  "sig": "425c009447a5",
+  "n": 1506,
+  "sig": "abb7db0b649e",
   "checked": "2026-11-14",
   "changed": "2026-11-14"
  },
  "EY": {
-  "n": 478,
-  "sig": "1cb857f6bbf7",
-  "checked": "2026-11-13",
-  "changed": "2026-11-13"
+  "n": 479,
+  "sig": "90fbd2b830cf",
+  "checked": "2026-11-14",
+  "changed": "2026-11-14"
  },
  "KPMG": {
   "n": 832,
@@ -5484,15 +5484,15 @@
   "changed": "2026-11-13"
  },
  "Zurich Insurance": {
-  "n": 230,
-  "sig": "586db73b6901",
-  "checked": "2026-11-13",
-  "changed": "2026-11-13"
+  "n": 222,
+  "sig": "f5be0ec7ebf4",
+  "checked": "2026-11-14",
+  "changed": "2026-11-14"
  },
  "Swiss Re": {
   "n": 139,
   "sig": "6182d1a5ce6b",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "changed": "2026-11-13"
  },
  "Janus Henderson": {
