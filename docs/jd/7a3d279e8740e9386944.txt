@@ -1,0 +1,59 @@
+Staff Software Engineer - Alternative Access
+Plaid
+Location: San Francisco HQ
+Link: https://jobs.ashbyhq.com/plaid/39360c45-ad24-4458-b4fe-def71a41c02d
+
+We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam.
+
+Plaid's Connectivity team builds and operates the network that powers open finance, connecting consumers' financial accounts to the apps and services they choose to use across thousands of institutions. Where an institution offers an API, we use it. Where one doesn't, we still need a dependable, secure way to honor a consumer's request to share their own data. The Alternative Access team owns that path: the client, network and reliability systems that make consumer-permissioned connections work when no API is available.
+
+You will be the hands-on technical lead for alternative access. You will set its direction and build the systems yourself: browser- and mobile-based clients that act on the consumer's behalf, the network egress infrastructure those sessions run through, credential and session handling, and the measurement that tells us how well it all works.
+
+Institutions' traffic controls often cannot distinguish a consumer-directed session from unwanted automation. You will study how real clients behave at the browser, device and network level, and make permissioned sessions faithful to that behavior so that consumers' connections stay reliable as institutions change.
+
+You will turn today's approach into a platform that can be extended to new institutions in weeks, decide where to build versus buy, and partner closely with Legal, Policy, Security and Product so that every method we deploy is one we're confident in. This is a role with direct visibility to Plaid's leadership and a clear path to leading the area.
+
+Responsibilities: 
+
+ - You'll design, build and operate the production systems that let consumers share data from institutions without an API.
+
+ - You'll research how browsers, mobile apps and networks present themselves to institutions and keep permissioned sessions consistent with real client behavior.
+
+ - You'll build and run egress and proxy infrastructure, and evaluate routing approaches and vendors on effectiveness, cost and risk.
+
+ - You'll instrument success rate, breakage detection and time to repair, and drive staged rollouts with Product and Account Management.
+
+ - You'll write the design and risk documentation that lets leadership make deployment decisions, and bring Legal, Policy and Security in early.
+
+ - You'll mentor engineers and raise the technical bar across Connectivity through design reviews and hands-on work.
+
+Qualifications:
+
+ - 6+ years of software engineering experience, including hands-on work building and operating systems that act on a user's behalf against third-party web or mobile applications at scale.
+
+ - Deep knowledge of browser internals and automation (Chromium, Chrome DevTools Protocol, Playwright or Puppeteer) or of mobile application internals and instrumentation.
+
+ - Experience-based understanding of traffic classification and fingerprinting (device, browser, TLS and network signals, behavioral signals).
+
+ - Experience designing and operating network egress and proxy infrastructure.
+
+ - Strong reliability instincts: you instrument what you build and find breakage before users do.
+
+ - Security-minded handling of credentials and sessions, and sound judgment about what to build, not just what is possible.
+
+ - Ability to set technical direction and personally implement across unfamiliar systems.
+
+ - Nice to have: financial data aggregation or fintech connectivity experience; mobile reverse engineering; TLS fingerprinting; experience on the detection side at a bot management or fraud vendor.
+
+Our mission at Plaid is to unlock financial freedom for everyone. To support that mission, we seek to build a diverse team of driven individuals who care deeply about making the financial ecosystem more equitable. We recognize that strong qualifications can come from both prior work experiences and lived experiences. We encourage you to apply to a role even if your experience doesn't fully match the job description. We are always looking for team members that will bring something unique to Plaid!
+
+
+
+Plaid is proud to be an equal opportunity employer and values diversity at our company. We do not discriminate based on race, color, national origin, ethnicity, religion or religious belief, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, military or veteran status, disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state, and local laws. Plaid is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance with your application or interviews due to a disability, please let us know at accommodations@plaid.com.
+
+
+
+Please review our Candidate Privacy Notice here https://plaid.com/legal/#candidate-privacy-notice.
+
+
+Additional compensation in the form(s) of equity and/or commission are dependent on the position offered. Plaid provides a comprehensive benefit plan, including medical, dental, vision, and 401(k). Pay is based on factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience and skillset, and location. Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation or benefit plans. Compensation: USD 207,600 - 306,600 per year.
