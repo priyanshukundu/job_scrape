@@ -1,0 +1,126 @@
+Senior Software Engineer, Platform Networking
+Crusoe
+Location: San Francisco, CA - US
+Link: https://jobs.ashbyhq.com/Crusoe/d0a11984-9ed0-42e1-99af-e63113b3681c
+
+Crusoe is on a mission to accelerate the abundance of energy and intelligence. As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster.
+
+
+
+We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck. We're solving that — with an energy-first approach that makes AI infrastructure better for the world and faster for the people innovating with AI.
+
+
+
+We're looking for problem-solving, opportunity-finding teammates with a sense of urgency, who believe in the scale of our ambition and thrive on a path not fully paved — people who want to grow their careers alongside a team of experts across energy, manufacturing, data center construction, and cloud services.
+
+
+
+If you want to do the most meaningful work of your career, help our customers and partners advance their AI strategies, and be part of a high-performing team that believes in each other, come build with us at Crusoe.
+
+
+
+About This Role:
+
+
+
+We are seeking a Senior Software Engineer to build a platform for network tooling that supports edge, backbone, and data center operations and deployment tasks at Crusoe Cloud, a leading cloud provider. This role is central to how Crusoe Cloud manages and operates its network infrastructure across diverse environments, providing the tooling that operations and engineering teams rely on to deploy, monitor, and maintain the network reliably at scale. As Crusoe Cloud scales, the reliability and usability of this tooling directly impacts the speed and efficiency of network operations across the company.
+
+
+
+The ideal candidate is an experienced distributed systems engineer who thrives on solving hard scalability and reliability problems at scale, enjoys mentoring other engineers, and wants ownership over infrastructure that's mission critical to a fast growing cloud provider.
+
+
+
+What You'll Be Working On:
+
+ - Network State Management: Design and develop the systems that manage network state for Crusoe Cloud, including network provisioning, configuration management, topology/routing state, and control plane APIs that other teams and systems rely on.
+
+ - Scaling the Control Plane: Contribute to and help drive engineering efforts to scale control plane systems reliably as Crusoe Cloud grows, handling increasing network scale, device counts, and infrastructure complexity.
+
+ - Mentorship and Code Quality: Mentor fellow engineers and help uphold high standards in design and implementation. Provide guidance on technical assessments and code reviews to maintain quality across the team.
+
+ - Build vs. Buy Decisions: Partner closely with product to assess and recommend whether to develop control plane software in house or leverage third party/open source solutions, balancing scalability, cost, and speed.
+
+ - Cross Functional Partnership: Partner with product, operations, and other engineering teams to build control plane systems that align with Crusoe Cloud's growth and networking needs.
+
+ - Reliability Engineering: Help design fault tolerant, distributed control plane systems to ensure high availability and resilience as Crusoe Cloud's network grows.
+
+ - Engineering Best Practices: Advocate for modern software development, CI/CD, and infrastructure as code (IaC) practices to improve engineering velocity and control plane reliability.
+
+ - End to End Ownership: Take ownership of initiatives, from ideation through development and deployment, delivering control plane infrastructure that drives measurable impact for Crusoe Cloud.
+
+
+
+What You'll Bring to the Team:
+
+ - 5+ years of professional software engineering experience, building backend systems in production.
+
+ - Proficiency in at least one modern backend language such as Go, Rust, C++, Java, or Python.
+
+ - Solid understanding of distributed systems concepts: consensus, state reconciliation, fault tolerance, and high availability design.
+
+ - Track record of designing and building scalable, reliable APIs or services used by multiple teams.
+
+ - Familiarity with CI/CD pipelines and infrastructure as code tooling (e.g., Terraform, Ansible).
+
+ - Strong communication skills and experience collaborating cross functionally with product, operations, and other engineering teams.
+
+ - Demonstrated ability to mentor engineers and contribute to technical direction.
+
+
+
+Bonus Points:
+
+ - Experience with networking software, protocols, or control plane systems (e.g., routing, switching, BGP, SDN).
+
+ - Experience at a cloud provider, hyperscaler, or large scale data center operator.
+
+ - Familiarity with network telemetry/management protocols such as gNMI, gRPC, or NETCONF.
+
+ - Experience with Kubernetes based orchestration or building custom controllers/operators.
+
+ - Contributions to open source infrastructure or networking projects.
+
+
+
+Benefits:
+
+ - Competitive compensation and equity packages
+
+ - Restricted Stock Units
+
+ - Paid time off, paid holidays & leave of absence programs
+
+ - Comprehensive health, dental & vision insurance
+
+ - Employer contributions to HSA account
+
+ - Paid parental leave
+
+ - Paid life insurance, short-term and long-term disability
+
+ - Professional development & tuition reimbursement
+
+ - Mental health & wellness support
+
+ - Commuter benefits (parking & transit)
+
+ - Cell phone stipend
+
+ - 401(k) Retirement plan with company match up to 4% of salary
+
+ - Volunteer time off
+
+ - Global travel insurance & emergency assistance
+
+ - Daily meals allowance
+
+ - Additional perks & programs specific to location
+
+
+
+Compensation Range
+
+Compensation will be paid in the range of up to $170,000 - $205,000 + Bonus. Restricted Stock Units are included in all offers. Compensation to be determined by the applicant's knowledge, education, and abilities, as well as internal equity and alignment with market data.
+
+Crusoe is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.

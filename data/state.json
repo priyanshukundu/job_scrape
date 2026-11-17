@@ -113015,6 +113015,7 @@
   "5453318008",
   "5453346008",
   "5456569008",
+  "5456605008",
   "5456921008",
   "5457599008",
   "5458383008",
@@ -113847,7 +113848,10 @@
   "8392130",
   "8393481",
   "8394458",
-  "8394460"
+  "8394460",
+  "8394627",
+  "8394632",
+  "8394633"
  ],
  "Upstart": [
   "6708637",
@@ -126809,9 +126813,11 @@
   "5481671008",
   "5481842008",
   "5481980008",
+  "5482207008",
   "5482310008",
   "5484035008",
-  "5484144008"
+  "5484144008",
+  "5484171008"
  ],
  "Applied Materials": [
   "/job/Agrate-Brianza/Field-Service-Engineer--Onsite-Agrate-B-_R2412266",
@@ -170362,7 +170368,8 @@
   "744000161930809",
   "744000161932434",
   "744000161932789",
-  "744000161938545"
+  "744000161938545",
+  "744000161981732"
  ],
  "ULStandardsEngagement": [
   "/job/Columbia-MD/Solution-Architect---Columbia--MD_JR1592",
@@ -180556,6 +180563,7 @@
   "0283ec09-f191-41a4-b62f-ccb33d91bc06",
   "03815252-2543-44f1-ad40-7ba71da6e450",
   "0403cd2a-1e93-40b3-b686-948e81cd229b",
+  "042fbe44-edfa-4447-8982-0487c39078d7",
   "04a0b2ea-bb9d-47e2-9b98-68d26c0da823",
   "059284e3-7e71-4d8a-9379-7a485a8a4513",
   "05b0c5ae-1041-4103-b34c-fc91904c03eb",
@@ -180734,6 +180742,7 @@
   "564be4e5-5528-495d-aaee-bae4e69d8833",
   "56852412-28e0-4d5a-b62c-dcc616d3c99f",
   "568efeae-346c-4cf6-b52f-07faa5ce1fb5",
+  "56994ea6-d28a-442e-8b0f-c2ebe7f5be3f",
   "5766c58e-9d2a-42aa-a9db-cdc455ba9602",
   "582f3d5e-2ee6-47b7-9cfc-a9691cfa4bca",
   "58374130-c292-4206-ab5f-a4491ce078e3",
@@ -180917,6 +180926,7 @@
   "a1d40cd8-829a-4cb9-af9d-6ff0d93c5d51",
   "a2035d3a-050f-47ff-9cd0-dfa8cb17dbfb",
   "a3b40100-cb00-41cb-ac93-fe81bd614c9d",
+  "a3d090f8-63fa-4e0a-9664-7d751cffbf3e",
   "a4059884-8ed8-4903-9819-465ccb58c47f",
   "a47eea20-0f86-4d60-ab86-4e4f9ad9abc7",
   "a5e693c2-ae16-4961-9857-0492c5768077",
@@ -181002,6 +181012,7 @@
   "ceec8488-8f01-41e6-bbcb-6f4cf9ff9ad4",
   "cef69daa-ad08-4fd8-9680-f0e60f7936be",
   "d013601e-72b1-4d70-8a32-23b8184eef7d",
+  "d0a11984-9ed0-42e1-99af-e63113b3681c",
   "d0b5eabb-9b76-40b9-9bea-56757733a0fa",
   "d0e72f9f-37af-4391-98cd-4e187cd224ae",
   "d1bc2bf1-79ee-4184-a5b7-7417d6f08aef",
@@ -218579,7 +218590,13 @@
   "744000161843579",
   "744000161847924",
   "744000161863405",
-  "744000161877204"
+  "744000161877204",
+  "744000161937641",
+  "744000161947609",
+  "744000161951001",
+  "744000161953785",
+  "744000161954899",
+  "744000161956587"
  ],
  "xAI": [
   "4533894007",
@@ -313749,6 +313766,7 @@
   "/job/London-The-Point---Cross-Border/Associate-Payments-Analyst_R09696",
   "/job/London-The-Point---Cross-Border/Client-Services-Officer_R09419",
   "/job/London-The-Point---Cross-Border/Digital-Solutions-Engineer_R09384-1",
+  "/job/London-The-Point---Cross-Border/Digital-Solutions-Sales_R09971",
   "/job/London-The-Point---Cross-Border/Head-of-FIU---EMEA_R09596",
   "/job/London-The-Point---Cross-Border/Head-of-Risk-Measurement---Policy_R09508",
   "/job/London-The-Point---Cross-Border/Insights---Decisions-Analyst--Banking-_R09881",
@@ -313756,6 +313774,7 @@
   "/job/London-The-Point---Cross-Border/Lead-Structurer_R08259",
   "/job/London-The-Point---Cross-Border/Partnership-Sales-Manager_R08395",
   "/job/London-The-Point---Cross-Border/Portfolio-Manager_R09505-1",
+  "/job/London-The-Point---Cross-Border/Portfolio-Manager_R10274",
   "/job/London-The-Point---Cross-Border/Principal-Software-Engineer_R09353-1",
   "/job/London-The-Point---Cross-Border/Product-Manager--ERP-Integrations_R09250-1",
   "/job/London-The-Point---Cross-Border/Salesforce-Administrator_R09662",
@@ -313810,6 +313829,7 @@
   "/job/Melbourne---IVP/Outbound-Sales-Executive_R09289",
   "/job/Melbourne---IVP/Sales-Enablement-Manager_R09627",
   "/job/Meriden/Business-Development-Director_R10061",
+  "/job/Meriden/Sales-Manager_R10153",
   "/job/Meriden/Sales-Support-Executive_R09620",
   "/job/Meriden/Software-Engineer_R09523",
   "/job/Meriden/Software-Support-Analyst_R09619",
@@ -313883,6 +313903,7 @@
   "/job/Toronto---Cross-Border/Business-Development-Associate_R10223",
   "/job/Toronto---Cross-Border/Compliance-Manager---KYC_R09942",
   "/job/Toronto---Cross-Border/Director--FX-Payments---Banking-Strategic-Projects_R10116",
+  "/job/Toronto---Cross-Border/Enterprise-Associate_R10265",
   "/job/Toronto---Cross-Border/FX-Trader---Data-Analytics_14126",
   "/job/Toronto---Cross-Border/Frontend-Software-Developer_14629",
   "/job/Toronto---Cross-Border/Full-Stack-Developer_14418",
@@ -313897,6 +313918,7 @@
   "/job/Toronto---Cross-Border/Product-Chief-of-Staff_R10084",
   "/job/Toronto---Cross-Border/QA-Analyst_13967",
   "/job/Toronto---Cross-Border/Senior-Account-Manager---Financial-Institutions_14482",
+  "/job/Toronto---Cross-Border/Senior-Portfolio-Manager_R10209",
   "/job/Toronto---Cross-Border/Senior-Risk-Analyst_R10086",
   "/job/Toronto-Bay-Street---Cross-Border/Trade-Support-Associate_R09955",
   "/job/Vancouver---Gift/DevOps-Engineer_14203-1",
@@ -338867,6 +338889,7 @@
   "/job/Bangalore-India/Principal-Platform-Engineer_R_17901",
   "/job/Bangalore-India/Real-Time-Analyst--12-months-FTC-_R_18050",
   "/job/Bangalore-India/Senior-Engineer---Java--AWS_R_18019",
+  "/job/Bangalore-India/Senior-Global-HR-Specialist--12-months-FTC-_R_17999",
   "/job/Bangalore-India/Senior-Global-HR-Specialist-6-months-FTC-_R_18001",
   "/job/Bangalore-India/Senior-Global-HR-Specialist_R_18000",
   "/job/Bangalore-India/Senior-Platform-Enablement-Engineer_R_17500",
@@ -338880,6 +338903,7 @@
   "/job/City-of-London---United-Kingdom/Affiliate-Partnerships-Executive--Europe---Middle-East---FTC_R_18035-1",
   "/job/City-of-London---United-Kingdom/Affiliate-Partnerships-Executive--Europe---Middle-East_R_18129",
   "/job/City-of-London---United-Kingdom/Analytics-Engineer_R_17923-2",
+  "/job/City-of-London---United-Kingdom/Assistant-Company-Secretary_R_18140",
   "/job/City-of-London---United-Kingdom/Assistant-Portfolio-Manager_R_17817",
   "/job/City-of-London---United-Kingdom/CRM-Manager--9-month-FTC-_R_17799",
   "/job/City-of-London---United-Kingdom/CRM-executive_R_18036",
@@ -459154,6 +459178,7 @@
   "/job/Guangzhou-China/Senior-Global-Category-Manager_JR102522",
   "/job/Guangzhou-China/Software-Engineer-Senior_JR102674-1",
   "/job/Guangzhou-China/Sourcing---Procurement-Specialist-II--12-months-contract-_JR102822-1",
+  "/job/Hanoi-Vietnam/Channel-Account-Manager_JR103586",
   "/job/Hanoi-Vietnam/Mgr-Sales-Sr60-40_JR103444-1",
   "/job/Hauppauge-New-York/Quality-Technician--Support-I_JR103101",
   "/job/Hauppauge-New-York/Warehouse-Associate_JR103695",
@@ -546784,7 +546809,8 @@
   "130150",
   "130151",
   "130159",
-  "130160"
+  "130160",
+  "130278"
  ],
  "TD Bank": [
   "/job/1-Vanderbilt-Avenue-Corporate-New-York-New-York/Global-Trade-Fin-Officer-III_R_1509247",
@@ -553805,7 +553831,10 @@
   "1370420566",
   "1370429566",
   "1370430366",
-  "1370432566"
+  "1370432566",
+  "1370438466",
+  "1370447966",
+  "1370449366"
  ],
  "Westpac": [
   "59577",
@@ -553848,6 +553877,7 @@
   "71002",
   "71022",
   "71041",
+  "71081",
   "71095",
   "71100",
   "71158",
@@ -554194,6 +554224,7 @@
   "73442",
   "73448",
   "73449",
+  "73451",
   "73452",
   "73459",
   "73462",
@@ -554266,6 +554297,8 @@
   "73931",
   "73937",
   "73944",
+  "73945",
+  "73947",
   "73950",
   "73954",
   "73957",
@@ -560311,6 +560344,7 @@
   "24913",
   "24914",
   "24917",
+  "24919",
   "24922",
   "24926",
   "24928",
@@ -566339,6 +566373,7 @@
   "112978",
   "112983",
   "112992",
+  "112998",
   "113030",
   "113031",
   "113037",
@@ -566350,6 +566385,7 @@
   "113140",
   "113167",
   "113195",
+  "113227",
   "113359",
   "113360",
   "20230822",
@@ -569203,6 +569239,7 @@
   "MAMCGLOBALR351846EXTERNALENGLOBAL",
   "MAMCGLOBALR351849EXTERNALENGLOBAL",
   "MAMCGLOBALR351901EXTERNALENGLOBAL",
+  "MAMCGLOBALR351955EXTERNALENGLOBAL",
   "MAMCGLOBALR351956EXTERNALENGLOBAL",
   "MAMCGLOBALR351959EXTERNALENGLOBAL",
   "MAMCGLOBALR351968EXTERNALENGLOBAL",
@@ -572070,8 +572107,12 @@
   "MAMCGLOBALR373010EXTERNALENGLOBAL",
   "MAMCGLOBALR373013EXTERNALENGLOBAL",
   "MAMCGLOBALR373021EXTERNALENGLOBAL",
+  "MAMCGLOBALR373022EXTERNALENGLOBAL",
+  "MAMCGLOBALR373024EXTERNALENGLOBAL",
   "MAMCGLOBALR373025EXTERNALENGLOBAL",
-  "MAMCGLOBALR373027EXTERNALENGLOBAL"
+  "MAMCGLOBALR373027EXTERNALENGLOBAL",
+  "MAMCGLOBALR373042EXTERNALENGLOBAL",
+  "MAMCGLOBALR373043EXTERNALENGLOBAL"
  ],
  "Deloitte": [
   "322186",
@@ -583761,7 +583802,8 @@
   "140055",
   "140056",
   "140058",
-  "140067"
+  "140067",
+  "140071"
  ],
  "East West Bank": [
   "11769",
@@ -590188,6 +590230,7 @@
   "b1674d73-3d16-4eaa-a142-c7ed14c81801",
   "b1c2c847-aa17-4f0a-b2fe-3f3977f532e0",
   "b5464271-14dd-4677-9ff0-eceac317867b",
+  "b646c91a-a5bc-4209-8324-fedd0412ed17",
   "b7bf767c-654e-48a0-b011-db3fb0ca43bf",
   "b8f246a9-b7d0-4ad7-a4a6-b7d406c36a5e",
   "baae555a-73dc-4626-80d2-4f0d4f3678ba",
@@ -609083,7 +609126,9 @@
   "744000161935089",
   "744000161937519",
   "744000161937800",
-  "744000161939509"
+  "744000161939509",
+  "744000161943595",
+  "744000161955652"
  ],
  "Qualcomm": [
   "446704270279",
@@ -616840,6 +616885,7 @@
   "9e4b9f32-a4f6-47e6-89f1-8b8d4ebc7892",
   "a61cec5d-af70-41fc-9241-826698c5d054",
   "a643374e-3e3e-4bd4-9408-2a5d5817a91b",
+  "aa39ee38-a16f-4538-9137-fa517c66fd6b",
   "acfe80ba-5983-4d35-9375-870b1f906acf",
   "bfefd59a-0f27-4201-ade3-31a8d184de40",
   "c058e0d1-b1a0-4cf2-bad4-f4f6dae455a5",
