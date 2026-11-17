@@ -18,14 +18,14 @@
   "changed": "2026-11-16"
  },
  "Coinbase": {
-  "n": 261,
-  "sig": "7d43929eddbe",
+  "n": 260,
+  "sig": "b757d4dc2409",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
  "Affirm": {
-  "n": 211,
-  "sig": "3ca4226063fd",
+  "n": 213,
+  "sig": "0820f8a161ff",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -210,8 +210,8 @@
   "changed": "2026-11-16"
  },
  "JPMorgan Chase": {
-  "n": 6893,
-  "sig": "20bd91990960",
+  "n": 6894,
+  "sig": "0d54ae145217",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -1344,8 +1344,8 @@
   "changed": "2026-10-22"
  },
  "Crypto.com": {
-  "n": 88,
-  "sig": "ac1de810b94c",
+  "n": 85,
+  "sig": "344d5521e380",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -1394,7 +1394,7 @@
  "Fiera Capital": {
   "n": 10,
   "sig": "5c188c098ef3",
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "changed": "2026-11-04"
  },
  "Fifth Third Bank": {
@@ -1584,8 +1584,8 @@
   "changed": "2026-10-23"
  },
  "Nscale": {
-  "n": 280,
-  "sig": "b61a3bd312a6",
+  "n": 279,
+  "sig": "29acabefb51a",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -1741,7 +1741,7 @@
  },
  "Turner & Townsend": {
   "n": 3500,
-  "sig": "a1e3909528a8",
+  "sig": "15af6cc4a7fc",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -1794,10 +1794,10 @@
   "changed": "2026-11-13"
  },
  "Jefferies": {
-  "n": 158,
-  "sig": "930a3ed96f1f",
+  "n": 156,
+  "sig": "b22dd16d2fab",
   "checked": "2026-11-17",
-  "changed": "2026-11-16"
+  "changed": "2026-11-17"
  },
  "Vitol": {
   "n": 35,
@@ -2358,10 +2358,10 @@
   "changed": "2026-11-10"
  },
  "Lemonade": {
-  "n": 40,
-  "sig": "e5603a9987c0",
+  "n": 39,
+  "sig": "0e525fb9b662",
   "checked": "2026-11-17",
-  "changed": "2026-11-16"
+  "changed": "2026-11-17"
  },
  "Modern Treasury": {
   "n": 7,
@@ -2449,7 +2449,7 @@
  },
  "Databricks": {
   "n": 892,
-  "sig": "329753cf51f2",
+  "sig": "6b06ed9c65fe",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -3972,8 +3972,8 @@
   "changed": "2026-11-16"
  },
  "Ameren": {
-  "n": 83,
-  "sig": "bae3cb2df0a6",
+  "n": 81,
+  "sig": "255a6618c271",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -4710,8 +4710,8 @@
   "changed": "2026-11-17"
  },
  "Standard Chartered": {
-  "n": 295,
-  "sig": "85b5f2308e99",
+  "n": 294,
+  "sig": "6ff917db858a",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -4776,8 +4776,8 @@
   "changed": "2026-11-17"
  },
  "UBS": {
-  "n": 566,
-  "sig": "10a7bce4a752",
+  "n": 569,
+  "sig": "f99dee7f0539",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -4860,8 +4860,8 @@
   "changed": "2026-11-16"
  },
  "ANZ": {
-  "n": 138,
-  "sig": "f82048b430d9",
+  "n": 139,
+  "sig": "c17cdeffac02",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -4914,8 +4914,8 @@
   "changed": "2026-11-17"
  },
  "Commerzbank": {
-  "n": 429,
-  "sig": "c0ac0bf36992",
+  "n": 427,
+  "sig": "0afcab9f6145",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -4993,15 +4993,15 @@
  },
  "Aon": {
   "n": 1066,
-  "sig": "54c75907f9cc",
+  "sig": "74c6df85762c",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
  "Addepar": {
-  "n": 117,
-  "sig": "b7fdaa57e668",
+  "n": 118,
+  "sig": "71703dadaa01",
   "checked": "2026-11-17",
-  "changed": "2026-11-16"
+  "changed": "2026-11-17"
  },
  "BOK Financial": {
   "n": 158,
@@ -5172,10 +5172,10 @@
   "changed": "2026-11-17"
  },
  "Natixis": {
-  "n": 193,
-  "sig": "e4be55ef049b",
+  "n": 191,
+  "sig": "2cb53a8e4c68",
   "checked": "2026-11-17",
-  "changed": "2026-11-16"
+  "changed": "2026-11-17"
  },
  "Bank of Hope": {
   "n": 70,
@@ -5388,10 +5388,10 @@
   "changed": "2026-11-17"
  },
  "Bloomberg": {
-  "n": 340,
-  "sig": "f8840e2addce",
+  "n": 339,
+  "sig": "44ff55a543e1",
   "checked": "2026-11-17",
-  "changed": "2026-11-16"
+  "changed": "2026-11-17"
  },
  "Securian Financial": {
   "n": 38,
@@ -5496,8 +5496,8 @@
   "changed": "2026-11-16"
  },
  "Janus Henderson": {
-  "n": 112,
-  "sig": "446279838ed6",
+  "n": 113,
+  "sig": "092ad3bcd122",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -5623,7 +5623,7 @@
  },
  "Citco": {
   "n": 519,
-  "sig": "6351b4d5eb27",
+  "sig": "c820e144a027",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -5640,8 +5640,8 @@
   "changed": "2026-11-17"
  },
  "ExxonMobil": {
-  "n": 180,
-  "sig": "99f05f7f982d",
+  "n": 173,
+  "sig": "0955460fbc62",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
@@ -5820,8 +5820,8 @@
   "changed": "2026-11-09"
  },
  "VASA Fitness": {
-  "n": 438,
-  "sig": "fa3733da6399",
+  "n": 428,
+  "sig": "7d7e95fe97a6",
   "checked": "2026-11-17",
   "changed": "2026-11-17"
  },
