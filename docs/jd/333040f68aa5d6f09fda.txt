@@ -1,0 +1,173 @@
+Research Engineer, Agentic Systems
+Ramp
+Location: Remote (US)
+Link: https://jobs.ashbyhq.com/ramp/f90d32c1-7c10-4161-8913-075e1b423697
+
+ABOUT RAMP
+
+Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.
+
+The problems are high-stakes, data-dense, and unforgiving.
+
+We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.
+
+The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.
+
+If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.
+
+
+
+
+ABOUT RAMP LABS
+
+Ramp Labs is Ramp's AI research and engineering group. We post-train models on finance work, build the environments and evals they learn from, and ship them into the products 85,000+ companies use to move money.
+
+
+
+
+ABOUT THE ROLE
+
+Most agent work today is one agent, one trace, and a person reads the result. We're building systems where that stops working: thousands of agents fanned out over a large search space, each returning partial results, with an orchestrator that turns all of it into something useful: hundreds of merged PRs, a dataset, the input to another system, or something nobody has built yet.
+
+You'll design and run those systems: how work gets split, how agents coordinate, how results get deduplicated, verified and ranked, and what it all costs. The problems are general (agent swarms, agentic map-reduce, long-running fan-out workflows) and you'll own them from prototype to production.
+
+
+
+
+WHAT YOU’LL DO
+
+ - Decide how the work gets done: how to break a problem down, what each agent sees, how many agents to run, and which model handles which step
+
+ - Squeeze accuracy out of the models: context design, self-verification, voting and consensus across agents, and knowing when more agents stop helping
+
+ - Measure quality without reading every trace: sampling, automated verification, and precision and recall on the final output
+
+ - Drive down cost and latency per useful result: model routing, caching, early stopping, and smaller or fine-tuned models where they hold up
+
+ - Turn one-off experiments into reusable workflows on our existing orchestration stack
+
+ - Evaluate new models, inference setups and training approaches, and bring in what works
+
+
+
+
+WHAT YOU NEED
+
+ - Experience building applied AI systems and LLM applications that shipped
+
+ - Hands-on experience with multi-agent or high-fan-out LLM workloads: parallel agents, map-reduce over models, large batch inference
+
+ - Strong engineering in Python; you build concurrent, distributed systems that hold up in production
+
+ - Judgment about output: you decide what the end result should look like before you scale the swarm, and you can separate signal from agent noise
+
+ - The habit of measuring: cost, yield, false-positive rate, and whether a change actually helped
+
+ - Ownership: you can run a roadmap and a production system with little oversight
+
+ - Clear written communication
+
+
+
+
+NICE-TO-HAVE
+
+ - Built agent orchestration or job systems (Ray, Temporal, Modal or custom)
+
+ - Used LLMs to search large spaces: codebases, document sets, logs or other large corpora
+
+ - Post-training or hosting open-source models for high-volume inference
+
+ - Distributed systems background
+
+ - Public work we can look at: an agent framework, an open-source project, a write-up or a paper
+
+
+
+
+
+
+BENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL)
+
+ - Flexible PTO
+
+ - Centralized home-office equipment ordering
+
+ - Health and wellness stipend
+
+ - Budget for intra-office travel
+
+ - Weekly coffee stipend
+
+
+
+
+UNITED STATES
+
+ - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents
+
+ - One Medical annual membership
+
+ - 401(k), including employer match on contributions made while employed by Ramp
+
+ - Fertility HRA (up to $10,000 per year)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay
+
+ - Pet insurance
+
+ - In-office perks: lunch, snacks, drinks, and more
+
+ - Relocation expense coverage to NYC or SF (if needed)
+   
+   
+
+
+CANADA
+
+ - Group medical, dental, and vision coverage through Sun Life
+
+ - Life, AD&D, and disability coverage
+
+ - Fertility drug coverage (up to $4,000 lifetime)
+
+ - Group Retirement Plan with employer match (RRSP + DPSP)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay
+
+ - Employee Assistance Program and virtual care through Lumino Health
+
+
+
+
+UNITED KINGDOM
+
+ - Private medical insurance through Freedom Elite
+
+ - Virtual GP and at-home care via eMed x Livi
+
+ - Workplace pension through Penfold, with salary sacrifice option
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay
+
+
+
+
+REFERRAL INSTRUCTIONS
+
+If you are being referred for the role, please contact that person to apply on your behalf.
+
+ 
+
+
+OTHER NOTICES
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+ 
+
+Beware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.
+
+ 
+
+Ramp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice Compensation: USD 204,400 - 352,000 per year.
