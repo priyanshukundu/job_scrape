@@ -1,0 +1,229 @@
+Software Engineer, Production Engineering, FinOps
+Ramp
+Location: New York, NY (HQ)
+Link: https://jobs.ashbyhq.com/ramp/da40ed6e-1c32-4284-89f5-2ad0813b8d49
+
+ABOUT RAMP
+
+Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.
+
+The problems are high-stakes, data-dense, and unforgiving.
+
+We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.
+
+The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.
+
+If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.
+
+
+
+Production Engineering is Ramp's infrastructure ownership layer. We exist to make Ramp faster, more reliable, and more scalable — and we do that by being embedded in the problems, not adjacent to them.
+
+A few things that define how we operate:
+
+ - One team, one company, one objective. There is no "infra team" and "product team" — there is Ramp. We share the company's goals as our own. When a product team struggles with reliability or scalability, that is our struggle.
+
+ - If reliability or scalability is at risk, we own it. We don't wait to be invited, and we don't ask whose code it is. If a system is slow, if it breaks, if it won't scale — that's ours to lead, regardless of where it lives in the stack.
+
+ - We go first, and we go fast. When the path isn't obvious, we don't wait for someone else to find it. We move with urgency, propose the solution, align the stakeholders, and stay in until it's done — not until our ticket is closed.
+
+ - We lead the way. We find the next problem before it finds us. And when we solve it, we don't just fix it for ourselves — the patterns and standards we establish become the foundation the rest of Ramp builds on. That's not a side effect of the job; it's the job.
+
+ - We stay calibrated. Speed means nothing if we're moving in the wrong direction. We regularly stop and ask honestly whether what we're working on is still the highest-leverage thing we could be doing — the discipline that makes sure our effort compounds toward what actually matters.
+
+You cannot build the future of finance on shaky infrastructure.
+
+
+
+
+OUR TEAMS
+
+Production Engineering is organized into teams — but we think about teams differently. Teams are mutable. We build them around what needs to be done, not around what we need to do given the teams we already have. The structure below reflects our current priorities; it will evolve as Ramp does.
+
+Right now, we operate across five areas:
+
+ - Compute — the foundation for running Ramp’s services and financial workflows: container orchestration, networking, load balancing, edge infrastructure, and asynchronous execution and messaging systems, including Temporal. The team owns production runtime reliability, scaling, isolation, and safe rollouts.
+
+ - Storage — the production data foundations that underpin Ramp: databases, caching, and object storage, with ownership of reliability, performance, capacity, recovery, and safe data movement.
+
+ - Developer Infrastructure — the shared infrastructure that helps engineers ship and understand production: CI/CD systems, observability foundations for logs, metrics, and traces, and visibility into infrastructure usage and cost.
+
+ - Compliance Platform — the infrastructure and operational capabilities for Ramp’s government environments and compliance needs: secure access, deployment paths, environment validation, and technical controls that let product teams deliver reliably within regulatory and compliance requirements.
+
+ - Reliability Platform — the tools and operating model for understanding and improving customer-facing reliability and performance: SLA/SLO measurement and reporting, customer-health visibility, monitoring and paging, and incident response and follow-through. The team helps product teams remain accountable for the health of what they build.
+
+
+
+
+
+
+WHAT YOU'LL DO
+
+As a FinOps Specialist within Production Engineering, you’ll help Ramp make better decisions about infrastructure spend – from resource usage and cloud commitments to vendor contracts and new investments.
+
+You’ll work closely with Production Engineering leadership, Developer Infrastructure, Finance, Procurement, and engineering teams across Ramp. You’ll bring financial depth, investigate opportunities independently, and partner with engineers to turn recommendations into measurable results.
+
+This is a senior individual contributor role.
+
+Day to day, you will:
+
+ - Set direction for infrastructure cost management. Identify the highest-impact opportunities across Ramp, establish priorities with Production Engineering leadership and partner teams, and build a roadmap that balances immediate savings with lasting improvements.
+
+ - Understand and explain our spend. Investigate costs across AWS, observability, and AI providers. Connect changes to usage, architecture, customer growth, and engineering decisions, and help teams distinguish expected investment from avoidable waste.
+
+ - Embed with teams early. Partner with product and infrastructure teams during design and planning. Help them evaluate cost implications, model how systems will scale, and make informed tradeoffs before committing to an architecture or vendor.
+
+ - Build forecasts we can defend. Work with engineers to understand upcoming launches, migrations, and capacity needs. Translate those plans into financial models that explain expected spend, key assumptions, and uncertainty.
+
+ - Shape commitment and vendor strategy. Model cloud discounts, commitment levels, payment structures, and renewal scenarios. Partner with Finance, Procurement, and infrastructure leaders to develop negotiation strategies and carry them through vendor discussions.
+
+ - Drive optimization across the company. Proactively identify opportunities that span teams, propose a path forward, align engineering owners and technical program managers, and stay involved through implementation and verified savings.
+
+ - Make cost visible and actionable. Partner with DevInfra to build attribution, dashboards, anomaly detection, and self-service tools that let teams understand and manage their costs. Establish reusable approaches that make cost awareness part of how Ramp builds, and work toward clearer service and product unit economics.
+
+ - Evaluate new infrastructure investments. Build models for decisions such as buying versus renting capacity, changing providers, or adopting new infrastructure. Make the financial implications and technical assumptions clear.
+
+ - Use AI to investigate and build. Use AI tools and coding agents to analyze data, create dashboards and automations, navigate infrastructure code, and develop proposed changes with engineering partners. Help improve the tools and workflows that make cost management repeatable.
+
+
+
+
+WHAT WE LOOK FOR
+
+We don’t hire for a checklist. We hire for the judgment and ownership that make someone effective in this role.
+
+The mindset we’re looking for:
+
+ - You follow the question through. When a bill changes, you want to understand what happened, whether it makes sense, and what to do about it.
+
+ - You have high agency. You identify opportunities without waiting for an assignment, investigate independently, and bring a recommendation. When progress depends on other teams, you find the right partners and drive the work forward.
+
+ - You think in systems and tradeoffs. You connect technical decisions to financial outcomes and weigh savings against reliability, performance, engineering time, and flexibility.
+
+ - You look for the underlying cause. When you uncover unexpected spend or an inefficient process, you investigate what allowed it to happen and improve the tooling, decisions, or practices that will prevent it from recurring.
+
+ - You connect efficiency to customer outcomes. You partner closely with engineering teams to understand their goals and make cost tradeoffs that help Ramp serve customers reliably and scale sustainably. You pursue savings with a clear understanding of their impact on performance, reliability, and the team’s ability to deliver.
+
+ - You make complex things understandable. You can discuss financial models with Finance and infrastructure choices with engineers, and help both make decisions together.
+
+ - You own the outcome. You set priorities, build alignment, and follow through to implementation and measured results. You turn what you learn into tools and practices that help teams make better decisions themselves.
+
+Experience profile:
+
+ - Experience improving infrastructure economics in a growing technology organization, with examples of decisions you influenced and measurable results you helped deliver.
+
+ - Strong financial modeling and forecasting skills. You can translate engineering roadmaps, customer growth, migrations, and new infrastructure investments into future spend scenarios. You make assumptions and uncertainty explicit, explain variances, and update forecasts as plans evolve.
+
+ - Experience planning large infrastructure contracts and commitments. You can model usage over multi-year terms, compare pricing and payment structures, and balance savings against overcommitment risk and flexibility. You’ve helped shape commitment levels, renewal timing, and negotiation strategy with Finance, Procurement, and engineering leaders.
+
+ - Working knowledge of cloud billing and pricing, including cost allocation, commitment discounts, payment structures, and the relationship between usage and cost. AWS experience is especially relevant.
+
+ - Strong technical fluency. You can reason about compute, storage, networking, and managed services, and navigate Terraform or similar infrastructure-as-code tools to understand how systems are configured. You can investigate technical questions independently, connect infrastructure choices to cost, and work with engineers on concrete changes.
+
+ - Experience with cost attribution and analysis. You can connect infrastructure spend to teams, services, products, and usage drivers, including shared resources. You work directly with cost and usage data, reconcile conflicting sources, and develop practical allocation methods with clear assumptions.
+
+ - A record of initiating and driving work across teams, from identifying an opportunity and building the case to coordinating implementation and validating the result.
+
+ - Practical experience using AI tools and coding agents to analyze data, build dashboards or automations, and investigate technical questions. You can evaluate their output and recognize when deeper engineering review is needed.
+
+Relevant backgrounds include FinOps, infrastructure finance, strategic sourcing, analytics, data, and infrastructure engineering. A software engineering background is welcome, but not required.
+
+Bonus (not required):
+
+ - Deep experience with AWS Cost and Usage Reports, Savings Plans, or Reserved Instances.
+
+ - Cost management for Datadog, other observability platforms, or AI providers.
+
+ - Product unit economics or infrastructure accounting classifications.
+
+ - Financial analysis of large migrations, dedicated compute, or data center investments.
+
+ - Experience in fintech, payments, or regulated industries, with an understanding of how compliance, security, and data residency requirements shape infrastructure choices and costs.
+
+
+
+
+BENEFITS AVAILABLE TO ALL FULL-TIME RAMP EMPLOYEES (GLOBAL)
+
+ - Flexible PTO
+
+ - Centralized home-office equipment ordering
+
+ - Health and wellness stipend
+
+ - Budget for intra-office travel
+
+ - Weekly coffee stipend
+
+
+
+
+UNITED STATES
+
+ - 100% medical, dental & vision insurance coverage for you, with partial coverage for dependents
+
+ - One Medical annual membership
+
+ - 401(k), including employer match on contributions made while employed by Ramp
+
+ - Fertility HRA (up to $10,000 per year)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay
+
+ - Pet insurance
+
+ - In-office perks: lunch, snacks, drinks, and more
+
+ - Relocation expense coverage to NYC or SF (if needed)
+   
+   
+
+
+CANADA
+
+ - Group medical, dental, and vision coverage through Sun Life
+
+ - Life, AD&D, and disability coverage
+
+ - Fertility drug coverage (up to $4,000 lifetime)
+
+ - Group Retirement Plan with employer match (RRSP + DPSP)
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay, with additional time available at reduced pay
+
+ - Employee Assistance Program and virtual care through Lumino Health
+
+
+
+
+UNITED KINGDOM
+
+ - Private medical insurance through Freedom Elite
+
+ - Virtual GP and at-home care via eMed x Livi
+
+ - Workplace pension through Penfold, with salary sacrifice option
+
+ - Parental leave: up to 16 weeks (birthing + bonding) or 8 weeks (bonding only) at 100% pay with additional time available at reduced pay
+
+
+
+
+REFERRAL INSTRUCTIONS
+
+If you are being referred for the role, please contact that person to apply on your behalf.
+
+ 
+
+
+OTHER NOTICES
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+ 
+
+Beware of recruiting scams: Ramp will only contact you through official @Ramp.com http://Ramp.com email addresses and will never ask for payment or sensitive personal information during the hiring process.
+
+ 
+
+Ramp Applicant Privacy Notice https://ramp.com/legal/applicant-privacy-notice Compensation: USD 180,000 - 247,000 per year.
