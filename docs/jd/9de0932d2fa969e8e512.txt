@@ -1,0 +1,63 @@
+Member of Technical Staff (Software Engineer, SPACE - Sandbox Platform)
+Perplexity
+Location: San Francisco
+Link: https://jobs.ashbyhq.com/Perplexity/9e738c21-f2ab-49d7-b545-b519bb2cf8ae
+
+ABOUT THE ROLE
+
+SPACE is Perplexity's sandbox platform. It's the isolated execution layer behind Perplexity Computer, the public Sandbox API, and a growing set of agent products. Every time an agent writes code, runs a tool, opens a browser, builds an app, or works on a user's files, it runs inside a SPACE sandbox.
+
+We built our own sandbox platform that lets us build the exact platform our products need: real pause and resume, forking, rolling snapshots, credential isolation, fine-grained network policy, and enterprise-grade encryption. The work spans low-level virtualization and networking, distributed state machines, petabyte storage, and careful API design. Reliability, security, and cold-start latency are all things our customers feel directly.
+
+
+
+
+KEY RESPONSIBILITIES
+
+ - Design and build core sandbox infrastructure for running untrusted, agent-generated code safely, quickly, and at scale.
+
+ - Own sandbox isolation and security end to end, working with Security Engineering on defense in depth for compute, networking, storage, and sensitive information.
+
+ - Build stateful systems that manage long-lived execution environments and keep user data durable and correct through failures.
+
+ - Drive performance and efficiency across the stack, from startup latency and resource density to cost.
+
+ - Run sandbox infrastructure as an always-on production service, setting the bar for reliability, observability, capacity planning, and incident response.
+
+ - Define clear platform interfaces and APIs so internal teams and external developers can build on sandboxes with confidence.
+
+ - Provide technical leadership: mentor engineers, write clear design docs, and make long-term architectural decisions that keep the platform simple, secure, and able to evolve.
+
+
+
+
+QUALIFICATIONS
+
+ - Experience designing and running production backend or infrastructure systems
+
+ - Strong distributed systems experience: you've built and operated systems that coordinate state across many nodes, and you're fluent in consistency, consensus or leader election, idempotency, retries, and failure handling at scale.
+
+ - Strong system design skills for stateful systems where correctness under failure matters.
+
+ - Hands-on experience with Linux systems and modern infrastructure (for example AWS, Kubernetes, and container or VM runtimes).
+
+ - Comfortable with security-sensitive systems and making pragmatic trade-offs between isolation, performance, and velocity.
+
+ - Collaborative mindset and eagerness to work on hard problems with other experienced engineers.
+   
+   
+
+
+NICE TO HAVE
+
+ - Experience with Firecracker, Cloud Hypervisor, KVM, gVisor, Kata, or other virtualization and sandboxing technology.
+
+ - Experience with snapshotting, copy-on-write filesystems, or block storage.
+
+ - Experience with Linux networking (namespaces, eBPF, egress filtering) or secrets and key management.
+
+ - Experience with custom scheduling, multi-cluster orchestration, or distributed state machines.
+
+ - Experience building developer-facing APIs and SDKs, or code execution and agent infrastructure.
+
+If you're excited about this role, we encourage you to apply even if your experience doesn't match every qualification listed above. Compensation: USD 220,000 - 405,000 per year.
